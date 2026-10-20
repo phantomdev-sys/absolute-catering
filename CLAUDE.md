@@ -16,7 +16,7 @@ British English throughout: site copy, comments, commits.
 | Supabase org | phantomdev-sys (`tniqszshwsqrjsvxaxlb`) |
 | Supabase project ref | TBD (not yet created; check cost first) |
 | Vercel team | phantom-dev1 (`team_HqP6SQwx4jkuTVYNACgBcyyI`) |
-| Vercel project ID | TBD (Alex imports via dashboard) |
+| Vercel project | `absolute-catering` · `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7` · absolute-catering.vercel.app (Standard Protection: Vercel login required) |
 | GitHub repo | `phantomdev-sys/absolute-catering` (private). Never `slightlymucky`, an old account Alex no longer uses |
 | Stripe account | TBD (new or existing? see register) |
 

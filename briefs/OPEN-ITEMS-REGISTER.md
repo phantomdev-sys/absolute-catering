@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 31 · Blocked: 3
+Last updated: 2026-10-20 · Open: 30 · Blocked: 3
 
 ## Open
 
@@ -20,7 +20,6 @@ Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 | 14 | Range beyond the 56 online | Alex | 2026-10-20 | Decided | Launch with the 56; range grows on the retainer. Notes: WP pages exist for Ham, Butter, Cheese, Pre Packed Dinners, Chicken Chunks, Food Wrap, Christmas with 0 products; 12 menu links 404 (Drinks, Pasta, Condiments, Cleaning…) |
 | 15 | Age-restricted lines (alcohol, energy drinks, lighters, knives)? | Client | 2026-10-20 | Open | Changes checkout and delivery handover |
 | 16 | Business legal details: Ltd? company number, registered office, VAT number | Client | 2026-10-20 | Open | Required in footer/T&Cs if Ltd |
-| 18 | Vercel project import (connector is read-only) | Alex | 2026-10-20 | Open | Import via dashboard after #17, paste project ID into CLAUDE.md |
 | 19 | Supabase project: confirm cost of a new project in phantomdev-sys before creating | Alex | 2026-10-20 | Open | Org already has 5 projects. Migrations written and validated (PGlite, 15 checks); ready to apply once the project exists |
 | 21 | Taxonomy clean-up: duplicate Pizza/Sausages (fresh+frozen), Prosecco Glasses under Cutlery, Plastic Cups top-level, Absolute Range as aisle | Alex | 2026-10-20 | Decided | Provisional aisle map in `scripts/seed_from_wp.py`; Absolute Range becomes a brand filter + landing page |
 | 22 | Absolute Catering Salmon has no aisle (only in Absolute Range) | Client | 2026-10-20 | Open | Fresh or frozen? |
@@ -53,3 +52,4 @@ Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 | 17 | GitHub repo | 2026-10-20 | Published from VS Code (no gh/brew on the Mac) to slightlymucky by mistake, transferred to `phantomdev-sys/absolute-catering` |
 | 33 | Design direction | 2026-10-20 | B · Within 30 Miles, plus A's label treatment on product pages and allergen panel. Logo teal #60C4CA fails on white (2.1:1); deep teal #00747C for interactive |
 | 34 | Fontshare fonts | 2026-10-20 | Clash Display + Satoshi variable woff2 self-hosted in public/fonts; FFL licences in docs/fonts (self-hosting for websites permitted) |
+| 18 | Vercel project | 2026-10-20 | Imported by Alex: `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7`, first deploy of 2bd7e79 READY, Standard Protection on |
