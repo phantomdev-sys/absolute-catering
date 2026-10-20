@@ -1,6 +1,6 @@
 # Architecture and phased build plan
 
-Status: **proposal, awaiting Alex's approval.** Nothing is scaffolded yet. 20 Oct 2026.
+Status: **approved by Alex, 20 Oct 2026.** Decisions: account required at checkout; 6-day booking horizon; Resend for order email and newsletter; 30-mile straight-line radius including ROI for now (revisit on screen).
 
 ## 1. Stack
 
@@ -47,7 +47,7 @@ RLS: customers see only their own rows; catalogue is public read for `live` prod
 3. Haversine distance from the store's coordinates (BT78 5EJ). ≤ radius → delivery slots offered. > radius or unknown → "We can't deliver to you yet, but you can still order for collection" and collection slots only.
 4. Postcodes within ~2 miles of the boundary are flagged on the order for a human to sanity-check on the first few weeks.
 
-**Where the brief doesn't hold up:** 30 miles straight-line from Omagh reaches into Donegal and Monaghan. postcodes.io doesn't cover Eircodes, and cross-border delivery raises VAT, currency and address questions. Recommendation: delivery to BT postcodes only, ROI customers collect. Needs Ciaran's yes (register #10). Straight-line also under-reads rural driving distance, which is fine for v1 but worth stating to the client.
+**Where the brief doesn't hold up:** 30 miles straight-line from Omagh reaches into Donegal and Monaghan. postcodes.io doesn't cover Eircodes, and cross-border delivery raises VAT, currency and address questions. Recommendation: delivery to BT postcodes only, ROI customers collect. **Decision (20 Oct):** keep the full 30-mile radius for now, ROI included; Alex is asking whether the van can cross the border. If ROI stays in, add an Eircode lookup alongside postcodes.io. Straight-line also under-reads rural driving distance, which is fine for v1 but worth stating to the client.
 
 ## 4. Slots
 
@@ -57,13 +57,13 @@ Delivery and click-and-collect use the same engine with different templates. Tes
 
 The quote's assumption is "out-of-stocks refunded at picking". Better: Stripe **manual capture**. The card is authorised at checkout; staff pick, mark anything unavailable, and capture only the final amount. No refunds, no fees on refunded lines, and the customer's statement shows the true total.
 
-Constraint: card authorisations expire after about 7 days, so **slots can only be booked up to 6 days ahead** (register #28). If Ciaran wants Tesco-style 3-week booking, the fallback is to save the card at checkout and charge at picking, which carries more SCA failure risk. My recommendation is a 6-day horizon at launch.
+Constraint: card authorisations expire after about 7 days, so **slots can only be booked up to 6 days ahead** (register #28). If Ciaran wants Tesco-style 3-week booking, the fallback is to save the card at checkout and charge at picking, which carries more SCA failure risk. **Decision (20 Oct):** 6-day horizon at launch. Client explainer: Claude Doc "How payment works".
 
 Stripe webhooks (`checkout.session.completed`, `payment_intent.amount_capturable_updated`, `payment_intent.canceled`) are the only thing that moves an order to `authorised`. Apple Pay and Google Pay come free with Checkout.
 
 ## 6. Accounts
 
-Supabase Auth with email + password and magic link. **Recommendation: account required to check out** (like Tesco). It's needed for order history, buy-again and saved addresses, and keeps slot holds simple. Guests can still browse, build a basket and check delivery eligibility, and create the account at the start of checkout (register #27).
+Supabase Auth with email + password and magic link. **Decision (20 Oct): account required to check out** (like Tesco). It's needed for order history, buy-again and saved addresses, and keeps slot holds simple. Guests can still browse, build a basket and check delivery eligibility, and create the account at the start of checkout (register #27).
 
 Account area: orders (with status and re-order), addresses, favourites, buy again, marketing preferences, delete account.
 
