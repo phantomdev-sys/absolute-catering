@@ -1,0 +1,2039 @@
+[
+  {
+    "legacy_wc_id": 374,
+    "slug": "pork-chilli-sausages",
+    "name": "Pork & Chilli Sausages",
+    "legacy_path": "/product/pork-chilli-sausages/",
+    "new_path": "/product/pork-chilli-sausages",
+    "legacy_categories": [
+      "absolute-range",
+      "sausages"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "pork-chilli-sausages",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.25.32.png"
+      ],
+      "expected_drive_files": [
+        "pork-chilli-sausages-front.jpg",
+        "pork-chilli-sausages-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 372,
+    "slug": "pork-leek-sausages",
+    "name": "Pork & Leek Sausages",
+    "legacy_path": "/product/pork-leek-sausages/",
+    "new_path": "/product/pork-leek-sausages",
+    "legacy_categories": [
+      "absolute-range",
+      "sausages"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "pork-leek-sausages",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.24.24.png"
+      ],
+      "expected_drive_files": [
+        "pork-leek-sausages-front.jpg",
+        "pork-leek-sausages-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 370,
+    "slug": "pork-pepper-sausages",
+    "name": "Pork & Pepper Sausages",
+    "legacy_path": "/product/pork-pepper-sausages/",
+    "new_path": "/product/pork-pepper-sausages",
+    "legacy_categories": [
+      "absolute-range",
+      "sausages"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "pork-pepper-sausages",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.23.16.png"
+      ],
+      "expected_drive_files": [
+        "pork-pepper-sausages-front.jpg",
+        "pork-pepper-sausages-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 368,
+    "slug": "pizza-dough",
+    "name": "Pizza Dough",
+    "legacy_path": "/product/pizza-dough/",
+    "new_path": "/product/pizza-dough",
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "pizza-frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "pizza-dough",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.21.45.png"
+      ],
+      "expected_drive_files": [
+        "pizza-dough-front.jpg",
+        "pizza-dough-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 366,
+    "slug": "battered-sausages",
+    "name": "Battered Sausages",
+    "legacy_path": "/product/battered-sausages/",
+    "new_path": "/product/battered-sausages",
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "sausages-frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "battered-sausages",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.20.15.png"
+      ],
+      "expected_drive_files": [
+        "battered-sausages-front.jpg",
+        "battered-sausages-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 364,
+    "slug": "clonakilty-white-pudding",
+    "name": "Clonakilty White Pudding",
+    "legacy_path": "/product/clonakilty-white-pudding/",
+    "new_path": "/product/clonakilty-white-pudding",
+    "legacy_categories": [
+      "white-pudding"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "clonakilty-white-pudding",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.18.24.png"
+      ],
+      "expected_drive_files": [
+        "clonakilty-white-pudding-front.jpg",
+        "clonakilty-white-pudding-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 362,
+    "slug": "clonakilty-black-pudding",
+    "name": "Clonakilty Black Pudding",
+    "legacy_path": "/product/clonakilty-black-pudding/",
+    "new_path": "/product/clonakilty-black-pudding",
+    "legacy_categories": [
+      "black-pudding"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "clonakilty-black-pudding",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.17.21.png"
+      ],
+      "expected_drive_files": [
+        "clonakilty-black-pudding-front.jpg",
+        "clonakilty-black-pudding-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 357,
+    "slug": "sweet-cured-smoked-back-bacon",
+    "name": "Sweet Cured Smoked Back Bacon",
+    "legacy_path": "/product/sweet-cured-smoked-back-bacon/",
+    "new_path": "/product/sweet-cured-smoked-back-bacon",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-bacon"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "sweet-cured-smoked-back-bacon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.13.20.png"
+      ],
+      "expected_drive_files": [
+        "sweet-cured-smoked-back-bacon-front.jpg",
+        "sweet-cured-smoked-back-bacon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 355,
+    "slug": "rindless-streaky-bacon",
+    "name": "Rindless Streaky Bacon",
+    "legacy_path": "/product/rindless-streaky-bacon/",
+    "new_path": "/product/rindless-streaky-bacon",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-bacon"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "rindless-streaky-bacon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.12.11.png"
+      ],
+      "expected_drive_files": [
+        "rindless-streaky-bacon-front.jpg",
+        "rindless-streaky-bacon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 354,
+    "slug": "smoked-back-bacon",
+    "name": "Smoked Back Bacon",
+    "legacy_path": "/product/smoked-back-bacon/",
+    "new_path": "/product/smoked-back-bacon",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-bacon"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "smoked-back-bacon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.11.02.png"
+      ],
+      "expected_drive_files": [
+        "smoked-back-bacon-front.jpg",
+        "smoked-back-bacon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 352,
+    "slug": "streaky-bacon",
+    "name": "Streaky Bacon",
+    "legacy_path": "/product/streaky-bacon/",
+    "new_path": "/product/streaky-bacon",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-bacon"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "streaky-bacon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.10.02-1.png",
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.10.02.png"
+      ],
+      "expected_drive_files": [
+        "streaky-bacon-front.jpg",
+        "streaky-bacon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 351,
+    "slug": "hanfwers-pork-sausages",
+    "name": "Hanfers Pork Sausages",
+    "legacy_path": "/product/hanfwers-pork-sausages/",
+    "new_path": "/product/hanfwers-pork-sausages",
+    "legacy_categories": [
+      "sausages"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "hanfwers-pork-sausages",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.08.37.png"
+      ],
+      "expected_drive_files": [
+        "hanfwers-pork-sausages-front.jpg",
+        "hanfwers-pork-sausages-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 349,
+    "slug": "fresh-steak-burgers",
+    "name": "Fresh Steak Burgers",
+    "legacy_path": "/product/fresh-steak-burgers/",
+    "new_path": "/product/fresh-steak-burgers",
+    "legacy_categories": [
+      "absolute-range",
+      "burgers"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "fresh-steak-burgers",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.07.13.png"
+      ],
+      "expected_drive_files": [
+        "fresh-steak-burgers-front.jpg",
+        "fresh-steak-burgers-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 347,
+    "slug": "seasoned-chicken-kebabs",
+    "name": "Seasoned Chicken Kebabs",
+    "legacy_path": "/product/seasoned-chicken-kebabs/",
+    "new_path": "/product/seasoned-chicken-kebabs",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-chicken",
+      "kebab"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "seasoned-chicken-kebabs",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.05.58.png"
+      ],
+      "expected_drive_files": [
+        "seasoned-chicken-kebabs-front.jpg",
+        "seasoned-chicken-kebabs-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 345,
+    "slug": "hot-spicy-chicken-kebabs",
+    "name": "Hot & Spicy Chicken Kebabs",
+    "legacy_path": "/product/hot-spicy-chicken-kebabs/",
+    "new_path": "/product/hot-spicy-chicken-kebabs",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-chicken",
+      "kebab"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "hot-spicy-chicken-kebabs",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.02.11.png"
+      ],
+      "expected_drive_files": [
+        "hot-spicy-chicken-kebabs-front.jpg",
+        "hot-spicy-chicken-kebabs-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 343,
+    "slug": "breaded-chicken-maryland",
+    "name": "Breaded Chicken Maryland",
+    "legacy_path": "/product/breaded-chicken-maryland/",
+    "new_path": "/product/breaded-chicken-maryland",
+    "legacy_categories": [
+      "absolute-range",
+      "chicken-fillets",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "breaded-chicken-maryland",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-18.00.55.png"
+      ],
+      "expected_drive_files": [
+        "breaded-chicken-maryland-front.jpg",
+        "breaded-chicken-maryland-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 341,
+    "slug": "vista-food-breaded-chicken-goujons-1kg",
+    "name": "Vista Food Breaded Chicken Goujons 1kg",
+    "legacy_path": "/product/vista-food-breaded-chicken-goujons-1kg/",
+    "new_path": "/product/vista-food-breaded-chicken-goujons-1kg",
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "vista-food-breaded-chicken-goujons-1kg",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.59.35.png"
+      ],
+      "expected_drive_files": [
+        "vista-food-breaded-chicken-goujons-1kg-front.jpg",
+        "vista-food-breaded-chicken-goujons-1kg-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 338,
+    "slug": "paper-coffee-cups",
+    "name": "Paper Coffee Cups",
+    "legacy_path": "/product/paper-coffee-cups/",
+    "new_path": "/product/paper-coffee-cups",
+    "legacy_categories": [
+      "household-packaging",
+      "paper-cups"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "paper-coffee-cups",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.58.08.png"
+      ],
+      "expected_drive_files": [
+        "paper-coffee-cups-front.jpg",
+        "paper-coffee-cups-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 336,
+    "slug": "plastic-spoons",
+    "name": "Plastic Spoons",
+    "legacy_path": "/product/plastic-spoons/",
+    "new_path": "/product/plastic-spoons",
+    "legacy_categories": [
+      "cutlery",
+      "household-packaging",
+      "miscellaneous"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "plastic-spoons",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.56.47.png"
+      ],
+      "expected_drive_files": [
+        "plastic-spoons-front.jpg",
+        "plastic-spoons-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 334,
+    "slug": "prosecco-glasses",
+    "name": "Prosecco Glasses",
+    "legacy_path": "/product/prosecco-glasses/",
+    "new_path": "/product/prosecco-glasses",
+    "legacy_categories": [
+      "cutlery",
+      "household-packaging",
+      "miscellaneous",
+      "plastic-glasses"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "prosecco-glasses",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.55.13.png"
+      ],
+      "expected_drive_files": [
+        "prosecco-glasses-front.jpg",
+        "prosecco-glasses-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 332,
+    "slug": "strong-paper-plates",
+    "name": "Strong Paper Plates",
+    "legacy_path": "/product/strong-paper-plates/",
+    "new_path": "/product/strong-paper-plates",
+    "legacy_categories": [
+      "household-packaging",
+      "miscellaneous",
+      "paper-plates"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "strong-paper-plates",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.53.14.png"
+      ],
+      "expected_drive_files": [
+        "strong-paper-plates-front.jpg",
+        "strong-paper-plates-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 329,
+    "slug": "cutlery",
+    "name": "Cutlery",
+    "legacy_path": "/product/cutlery/",
+    "new_path": "/product/cutlery",
+    "legacy_categories": [
+      "cutlery",
+      "household-packaging"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "cutlery",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.51.35.png"
+      ],
+      "expected_drive_files": [
+        "cutlery-front.jpg",
+        "cutlery-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 327,
+    "slug": "smoothie-straws",
+    "name": "Smoothie Straws",
+    "legacy_path": "/product/smoothie-straws/",
+    "new_path": "/product/smoothie-straws",
+    "legacy_categories": [
+      "household-packaging",
+      "miscellaneous",
+      "straws"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "smoothie-straws",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.50.00.png"
+      ],
+      "expected_drive_files": [
+        "smoothie-straws-front.jpg",
+        "smoothie-straws-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 325,
+    "slug": "plastic-cups",
+    "name": "Plastic Cups",
+    "legacy_path": "/product/plastic-cups/",
+    "new_path": "/product/plastic-cups",
+    "legacy_categories": [
+      "household-packaging",
+      "plastic-cups"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "plastic-cups",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.48.47.png"
+      ],
+      "expected_drive_files": [
+        "plastic-cups-front.jpg",
+        "plastic-cups-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 323,
+    "slug": "recycling-bags",
+    "name": "Recycling Bags",
+    "legacy_path": "/product/recycling-bags/",
+    "new_path": "/product/recycling-bags",
+    "legacy_categories": [
+      "for-the-home",
+      "household-packaging",
+      "miscellaneous"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "recycling-bags",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.47.05.png"
+      ],
+      "expected_drive_files": [
+        "recycling-bags-front.jpg",
+        "recycling-bags-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 321,
+    "slug": "welcome-front-door-mat",
+    "name": "Welcome Front Door Mat",
+    "legacy_path": "/product/welcome-front-door-mat/",
+    "new_path": "/product/welcome-front-door-mat",
+    "legacy_categories": [
+      "for-the-home",
+      "household-packaging",
+      "miscellaneous"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "welcome-front-door-mat",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.45.13.png"
+      ],
+      "expected_drive_files": [
+        "welcome-front-door-mat-front.jpg",
+        "welcome-front-door-mat-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 319,
+    "slug": "fresh-free-range-eggs",
+    "name": "Fresh Free Range Eggs",
+    "legacy_path": "/product/fresh-free-range-eggs/",
+    "new_path": "/product/fresh-free-range-eggs",
+    "legacy_categories": [
+      "eggs"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "fresh-free-range-eggs",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.43.59.png"
+      ],
+      "expected_drive_files": [
+        "fresh-free-range-eggs-front.jpg",
+        "fresh-free-range-eggs-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 317,
+    "slug": "pizza-snack",
+    "name": "Pizza Snack",
+    "legacy_path": "/product/pizza-snack/",
+    "new_path": "/product/pizza-snack",
+    "legacy_categories": [
+      "absolute-range",
+      "pizza"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "pizza-snack",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.42.39.png"
+      ],
+      "expected_drive_files": [
+        "pizza-snack-front.jpg",
+        "pizza-snack-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 315,
+    "slug": "blue-roll",
+    "name": "Blue Roll",
+    "legacy_path": "/product/blue-roll/",
+    "new_path": "/product/blue-roll",
+    "legacy_categories": [
+      "blue-roll",
+      "household-packaging"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "blue-roll",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.41.24.png"
+      ],
+      "expected_drive_files": [
+        "blue-roll-front.jpg",
+        "blue-roll-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 313,
+    "slug": "fresh-chicken-fillets",
+    "name": "Fresh Chicken Fillets",
+    "legacy_path": "/product/fresh-chicken-fillets/",
+    "new_path": "/product/fresh-chicken-fillets",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-chicken"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "fresh-chicken-fillets",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.39.53.png"
+      ],
+      "expected_drive_files": [
+        "fresh-chicken-fillets-front.jpg",
+        "fresh-chicken-fillets-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 311,
+    "slug": "gluten-free-turkey-burgers",
+    "name": "Gluten Free Turkey Burgers",
+    "legacy_path": "/product/gluten-free-turkey-burgers/",
+    "new_path": "/product/gluten-free-turkey-burgers",
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-turkey",
+      "turkey",
+      "turkey-burgers"
+    ],
+    "aisles_provisional": [
+      "frozen",
+      "gluten-free"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-turkey-burgers",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.27.07-1.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-turkey-burgers-front.jpg",
+        "gluten-free-turkey-burgers-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 309,
+    "slug": "gluten-free-chicken-kiev",
+    "name": "Gluten Free Chicken Kiev",
+    "legacy_path": "/product/gluten-free-chicken-kiev/",
+    "new_path": "/product/gluten-free-chicken-kiev",
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "aisles_provisional": [
+      "frozen",
+      "gluten-free"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-chicken-kiev",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.27.07.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-chicken-kiev-front.jpg",
+        "gluten-free-chicken-kiev-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 307,
+    "slug": "absolute-catering-mozzarella-bites",
+    "name": "Absolute Catering Mozzarella Bites",
+    "legacy_path": "/product/absolute-catering-mozzarella-bites/",
+    "new_path": "/product/absolute-catering-mozzarella-bites",
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "mozzarella-bites"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "absolute-catering-mozzarella-bites",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.25.07.png"
+      ],
+      "expected_drive_files": [
+        "absolute-catering-mozzarella-bites-front.jpg",
+        "absolute-catering-mozzarella-bites-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 305,
+    "slug": "gluten-free-chicken-chunks",
+    "name": "Gluten Free Chicken Chunks",
+    "legacy_path": "/product/gluten-free-chicken-chunks/",
+    "new_path": "/product/gluten-free-chicken-chunks",
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "aisles_provisional": [
+      "frozen",
+      "gluten-free"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-chicken-chunks",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.23.44.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-chicken-chunks-front.jpg",
+        "gluten-free-chicken-chunks-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 303,
+    "slug": "gluten-free-salt-chilli-chicken",
+    "name": "Gluten Free Salt & Chilli Chicken",
+    "legacy_path": "/product/gluten-free-salt-chilli-chicken/",
+    "new_path": "/product/gluten-free-salt-chilli-chicken",
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "aisles_provisional": [
+      "frozen",
+      "gluten-free"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-salt-chilli-chicken",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.21.46.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-salt-chilli-chicken-front.jpg",
+        "gluten-free-salt-chilli-chicken-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 301,
+    "slug": "gluten-free-flour",
+    "name": "Gluten Free Flour",
+    "legacy_path": "/product/gluten-free-flour/",
+    "new_path": "/product/gluten-free-flour",
+    "legacy_categories": [
+      "flour",
+      "gluten-free"
+    ],
+    "aisles_provisional": [
+      "gluten-free"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-flour",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.19.38.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-flour-front.jpg",
+        "gluten-free-flour-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 299,
+    "slug": "absolute-catering-beef-onion-sausage-rolls",
+    "name": "Absolute Catering Beef & Onion Sausage Rolls",
+    "legacy_path": "/product/absolute-catering-beef-onion-sausage-rolls/",
+    "new_path": "/product/absolute-catering-beef-onion-sausage-rolls",
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "sausage-rolls"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "absolute-catering-beef-onion-sausage-rolls",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.18.10.png"
+      ],
+      "expected_drive_files": [
+        "absolute-catering-beef-onion-sausage-rolls-front.jpg",
+        "absolute-catering-beef-onion-sausage-rolls-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 297,
+    "slug": "absolute-catering-salmon",
+    "name": "Absolute Catering Salmon",
+    "legacy_path": "/product/absolute-catering-salmon/",
+    "new_path": "/product/absolute-catering-salmon",
+    "legacy_categories": [
+      "absolute-range"
+    ],
+    "aisles_provisional": [],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "absolute-catering-salmon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.16.42.png"
+      ],
+      "expected_drive_files": [
+        "absolute-catering-salmon-front.jpg",
+        "absolute-catering-salmon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 295,
+    "slug": "kebab-portions",
+    "name": "Kebab Portions",
+    "legacy_path": "/product/kebab-portions/",
+    "new_path": "/product/kebab-portions",
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "kebab-meat"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "kebab-portions",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.14.58.png"
+      ],
+      "expected_drive_files": [
+        "kebab-portions-front.jpg",
+        "kebab-portions-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 293,
+    "slug": "diggers-boneless-wings",
+    "name": "Diggers Boneless Wings",
+    "legacy_path": "/product/diggers-boneless-wings/",
+    "new_path": "/product/diggers-boneless-wings",
+    "legacy_categories": [
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "diggers-boneless-wings",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.13.28.png"
+      ],
+      "expected_drive_files": [
+        "diggers-boneless-wings-front.jpg",
+        "diggers-boneless-wings-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 291,
+    "slug": "bacon",
+    "name": "Bacon",
+    "legacy_path": "/product/bacon/",
+    "new_path": "/product/bacon",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-bacon"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "bacon",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.11.45.png"
+      ],
+      "expected_drive_files": [
+        "bacon-front.jpg",
+        "bacon-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 289,
+    "slug": "chocolate-fudge-cake",
+    "name": "Chocolate Fudge Cake",
+    "legacy_path": "/product/chocolate-fudge-cake/",
+    "new_path": "/product/chocolate-fudge-cake",
+    "legacy_categories": [
+      "absolute-range",
+      "cakes"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "chocolate-fudge-cake",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.10.22.png"
+      ],
+      "expected_drive_files": [
+        "chocolate-fudge-cake-front.jpg",
+        "chocolate-fudge-cake-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 287,
+    "slug": "gluten-free-cheese-cake",
+    "name": "Gluten Free Cheese Cake",
+    "legacy_path": "/product/gluten-free-cheese-cake/",
+    "new_path": "/product/gluten-free-cheese-cake",
+    "legacy_categories": [
+      "absolute-range",
+      "cakes",
+      "gluten-free"
+    ],
+    "aisles_provisional": [
+      "fresh",
+      "gluten-free"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "gluten-free-cheese-cake",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.08.51.png"
+      ],
+      "expected_drive_files": [
+        "gluten-free-cheese-cake-front.jpg",
+        "gluten-free-cheese-cake-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 285,
+    "slug": "75-meter-aluminium-foil",
+    "name": "75 Meter Aluminium Foil",
+    "legacy_path": "/product/75-meter-aluminium-foil/",
+    "new_path": "/product/75-meter-aluminium-foil",
+    "legacy_categories": [
+      "aluminium-foil"
+    ],
+    "aisles_provisional": [
+      "household"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "75-meter-aluminium-foil",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.06.29.png"
+      ],
+      "expected_drive_files": [
+        "75-meter-aluminium-foil-front.jpg",
+        "75-meter-aluminium-foil-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 283,
+    "slug": "bannisters-ready-baked-potatoes",
+    "name": "Bannisters Ready Baked Potatoes",
+    "legacy_path": "/product/bannisters-ready-baked-potatoes/",
+    "new_path": "/product/bannisters-ready-baked-potatoes",
+    "legacy_categories": [
+      "baked-potatoes",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "bannisters-ready-baked-potatoes",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-17.03.58.png"
+      ],
+      "expected_drive_files": [
+        "bannisters-ready-baked-potatoes-front.jpg",
+        "bannisters-ready-baked-potatoes-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 281,
+    "slug": "lamb-weston-potato-puffs",
+    "name": "Lamb Weston Potato Puffs",
+    "legacy_path": "/product/lamb-weston-potato-puffs/",
+    "new_path": "/product/lamb-weston-potato-puffs",
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "lamb-weston-potato-puffs",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.43.17.png"
+      ],
+      "expected_drive_files": [
+        "lamb-weston-potato-puffs-front.jpg",
+        "lamb-weston-potato-puffs-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 279,
+    "slug": "mc-cain-roast-potatoes",
+    "name": "Mc Cain Roast Potatoes",
+    "legacy_path": "/product/mc-cain-roast-potatoes/",
+    "new_path": "/product/mc-cain-roast-potatoes",
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pre-cut-and-washed-potatoes",
+      "potato-cubes"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "mc-cain-roast-potatoes",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.42.11.png"
+      ],
+      "expected_drive_files": [
+        "mc-cain-roast-potatoes-front.jpg",
+        "mc-cain-roast-potatoes-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 277,
+    "slug": "lutosa-spicy-fries",
+    "name": "Lutosa Spicy Fries",
+    "legacy_path": "/product/lutosa-spicy-fries/",
+    "new_path": "/product/lutosa-spicy-fries",
+    "legacy_categories": [
+      "frozen-chips",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "lutosa-spicy-fries",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.41.00.png"
+      ],
+      "expected_drive_files": [
+        "lutosa-spicy-fries-front.jpg",
+        "lutosa-spicy-fries-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 275,
+    "slug": "stealth-potato-fries",
+    "name": "Stealth Potato Fries",
+    "legacy_path": "/product/stealth-potato-fries/",
+    "new_path": "/product/stealth-potato-fries",
+    "legacy_categories": [
+      "frozen-chips",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "stealth-potato-fries",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.39.35.png"
+      ],
+      "expected_drive_files": [
+        "stealth-potato-fries-front.jpg",
+        "stealth-potato-fries-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 273,
+    "slug": "cooked-pulled-chicken-breast",
+    "name": "Cooked Pulled Chicken Breast",
+    "legacy_path": "/product/cooked-pulled-chicken-breast/",
+    "new_path": "/product/cooked-pulled-chicken-breast",
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-chicken"
+    ],
+    "aisles_provisional": [
+      "fresh"
+    ],
+    "own_brand": true,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": 599,
+    "image": {
+      "key": "cooked-pulled-chicken-breast",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.37.16.png"
+      ],
+      "expected_drive_files": [
+        "cooked-pulled-chicken-breast-front.jpg",
+        "cooked-pulled-chicken-breast-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 271,
+    "slug": "roosters-crunchy-chicken-goujons",
+    "name": "Roosters Crunchy Chicken Goujons",
+    "legacy_path": "/product/roosters-crunchy-chicken-goujons/",
+    "new_path": "/product/roosters-crunchy-chicken-goujons",
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "roosters-crunchy-chicken-goujons",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.34.54.png"
+      ],
+      "expected_drive_files": [
+        "roosters-crunchy-chicken-goujons-front.jpg",
+        "roosters-crunchy-chicken-goujons-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 269,
+    "slug": "roosters-crispy-shredded-chicken-fillets",
+    "name": "Roosters Crispy Shredded Chicken Fillets",
+    "legacy_path": "/product/roosters-crispy-shredded-chicken-fillets/",
+    "new_path": "/product/roosters-crispy-shredded-chicken-fillets",
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "roosters-crispy-shredded-chicken-fillets",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.33.12.png"
+      ],
+      "expected_drive_files": [
+        "roosters-crispy-shredded-chicken-fillets-front.jpg",
+        "roosters-crispy-shredded-chicken-fillets-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 267,
+    "slug": "roosters-kickin-chicken-fillets",
+    "name": "Roosters Kick’In Chicken Fillets",
+    "legacy_path": "/product/roosters-kickin-chicken-fillets/",
+    "new_path": "/product/roosters-kickin-chicken-fillets",
+    "legacy_categories": [
+      "chicken-fillets",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "roosters-kickin-chicken-fillets",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.32.10.png"
+      ],
+      "expected_drive_files": [
+        "roosters-kickin-chicken-fillets-front.jpg",
+        "roosters-kickin-chicken-fillets-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 265,
+    "slug": "roosters-chicken-fillets",
+    "name": "Roosters Chicken Fillets",
+    "legacy_path": "/product/roosters-chicken-fillets/",
+    "new_path": "/product/roosters-chicken-fillets",
+    "legacy_categories": [
+      "chicken-fillets",
+      "frozen-food"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "roosters-chicken-fillets",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-16.29.41.png"
+      ],
+      "expected_drive_files": [
+        "roosters-chicken-fillets-front.jpg",
+        "roosters-chicken-fillets-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 262,
+    "slug": "chicken-goujons",
+    "name": "Chicken Goujons",
+    "legacy_path": "/product/chicken-goujons/",
+    "new_path": "/product/chicken-goujons",
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "aisles_provisional": [
+      "frozen"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "chicken-goujons",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-13.22.41.png"
+      ],
+      "expected_drive_files": [
+        "chicken-goujons-front.jpg",
+        "chicken-goujons-back.jpg"
+      ]
+    }
+  },
+  {
+    "legacy_wc_id": 260,
+    "slug": "turkey-trays",
+    "name": "Turkey Trays",
+    "legacy_path": "/product/turkey-trays/",
+    "new_path": "/product/turkey-trays",
+    "legacy_categories": [
+      "household-packaging",
+      "seasonal"
+    ],
+    "aisles_provisional": [
+      "household",
+      "seasonal"
+    ],
+    "own_brand": false,
+    "price_pence": null,
+    "vat_rate": null,
+    "pack_size": null,
+    "description": null,
+    "ingredients": null,
+    "allergens": null,
+    "allergen_signoff": null,
+    "sell_online": null,
+    "data_status": "awaiting_client",
+    "legacy_price_pence_unverified": null,
+    "image": {
+      "key": "turkey-trays",
+      "status": "placeholder_wp_screenshot",
+      "placeholder_urls": [
+        "https://absolutecateringsupplies.com/wp-content/uploads/2025/12/Screenshot-2025-12-17-at-13.19.17.png"
+      ],
+      "expected_drive_files": [
+        "turkey-trays-front.jpg",
+        "turkey-trays-back.jpg"
+      ]
+    }
+  }
+]
