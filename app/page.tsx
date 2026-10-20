@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { ArrowRight, MapPin, Phone } from 'lucide-react';
 import { site } from '@/content/site';
 import { home } from '@/content/home';
+import { heroImage, ownBrandBanner } from '@/content/images';
+import { districts, radiusMiles } from '@/content/delivery';
 import { aisles } from '@/content/taxonomy';
 import { aisleCounts, getOwnBrand } from '@/lib/catalogue';
 import { Container } from '@/components/ui/container';
@@ -16,10 +18,20 @@ export default async function HomePage() {
 
   return (
     <>
-      {/* Hero: the delivery promise, answered before anything else. */}
-      <section aria-labelledby="hero-heading" className="border-b border-line bg-ground">
-        <Container width="wide" className="grid items-center gap-10 py-10 md:py-14 lg:grid-cols-[1.05fr_1fr]">
-          <div>
+      {/* Hero: appetite first, the delivery promise straight after. */}
+      <section aria-labelledby="hero-heading" className="relative border-b border-line bg-ground">
+        <div className="relative aspect-[16/9] w-full lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-1/2">
+          <Image
+            src={heroImage.src}
+            alt={heroImage.alt}
+            fill
+            priority
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+          />
+        </div>
+        <Container width="wide" className="relative lg:grid lg:min-h-[36rem] lg:grid-cols-2 lg:items-center">
+          <div className="py-10 md:py-14 lg:pr-12">
             <p className="text-sm font-bold uppercase tracking-[0.14em] text-brand">{home.hero.eyebrow}</p>
             <Heading level={1} size="xl" id="hero-heading" className="mt-3 max-w-[18ch]">
               {home.hero.heading}
@@ -31,7 +43,32 @@ export default async function HomePage() {
               <p className="mt-3 text-sm text-ink-muted">{home.hero.formNote}</p>
             </div>
           </div>
+        </Container>
+      </section>
 
+      {/* The signature: where the van goes. */}
+      <section aria-labelledby="area-heading" className="border-b border-line bg-ground-subtle py-section">
+        <Container width="wide" className="grid items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.14em] text-brand">{home.area.eyebrow}</p>
+            <Heading level={2} size="lg" id="area-heading" className="mt-2">
+              {home.area.heading}
+            </Heading>
+            <p className="mt-3 text-lg text-ink-muted">{home.area.body}</p>
+            <ul className="mt-6 flex flex-wrap gap-2">
+              {districts
+                .filter((d) => d.miles <= radiusMiles)
+                .sort((a, b) => a.miles - b.miles)
+                .map((d) => (
+                  <li key={d.outcode} className="rounded-full border border-line-strong bg-ground px-3 py-1 text-sm font-medium">
+                    {d.town}
+                  </li>
+                ))}
+            </ul>
+            <Link href="/delivery" className="mt-6 inline-flex min-h-11 items-center gap-1 font-semibold text-accent hover:underline">
+              {home.area.link} <ArrowRight aria-hidden="true" className="size-4" />
+            </Link>
+          </div>
           <RadiusMap className="mx-auto w-full max-w-xl" />
         </Container>
       </section>
@@ -96,8 +133,16 @@ export default async function HomePage() {
               {home.ownBrand.link(ownBrand.length)} <ArrowRight aria-hidden="true" className="size-4" />
             </Link>
           </div>
-          <div className="mt-8">
-            <ProductGrid products={ownBrand.slice(0, 10)} />
+          <div className="mt-8 grid gap-6 lg:grid-cols-[2fr_3fr]">
+            <Image
+              src={ownBrandBanner.src}
+              alt={ownBrandBanner.alt}
+              width={ownBrandBanner.width}
+              height={ownBrandBanner.height}
+              sizes="(min-width: 1024px) 38vw, 100vw"
+              className="h-full max-h-[34rem] w-full rounded-md object-cover"
+            />
+            <ProductGrid products={ownBrand.slice(0, 6)} variant="compact" />
           </div>
         </Container>
       </section>

@@ -12,6 +12,12 @@ export const home = {
     formLabel: 'Check if we deliver to you',
     formNote: 'Outside the area? You can still order online and collect from us at Gortrush.',
   },
+  area: {
+    eyebrow: 'Where we deliver',
+    heading: 'Our van covers 30 miles around Omagh',
+    body: 'From Strabane to Enniskillen, Cookstown to Derry~Londonderry. Check your postcode to see if you’re in, or order online and collect from the store.',
+    link: 'Check your postcode',
+  },
   aisles: {
     heading: 'Shop by aisle',
     link: 'See every aisle',

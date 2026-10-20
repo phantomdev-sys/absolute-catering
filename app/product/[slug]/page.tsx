@@ -12,6 +12,7 @@ import { Price } from '@/components/shop/price';
 import { OwnBrandBadge } from '@/components/shop/own-brand-badge';
 import { AllergenLabel } from '@/components/shop/allergen-label';
 import { ProductGrid } from '@/components/shop/product-grid';
+import { AddToBasket } from '@/components/basket/add-to-basket';
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -82,7 +83,10 @@ export default async function ProductPage({ params }: Params) {
             {product.packSize && <p className="mt-2 text-lg text-ink-muted">{product.packSize}</p>}
 
             <div className="mt-6 border-y border-line py-6">
-              <Price product={product} size="lg" />
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <Price product={product} size="lg" />
+                {canBuy && <AddToBasket slug={product.slug} name={product.name} size="md" />}
+              </div>
               {canBuy ? null : (
                 <p className="mt-3 text-sm text-ink-muted">
                   Online ordering for this product opens once its price and allergen details are confirmed. You can

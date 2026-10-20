@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { MapPin, Phone, Search, ShoppingBasket, Truck } from 'lucide-react';
+import { MapPin, Phone, Search, Truck } from 'lucide-react';
+import { BasketLink } from '@/components/basket/basket-link';
 import { site } from '@/content/site';
 import { aisles } from '@/content/taxonomy';
 import { Container } from '@/components/ui/container';
@@ -29,7 +30,6 @@ export function Header() {
             </span>
           </p>
           <p className="flex items-center gap-4">
-            <span className="hidden font-semibold text-teal md:inline">{site.preLaunchNotice}</span>
             <a
               href={`tel:${tel}`}
               className="inline-flex min-h-8 items-center gap-1.5 font-semibold hover:underline focus-visible:outline-focus-inverse"
@@ -74,13 +74,7 @@ export function Header() {
             </button>
           </form>
 
-          <Link
-            href="/basket"
-            className="ml-auto inline-flex min-h-11 items-center gap-2 rounded-md border border-line-strong px-4 font-semibold hover:border-ink md:ml-0"
-          >
-            <ShoppingBasket aria-hidden="true" className="size-5" />
-            Basket
-          </Link>
+          <BasketLink />
         </Container>
       </div>
 

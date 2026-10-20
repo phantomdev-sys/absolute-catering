@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Link from 'next/link';
+import { aisleBanners } from '@/content/images';
 import type { Aisle, Shelf } from '@/content/taxonomy';
 import type { Product } from '@/lib/catalogue';
 import { cn } from '@/lib/cn';
@@ -45,6 +47,16 @@ export function AislePage({
         </p>
       </div>
       {!shelf && <p className="mt-2 max-w-2xl text-ink-muted">{aisle.blurb}</p>}
+      {!shelf && aisleBanners[aisle.slug] && (
+        <Image
+          src={aisleBanners[aisle.slug]!.src}
+          alt={aisleBanners[aisle.slug]!.alt}
+          width={aisleBanners[aisle.slug]!.width}
+          height={aisleBanners[aisle.slug]!.height}
+          sizes="(min-width: 1280px) 1216px, 100vw"
+          className="mt-6 h-44 w-full rounded-md object-cover md:h-64"
+        />
+      )}
 
       {shelves.length > 1 && (
         <nav aria-label={`${aisle.name} shelves`} className="mt-6">

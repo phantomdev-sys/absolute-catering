@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 30 · Blocked: 3
+Last updated: 2026-10-20 · Open: 33 · Blocked: 3
 
 ## Open
 
@@ -38,6 +38,10 @@ Last updated: 2026-10-20 · Open: 30 · Blocked: 3
 | 39 | Opening hours | Client | 2026-10-20 | Open | Not shown anywhere until confirmed |
 | 40 | 21st.dev components | Alex | 2026-10-20 | Decided | Quantity Stepper (Spectrum UI) chosen for the Phase 3 basket; Product Listing Card used as layout reference for tiles |
 
+| 41 | Demo prices (£1.00, NEXT_PUBLIC_DEMO_PRICES=1) must be OFF in Production | Alex | 2026-10-20 | Open | Set only on Vercel Preview; launch checklist item. Banner shows whenever it's on |
+| 42 | Supabase project for accounts/favourites/orders | Alex | 2026-10-20 | Waiting | MCP create was cancelled twice (cost-approval box not shown); Alex creating in dashboard: absolute-catering, eu-west-2 |
+| 43 | Stripe test keys in Vercel (Alex's account to start, switch to client's later) | Alex | 2026-10-20 | Open | Names given when checkout is wired |
+
 ## Resolved
 
 | # | Item | Resolved | Outcome |
@@ -53,3 +57,4 @@ Last updated: 2026-10-20 · Open: 30 · Blocked: 3
 | 33 | Design direction | 2026-10-20 | B · Within 30 Miles, plus A's label treatment on product pages and allergen panel. Logo teal #60C4CA fails on white (2.1:1); deep teal #00747C for interactive |
 | 34 | Fontshare fonts | 2026-10-20 | Clash Display + Satoshi variable woff2 self-hosted in public/fonts; FFL licences in docs/fonts (self-hosting for websites permitted) |
 | 18 | Vercel project | 2026-10-20 | Imported by Alex: `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7`, first deploy of 2bd7e79 READY, Standard Protection on |
+| 44 | Stock imagery | 2026-10-20 | 5 Adobe Stock images licensed (4 by Claude, 1 by Alex); record in docs/STOCK-LICENCES.md; mood/category slots only |

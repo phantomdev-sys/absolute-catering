@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { site } from '@/content/site';
 import { Header } from '@/components/site/header';
 import { Footer } from '@/components/site/footer';
+import { BasketProvider } from '@/components/basket/basket-provider';
+import { DemoBanner } from '@/components/site/demo-banner';
 import './globals.css';
 
 /**
@@ -43,11 +45,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to main content
         </a>
 
-        <Header />
-        <main id="main" className="flex-1">
-          {children}
-        </main>
-        <Footer />
+        <BasketProvider>
+          <DemoBanner />
+          <Header />
+          <main id="main" className="flex-1">
+            {children}
+          </main>
+          <Footer />
+        </BasketProvider>
       </body>
     </html>
   );

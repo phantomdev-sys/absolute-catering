@@ -1,6 +1,7 @@
 import seed from '@/data/seed/products.json';
 import { aisles, shelfOverrides, legacyBrandCategory, type Aisle, type Shelf } from '@/content/taxonomy';
 import { publicClient } from '@/lib/supabase/public';
+import { DEMO_PRICES, DEMO_PRICE_PENCE } from '@/lib/demo';
 
 /**
  * Catalogue data access.
@@ -61,15 +62,15 @@ function fromSeed(row: SeedRow): Product {
     legacyCategories: row.legacy_categories,
     ownBrand: row.own_brand,
     // Deliberately not reading legacy_price_pence_unverified: it was never
-    // confirmed and must not reach the page.
-    pricePence: null,
+    // confirmed and must not reach the page. Demo mode uses a flat £1.00.
+    pricePence: DEMO_PRICES ? DEMO_PRICE_PENCE : null,
     packSize: null,
     description: null,
     storage: null,
     ingredients: null,
     allergens: null,
     allergenSignoff: null,
-    status: 'awaiting_client',
+    status: DEMO_PRICES ? 'live' : 'awaiting_client',
   };
 }
 

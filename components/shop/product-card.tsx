@@ -3,6 +3,7 @@ import type { Product } from '@/lib/catalogue';
 import { ProductImage } from './product-image';
 import { Price } from './price';
 import { OwnBrandBadge } from './own-brand-badge';
+import { AddToBasket } from '@/components/basket/add-to-basket';
 
 /**
  * Product tile.
@@ -36,7 +37,19 @@ export function ProductCard({ product, priority }: { product: Product; priority?
           </Link>
         </h3>
         {product.packSize && <p className="mt-0.5 text-sm text-ink-muted">{product.packSize}</p>}
-        <Price product={product} className="mt-auto pt-3" />
+        {/* Stacked on narrow tiles (two columns on a phone), side by side once
+            there's room, so the price and the control never collide. */}
+        <div className="mt-auto flex flex-col gap-2 pt-3 sm:min-h-10 sm:flex-row sm:items-end sm:justify-between">
+          <Price product={product} />
+          {product.status === 'live' && product.pricePence != null && (
+            // Above the stretched link, so it's its own control.
+            <AddToBasket
+              slug={product.slug}
+              name={product.name}
+              className="relative z-10 w-full justify-between sm:w-auto sm:justify-center"
+            />
+          )}
+        </div>
       </div>
       {/* Focus ring for the stretched link, drawn on the tile itself. */}
       <span
