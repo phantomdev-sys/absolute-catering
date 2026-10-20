@@ -17,7 +17,7 @@ British English throughout: site copy, comments, commits.
 | Supabase project ref | TBD (not yet created; check cost first) |
 | Vercel team | phantom-dev1 (`team_HqP6SQwx4jkuTVYNACgBcyyI`) |
 | Vercel project ID | TBD (Alex imports via dashboard) |
-| GitHub repo | TBD (Alex runs `gh repo create phantomdev-sys/absolute-catering`) |
+| GitHub repo | `phantomdev-sys/absolute-catering` (private). Never `slightlymucky`, an old account Alex no longer uses |
 | Stripe account | TBD (new or existing? see register) |
 
 Existing Supabase projects in the org that this build must NEVER touch: bowery-intelligence, Emberbox, mcn-painting, jordan-victory-church, yuutani-crm.

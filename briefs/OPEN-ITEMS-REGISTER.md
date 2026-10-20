@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 26 · Blocked: 3
+Last updated: 2026-10-20 · Open: 25 · Blocked: 3
 
 ## Open
 
@@ -20,7 +20,6 @@ Last updated: 2026-10-20 · Open: 26 · Blocked: 3
 | 14 | Range beyond the 56 online | Alex | 2026-10-20 | Decided | Launch with the 56; range grows on the retainer. Notes: WP pages exist for Ham, Butter, Cheese, Pre Packed Dinners, Chicken Chunks, Food Wrap, Christmas with 0 products; 12 menu links 404 (Drinks, Pasta, Condiments, Cleaning…) |
 | 15 | Age-restricted lines (alcohol, energy drinks, lighters, knives)? | Client | 2026-10-20 | Open | Changes checkout and delivery handover |
 | 16 | Business legal details: Ltd? company number, registered office, VAT number | Client | 2026-10-20 | Open | Required in footer/T&Cs if Ltd |
-| 17 | GitHub repo creation (sandbox can't create; confirmed 403) | Alex | 2026-10-20 | Open | `gh` not installed on the Mac. Install, `gh auth login`, then create + push |
 | 18 | Vercel project import (connector is read-only) | Alex | 2026-10-20 | Open | Import via dashboard after #17, paste project ID into CLAUDE.md |
 | 19 | Supabase project: confirm cost of a new project in phantomdev-sys before creating | Alex | 2026-10-20 | Open | Org already has 5 projects |
 | 21 | Taxonomy clean-up: duplicate Pizza/Sausages (fresh+frozen), Prosecco Glasses under Cutlery, Plastic Cups top-level, Absolute Range as aisle | Alex | 2026-10-20 | Decided | Provisional aisle map in `scripts/seed_from_wp.py`; Absolute Range becomes a brand filter + landing page |
@@ -44,3 +43,4 @@ Last updated: 2026-10-20 · Open: 26 · Blocked: 3
 | 27 | Account required at checkout? | 2026-10-20 | Yes, like Tesco |
 | 28 | Slot booking horizon | 2026-10-20 | Up to 6 days ahead (authorise-then-capture) |
 | 32 | Architecture plan | 2026-10-20 | Approved as written; adjust as we go |
+| 17 | GitHub repo | 2026-10-20 | Published from VS Code (no gh/brew on the Mac) to slightlymucky by mistake, transferred to `phantomdev-sys/absolute-catering` |
