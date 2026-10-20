@@ -1,6 +1,6 @@
 # Design directions
 
-20 Oct 2026 · Awaiting Alex's pick. Words only, no mockups (site-build Phase 3).
+20 Oct 2026 · **Chosen: B · Within 30 Miles, with A's Shelf Label treatment for product pages and the allergen panel** (Alex, 20 Oct).
 
 ## Brand colours, measured from the current logo
 

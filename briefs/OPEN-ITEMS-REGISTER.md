@@ -44,3 +44,4 @@ Last updated: 2026-10-20 · Open: 25 · Blocked: 3
 | 28 | Slot booking horizon | 2026-10-20 | Up to 6 days ahead (authorise-then-capture) |
 | 32 | Architecture plan | 2026-10-20 | Approved as written; adjust as we go |
 | 17 | GitHub repo | 2026-10-20 | Published from VS Code (no gh/brew on the Mac) to slightlymucky by mistake, transferred to `phantomdev-sys/absolute-catering` |
+| 33 | Design direction | 2026-10-20 | B · Within 30 Miles, plus A's label treatment on product pages and allergen panel. Logo teal #60C4CA fails on white (2.1:1); deep teal #00747C for interactive |
