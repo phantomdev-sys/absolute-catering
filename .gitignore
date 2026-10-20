@@ -19,3 +19,4 @@ next-env.d.ts
 reference/*.xml
 media/wp-library/
 .sync/
+media/stock/
