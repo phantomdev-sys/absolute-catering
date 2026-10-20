@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 31 · Blocked: 3
+Last updated: 2026-10-20 · Open: 34 · Blocked: 3
 
 ## Open
 
@@ -38,7 +38,11 @@ Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 | 40 | 21st.dev components | Alex | 2026-10-20 | Decided | Quantity Stepper (Spectrum UI) chosen for the Phase 3 basket; Product Listing Card used as layout reference for tiles |
 
 | 41 | Demo prices (£1.00, NEXT_PUBLIC_DEMO_PRICES=1) must be OFF in Production | Alex | 2026-10-20 | Open | Set only on Vercel Preview; launch checklist item. Banner shows whenever it's on |
-| 43 | Stripe test keys in Vercel (Alex's account to start, switch to client's later) | Alex | 2026-10-20 | Open | Names given when checkout is wired |
+
+| 45 | Demo slot templates (is_demo) in the database: Mon–Sat delivery 10–12/2–4, collection 9–11/11–1/2–4 | Client | 2026-10-20 | Open | Replace with real slots (#7, #8): `delete from slot_templates where is_demo;` |
+| 46 | Stripe webhook (order confirmation if the customer closes the tab after paying) | Alex | 2026-10-20 | Open | Needs a Vercel protection bypass for /api/stripe/webhook; success page confirms orders meanwhile |
+| 47 | Staff order screen: picking list, mark unavailable, capture payment | Alex | 2026-10-20 | Open | Next build step; until then capture/cancel in the Stripe dashboard (test mode) |
+| 48 | Resend: confirmation email for newsletter double opt-in, order emails | Alex | 2026-10-20 | Open | Newsletter sign-ups stored unconfirmed until then |
 
 ## Resolved
 
@@ -58,3 +62,4 @@ Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 | 44 | Stock imagery | 2026-10-20 | 5 Adobe Stock images licensed (4 by Claude, 1 by Alex); record in docs/STOCK-LICENCES.md; mood/category slots only |
 | 19 | Supabase project | 2026-10-20 | Created by Alex in the dashboard: `zlzdjentqmjjnxmojtko` (eu-west-1, Ireland, not London; fine for NI) |
 | 42 | Schema applied | 2026-10-20 | 5 migrations applied, 56 products seeded as awaiting_client; advisors: security flags intentional, FK indexes added |
+| 43 | Stripe test keys | 2026-10-20 | Alex's own new 'Absolute Catering Supplies' Stripe account, sandbox keys added to Vercel |

@@ -61,9 +61,8 @@ const PAGES: Record<string, string> = {
   '/butter': '/shop/fresh',
   '/cheese': '/shop/fresh',
   '/cart': '/basket',
-  '/checkout': '/basket',
-  // Accounts arrive in Phase 3; repoint to /account then.
-  '/my-account': '/',
+  // WooCommerce's /checkout needs no redirect: the new checkout lives there.
+  '/my-account': '/account',
   '/contact-us': '/contact',
   '/about-us': '/about',
   '/terms-conditions': '/terms',

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { MapPin, Phone, Search, Truck } from 'lucide-react';
+import { MapPin, Phone, Search, Truck, User } from 'lucide-react';
 import { BasketLink } from '@/components/basket/basket-link';
 import { site } from '@/content/site';
 import { aisles } from '@/content/taxonomy';
@@ -74,7 +74,16 @@ export function Header() {
             </button>
           </form>
 
-          <BasketLink />
+          <div className="ml-auto flex items-center gap-2 md:ml-0">
+            <Link
+              href="/account"
+              className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 font-semibold hover:bg-ground-subtle"
+            >
+              <User aria-hidden="true" className="size-5" />
+              <span className="sr-only sm:not-sr-only">Account</span>
+            </Link>
+            <BasketLink />
+          </div>
         </Container>
       </div>
 

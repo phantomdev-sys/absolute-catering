@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { site } from '@/content/site';
 import { aisles } from '@/content/taxonomy';
 import { Container } from '@/components/ui/container';
+import { NewsletterForm } from './newsletter-form';
 
 /**
  * Footer on the brand plum. The company details block is a legal requirement
@@ -70,6 +71,10 @@ export function Footer() {
               </li>
             </ul>
           </nav>
+        </div>
+
+        <div className="mt-10 border-t border-ink-inverse/25 pt-8">
+          <NewsletterForm />
         </div>
 
         <div className="mt-10 space-y-1 border-t border-ink-inverse/25 pt-6 text-xs">

@@ -10,7 +10,7 @@ export function BasketLink() {
   return (
     <Link
       href="/basket"
-      className="relative ml-auto inline-flex min-h-11 items-center gap-2 rounded-md border border-line-strong px-4 font-semibold hover:border-ink md:ml-0"
+      className="relative inline-flex min-h-11 items-center gap-2 rounded-md border border-line-strong px-4 font-semibold hover:border-ink"
     >
       <ShoppingBasket aria-hidden="true" className="size-5" />
       Basket

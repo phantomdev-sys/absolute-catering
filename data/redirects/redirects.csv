@@ -65,8 +65,7 @@ from,to,status
 /butter,/shop/fresh,308
 /cheese,/shop/fresh,308
 /cart,/basket,308
-/checkout,/basket,308
-/my-account,/,308
+/my-account,/account,308
 /contact-us,/contact,308
 /about-us,/about,308
 /terms-conditions,/terms,308

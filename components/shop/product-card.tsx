@@ -4,6 +4,7 @@ import { ProductImage } from './product-image';
 import { Price } from './price';
 import { OwnBrandBadge } from './own-brand-badge';
 import { AddToBasket } from '@/components/basket/add-to-basket';
+import { FavouriteButton } from '@/components/favourites/favourite-button';
 
 /**
  * Product tile.
@@ -20,6 +21,7 @@ import { AddToBasket } from '@/components/basket/add-to-basket';
 export function ProductCard({ product, priority }: { product: Product; priority?: boolean }) {
   return (
     <article className="group relative flex h-full flex-col bg-ground p-4">
+      <FavouriteButton slug={product.slug} name={product.name} className="absolute right-6 top-6 z-10" />
       <ProductImage
         product={product}
         priority={priority}

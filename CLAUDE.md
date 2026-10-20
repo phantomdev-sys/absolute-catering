@@ -18,7 +18,7 @@ British English throughout: site copy, comments, commits.
 | Vercel team | phantom-dev1 (`team_HqP6SQwx4jkuTVYNACgBcyyI`) |
 | Vercel project | `absolute-catering` · `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7` · absolute-catering.vercel.app (Standard Protection: Vercel login required) |
 | GitHub repo | `phantomdev-sys/absolute-catering` (private). Never `slightlymucky`, an old account Alex no longer uses |
-| Stripe account | TBD (new or existing? see register) |
+| Stripe account | Alex's 'Absolute Catering Supplies' account, **sandbox/test keys only** while demo prices are on |
 
 Existing Supabase projects in the org that this build must NEVER touch: bowery-intelligence, Emberbox, mcn-painting, jordan-victory-church, yuutani-crm.
 

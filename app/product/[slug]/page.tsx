@@ -13,6 +13,7 @@ import { OwnBrandBadge } from '@/components/shop/own-brand-badge';
 import { AllergenLabel } from '@/components/shop/allergen-label';
 import { ProductGrid } from '@/components/shop/product-grid';
 import { AddToBasket } from '@/components/basket/add-to-basket';
+import { FavouriteButton } from '@/components/favourites/favourite-button';
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -85,7 +86,10 @@ export default async function ProductPage({ params }: Params) {
             <div className="mt-6 border-y border-line py-6">
               <div className="flex flex-wrap items-center justify-between gap-4">
                 <Price product={product} size="lg" />
-                {canBuy && <AddToBasket slug={product.slug} name={product.name} size="md" />}
+                <div className="flex flex-wrap items-center gap-3">
+                  {canBuy && <AddToBasket slug={product.slug} name={product.name} size="md" />}
+                  <FavouriteButton slug={product.slug} name={product.name} size="md" />
+                </div>
               </div>
               {canBuy ? null : (
                 <p className="mt-3 text-sm text-ink-muted">

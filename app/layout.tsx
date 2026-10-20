@@ -4,6 +4,7 @@ import { Header } from '@/components/site/header';
 import { Footer } from '@/components/site/footer';
 import { BasketProvider } from '@/components/basket/basket-provider';
 import { DemoBanner } from '@/components/site/demo-banner';
+import { FavouritesProvider } from '@/components/favourites/favourites-provider';
 import './globals.css';
 
 /**
@@ -46,12 +47,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
 
         <BasketProvider>
-          <DemoBanner />
-          <Header />
-          <main id="main" className="flex-1">
-            {children}
-          </main>
-          <Footer />
+          <FavouritesProvider>
+            <DemoBanner />
+            <Header />
+            <main id="main" className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </FavouritesProvider>
         </BasketProvider>
       </body>
     </html>
