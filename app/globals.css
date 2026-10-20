@@ -1,0 +1,232 @@
+@import 'tailwindcss';
+
+/* ---------------------------------------------------------------------------
+   Tokens
+   Tailwind v4 is CSS-first: there is no tailwind.config file. Everything the
+   design system knows lives in @theme, which means a rebrand is one edit here
+   rather than a search across components. Never write a raw hex in a
+   component — the lint rule warns about it for this reason.
+
+   Replace these placeholder values with the brand palette from the project
+   brief (typed hex codes, not eyedropped from a JPEG), then run
+   `npm run check:contrast` BEFORE building anything with them. Retro-fixing a
+   palette that fails at 3.5:1 after the site is built is expensive; changing
+   it now is a five-minute conversation.
+--------------------------------------------------------------------------- */
+
+@theme {
+  /* Absolute Catering Supplies — measured from the live logo, 20 Oct 2026.
+     The logo teal (#60c4ca) is only 2.1:1 on white, so it never carries text
+     on a light ground: it is a fill (with ink on it) or an accent on plum.
+     Interactive colour is a deeper teal derived from it. See
+     docs/DESIGN-DIRECTIONS.md for the reasoning. */
+
+  /* Surfaces */
+  --color-ground: #ffffff;
+  --color-ground-subtle: #f6f3ee;
+  --color-ground-raised: #ffffff;
+  --color-ground-inverse: #612f6d;
+
+  /* Text */
+  --color-ink: #1e1622;
+  --color-ink-muted: #5d5562;
+  --color-ink-inverse: #ffffff;
+
+  /* Brand */
+  --color-brand: #612f6d;
+  --color-brand-ink: #ffffff;
+  --color-teal: #60c4ca;
+  --color-teal-soft: #e3f4f5;
+
+  /* Interactive — the only colour that means "you can press this" */
+  --color-accent: #00747c;
+  --color-accent-hover: #005c63;
+  --color-accent-ink: #ffffff;
+
+  /* Notices, e.g. data still awaiting the client */
+  --color-notice: #fdf1d6;
+  --color-notice-line: #b7791f;
+
+  /* Structure: a decorative hairline and a stronger control boundary. */
+  --color-line: #e6e1e8;
+  --color-line-strong: #857d8a;
+  --color-focus: #00747c;
+  --color-focus-inverse: #60c4ca;
+
+  /* Type. Clash Display + Satoshi (Fontshare), self-hosted once the files are
+     in public/fonts/. Until then the fallback stacks below carry the design. */
+  --font-display: var(--font-stack-display);
+  --font-body: var(--font-stack-body);
+
+  --spacing-section: 4.5rem;
+  --spacing-section-lg: 7rem;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* @contrast — pairings checked by `npm run check:contrast`.
+
+   ink on ground : 4.5
+   ink-muted on ground : 4.5
+   ink on ground-subtle : 4.5
+   ink-muted on ground-subtle : 4.5
+   ink on teal-soft : 4.5
+   ink-muted on teal-soft : 4.5
+   ink on teal : 4.5
+   ink on notice : 4.5
+   accent on ground : 4.5
+   accent on ground-subtle : 4.5
+   accent-ink on accent : 4.5
+   accent-ink on accent-hover : 4.5
+   brand on ground : 4.5
+   brand on ground-subtle : 4.5
+   brand-ink on brand : 4.5
+   ink-inverse on ground-inverse : 4.5
+   teal on ground-inverse : 4.5
+   line-strong on ground : 3
+   line-strong on ground-subtle : 3
+   focus on ground : 3
+   focus-inverse on ground-inverse : 3
+   notice-line on notice : 3
+*/
+
+:root {
+  /* Fallback stacks. When Fontshare files are added, put the family name
+     first: `'Clash Display', ui-serif, ...`. Keeping the fallback honest
+     matters — it is what a visitor sees while the font loads. */
+  --font-stack-display: 'Clash Display', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-stack-body: 'Satoshi', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  color-scheme: light;
+}
+
+/* Example self-hosted face — uncomment and duplicate per weight once the
+   woff2 files are in public/fonts/.
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+*/
+
+/* ---------------------------------------------------------------------------
+   Base
+--------------------------------------------------------------------------- */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-wrap: pretty;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  /* A visible, high-contrast focus ring everywhere. Removing focus styles is
+     the single most common accessibility regression; making the default good
+     removes the temptation. */
+  :focus-visible {
+    outline: 2px solid var(--color-focus);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-accent);
+    color: var(--color-accent-ink);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Radius map labels. The SVG scales with its column, so on a phone a 12-unit
+   label lands at about 8px. Below 640px the labels grow and the crowded minor
+   towns step aside; the full list is in the table on /delivery.
+--------------------------------------------------------------------------- */
+
+.map-label { font-size: 12px; }
+.map-label-sm { font-size: 11px; }
+.map-label-lg { font-size: 13px; }
+
+@media (max-width: 639px) {
+  .map-label { font-size: 17px; }
+  .map-label-sm { font-size: 14px; }
+  .map-label-lg { font-size: 18px; }
+  .map-minor text { display: none; }
+}
+
+/* ---------------------------------------------------------------------------
+   Motion system — CSS only, content visible by default
+
+   The rule that matters: the worst case must be "no animation", never "no
+   content". The common IntersectionObserver + `opacity: 0` pattern fails the
+   other way — if the script doesn't run (a JS error elsewhere, a blocked
+   bundle, slow hydration) the content stays permanently invisible, and every
+   automated check still passes because the markup is there.
+
+   Here, elements are fully visible with no CSS applied at all. The reveal is
+   layered on top only where the browser supports scroll-driven animations and
+   the visitor hasn't asked for reduced motion.
+--------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 45%;
+    }
+
+    .reveal-delayed {
+      animation: reveal-in linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 65%;
+    }
+  }
+}
+
+@keyframes reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* A printed page has no scroll to drive the timeline, so force everything
+   visible. Same principle as above: never lose content to motion. */
+@media print {
+  .reveal,
+  .reveal-delayed {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+  }
+}

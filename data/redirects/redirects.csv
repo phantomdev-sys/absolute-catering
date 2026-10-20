@@ -1,79 +1,77 @@
-from,to,status,note
-/Pre-cut-washed-potatoes/,/shop/frozen/pre-cut-and-washed-potatoes,301,capitalised menu link
-/about-us/,/about,301,WP page
-/absolute-range/,/absolute-range,301,WP page
-/all-fresh-goods/,/shop/fresh,301,WP page
-/all-frozen-goods/,/shop/frozen,301,WP page
-/all-gluten-free/,/shop/gluten-free,301,WP page
-/all-household-packaging/,/shop/household,301,WP page
-/all-seasonal/,/shop/seasonal,301,WP page
-/aluminium-foils/,/shop/household/aluminium-foil,301,WP page
-/bacon/,/shop/fresh/bacon,301,WP page
-/burgers/,/shop/fresh/burgers,301,WP page
-/butter/,/shop/fresh,301,WP page with no products; repoint if a real category is created
-/cart/,/basket,301,WP page
-/checkout/,/basket,301,WP page
-/cheese/,/shop/fresh,301,WP page with no products; repoint if a real category is created
-/chicken-chunks/,/shop/frozen,301,WP page with no products; repoint if a real category is created
-/chicken-goujons/,/shop/frozen/goujons,301,WP page
-/chicken/,/shop/fresh/chicken,301,WP page
-/chips/,/shop/frozen/chips,301,WP page
-/christmas-decorations/,/shop/seasonal,301,WP page with no products; repoint if a real category is created
-/christmas-props/,/shop/seasonal,301,WP page with no products; repoint if a real category is created
-/contact-us/,/contact,301,WP page
-/foil-trays/,/shop/household,301,WP page with no products; repoint if a real category is created
-/ham/,/shop/fresh,301,WP page with no products; repoint if a real category is created
-/home/,/,301,WP page
-/my-account/,/account,301,WP page
-/plastic-food-wrap/,/shop/household,301,WP page with no products; repoint if a real category is created
-/potato-cubes/,/shop/frozen/potato-cubes,301,WP page
-/pre-cut-washed-potatoes/,/shop/frozen/pre-cut-and-washed-potatoes,301,WP page
-/pre-pack-dinners/,/shop/fresh,301,WP page with no products; repoint if a real category is created
-/privacy-policy-2/,/privacy,301,WP page
-/privacy-policy/,/privacy,301,WP page
-/product-category/*,/shop,301,catch-all for any category not listed
-/product-category/absolute-range/,/absolute-range,301,category: Absolute Range
-/product-category/fresh-food/,/shop/fresh,301,category: Fresh Food
-/product-category/fresh-food/black-pudding/,/shop/fresh/black-pudding,301,category: Black Pudding
-/product-category/fresh-food/burgers/,/shop/fresh/burgers,301,category: Burgers
-/product-category/fresh-food/cakes/,/shop/fresh/cakes,301,category: Cakes
-/product-category/fresh-food/eggs/,/shop/fresh/eggs,301,category: Eggs
-/product-category/fresh-food/fresh-bacon/,/shop/fresh/fresh-bacon,301,category: Fresh Bacon
-/product-category/fresh-food/fresh-chicken/,/shop/fresh/fresh-chicken,301,category: Fresh Chicken
-/product-category/fresh-food/kebab/,/shop/fresh/kebab,301,category: Kebab
-/product-category/fresh-food/pizza/,/shop/fresh/pizza,301,category: Pizza
-/product-category/fresh-food/sausages/,/shop/fresh/sausages,301,category: Sausages
-/product-category/fresh-food/white-pudding/,/shop/fresh/white-pudding,301,category: White Pudding
-/product-category/frozen-food/,/shop/frozen,301,category: Frozen Food
-/product-category/frozen-food/baked-potatoes/,/shop/frozen/baked-potatoes,301,category: Baked Potatoes
-/product-category/frozen-food/chicken-fillets/,/shop/frozen/chicken-fillets,301,category: Chicken Fillets
-/product-category/frozen-food/frozen-chips/,/shop/frozen/chips,301,category: Frozen Chips
-/product-category/frozen-food/frozen-goujons/,/shop/frozen/goujons,301,category: Goujons
-/product-category/frozen-food/frozen-pre-cut-and-washed-potatoes/,/shop/frozen/pre-cut-and-washed-potatoes,301,category: Frozen Pre Cut and Washed Potatoes
-/product-category/frozen-food/kebab-meat/,/shop/frozen/kebab-meat,301,category: Kebab Meat
-/product-category/frozen-food/mozzarella-bites/,/shop/frozen/mozzarella-bites,301,category: Mozzarella Bites
-/product-category/frozen-food/pizza-frozen-food/,/shop/frozen/pizza,301,category: Pizza
-/product-category/frozen-food/potato-cubes/,/shop/frozen/potato-cubes,301,category: Potato Cubes
-/product-category/frozen-food/sausage-rolls/,/shop/frozen/sausage-rolls,301,category: Sausage Rolls
-/product-category/frozen-food/sausages-frozen-food/,/shop/frozen/sausages,301,category: Sausages
-/product-category/frozen-food/turkey-burgers/,/shop/frozen/turkey-burgers,301,category: Turkey Burgers
-/product-category/frozen-food/turkey/,/shop/frozen/turkey,301,category: Turkey
-/product-category/gluten-free/,/shop/gluten-free,301,category: Gluten Free
-/product-category/gluten-free/flour/,/shop/gluten-free/flour,301,category: Flour
-/product-category/gluten-free/gluten-free-chicken/,/shop/gluten-free/gluten-free-chicken,301,category: Gluten Free Chicken
-/product-category/gluten-free/gluten-free-turkey/,/shop/gluten-free/gluten-free-turkey,301,category: Gluten Free Turkey
-/product-category/household-packaging/,/shop/household,301,category: Household & Packaging
-/product-category/household-packaging/aluminium-foil/,/shop/household/aluminium-foil,301,category: Aluminium Foil
-/product-category/household-packaging/blue-roll/,/shop/household/blue-roll,301,category: Blue Roll
-/product-category/household-packaging/cutlery/,/shop/household/cutlery,301,category: Cutlery
-/product-category/household-packaging/for-the-home/,/shop/household/for-the-home,301,category: For The Home
-/product-category/household-packaging/miscellaneous/,/shop/household/miscellaneous,301,category: Miscellaneous
-/product-category/household-packaging/paper-cups/,/shop/household/paper-cups,301,category: Paper cups
-/product-category/household-packaging/paper-plates/,/shop/household/paper-plates,301,category: Paper Plates
-/product-category/household-packaging/plastic-glasses/,/shop/household/plastic-glasses,301,category: Plastic Glasses
-/product-category/household-packaging/straws/,/shop/household/straws,301,category: Straws
-/product-category/plastic-cups/,/shop/household/plastic-cups,301,category: Plastic Cups
-/product-category/seasonal/,/shop/seasonal,301,category: Seasonal
-/sample-page/,/,301,WP page
-/shop/,/shop,301,WP page
-/terms-conditions/,/terms,301,WP page
+from,to,status
+/product-category/absolute-range,/absolute-range,308
+/product-category/household-packaging/aluminium-foil,/shop/household/foil-and-trays,308
+/product-category/frozen-food/baked-potatoes,/shop/frozen/chips-and-potatoes,308
+/product-category/fresh-food/black-pudding,/shop/fresh/sausages-and-puddings,308
+/product-category/household-packaging/blue-roll,/shop/household/paper-and-cleaning,308
+/product-category/fresh-food/burgers,/shop/fresh/burgers,308
+/product-category/fresh-food/cakes,/shop/fresh/cakes-and-desserts,308
+/product-category/frozen-food/chicken-fillets,/shop/frozen/chicken,308
+/product-category/household-packaging/cutlery,/shop/household/plates-and-cutlery,308
+/product-category/fresh-food/eggs,/shop/fresh/eggs,308
+/product-category/gluten-free/flour,/shop/gluten-free/baking,308
+/product-category/household-packaging/for-the-home,/shop/household/for-the-home,308
+/product-category/fresh-food/fresh-bacon,/shop/fresh/bacon,308
+/product-category/fresh-food/fresh-chicken,/shop/fresh/chicken-and-kebabs,308
+/product-category/fresh-food,/shop/fresh,308
+/product-category/frozen-food/frozen-chips,/shop/frozen/chips-and-potatoes,308
+/product-category/frozen-food,/shop/frozen,308
+/product-category/frozen-food/frozen-pre-cut-and-washed-potatoes,/shop/frozen/chips-and-potatoes,308
+/product-category/gluten-free,/shop/gluten-free,308
+/product-category/gluten-free/gluten-free-chicken,/shop/gluten-free/chicken-and-turkey,308
+/product-category/gluten-free/gluten-free-turkey,/shop/gluten-free/chicken-and-turkey,308
+/product-category/frozen-food/frozen-goujons,/shop/frozen/chicken,308
+/product-category/household-packaging,/shop/household,308
+/product-category/fresh-food/kebab,/shop/fresh/chicken-and-kebabs,308
+/product-category/frozen-food/kebab-meat,/shop/frozen/kebab-meat,308
+/product-category/household-packaging/miscellaneous,/shop/household,308
+/product-category/frozen-food/mozzarella-bites,/shop/frozen/pizza-and-snacks,308
+/product-category/household-packaging/paper-cups,/shop/household/cups-glasses-and-straws,308
+/product-category/household-packaging/paper-plates,/shop/household/plates-and-cutlery,308
+/product-category/frozen-food/pizza-frozen-food,/shop/frozen/pizza-and-snacks,308
+/product-category/fresh-food/pizza,/shop/fresh/pizza,308
+/product-category/plastic-cups,/shop/household/cups-glasses-and-straws,308
+/product-category/household-packaging/plastic-glasses,/shop/household/cups-glasses-and-straws,308
+/product-category/frozen-food/potato-cubes,/shop/frozen/chips-and-potatoes,308
+/product-category/frozen-food/sausage-rolls,/shop/frozen/pizza-and-snacks,308
+/product-category/fresh-food/sausages,/shop/fresh/sausages-and-puddings,308
+/product-category/frozen-food/sausages-frozen-food,/shop/frozen/pizza-and-snacks,308
+/product-category/seasonal,/shop/seasonal,308
+/product-category/household-packaging/straws,/shop/household/cups-glasses-and-straws,308
+/product-category/frozen-food/turkey,/shop/frozen/turkey,308
+/product-category/frozen-food/turkey-burgers,/shop/frozen/turkey,308
+/product-category/fresh-food/white-pudding,/shop/fresh/sausages-and-puddings,308
+/bacon,/shop/fresh/bacon,308
+/chicken,/shop/fresh/chicken-and-kebabs,308
+/chicken-goujons,/shop/frozen/chicken,308
+/chicken-chunks,/shop/frozen/chicken,308
+/chips,/shop/frozen/chips-and-potatoes,308
+/potato-cubes,/shop/frozen/chips-and-potatoes,308
+/pre-cut-washed-potatoes,/shop/frozen/chips-and-potatoes,308
+/Pre-cut-washed-potatoes,/shop/frozen/chips-and-potatoes,308
+/burgers,/shop/fresh/burgers,308
+/aluminium-foils,/shop/household/foil-and-trays,308
+/foil-trays,/shop/household/foil-and-trays,308
+/plastic-food-wrap,/shop/household,308
+/all-fresh-goods,/shop/fresh,308
+/all-frozen-goods,/shop/frozen,308
+/all-gluten-free,/shop/gluten-free,308
+/all-household-packaging,/shop/household,308
+/all-seasonal,/shop/seasonal,308
+/christmas-props,/shop/seasonal,308
+/christmas-decorations,/shop/seasonal,308
+/pre-pack-dinners,/shop/fresh,308
+/ham,/shop/fresh,308
+/butter,/shop/fresh,308
+/cheese,/shop/fresh,308
+/cart,/basket,308
+/checkout,/basket,308
+/my-account,/,308
+/contact-us,/contact,308
+/about-us,/about,308
+/terms-conditions,/terms,308
+/privacy-policy,/privacy,308
+/privacy-policy-2,/privacy,308
+/home,/,308
+/sample-page,/,308
+/product-category/:path*,/shop,308

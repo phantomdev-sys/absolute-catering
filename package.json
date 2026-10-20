@@ -1,0 +1,41 @@
+{
+  "name": "absolute-catering",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Absolute Catering Supplies online shop",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "packshots": "node scripts/sync-packshots.mjs",
+    "redirects:export": "node --experimental-strip-types --no-warnings scripts/export-redirects.ts",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "check:a11y": "node scripts/check-a11y.mjs",
+    "check:screens": "node scripts/check-screens.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:perf": "node scripts/check-perf.mjs",
+    "verify": "npm run typecheck && npm run lint && npm run build && npm run check:contrast && npm run check:a11y && npm run check:screens && npm run check:links && npm run check:perf"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "@supabase/supabase-js": "^2.58.0",
+    "lucide-react": "^0.545.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^22.18.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.37.0",
+    "eslint-config-next": "^16.0.0",
+    "playwright": "^1.56.0",
+    "tailwindcss": "^4.1.14",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,8 +1,20 @@
 node_modules/
 .next/
+out/
+build/
+.DS_Store
+
+# Local env — never committed. .env.example is the documented shape.
+.env
+.env.local
+.env*.local
+# Verification output (screenshots, reports)
+.verify/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
 .env*
 !.env.example
-.DS_Store
 .vercel/
 reference/*.xml
 media/wp-library/

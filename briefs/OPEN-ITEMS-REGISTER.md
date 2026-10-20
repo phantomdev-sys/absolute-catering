@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 25 · Blocked: 3
+Last updated: 2026-10-20 · Open: 32 · Blocked: 3
 
 ## Open
 
@@ -21,7 +21,7 @@ Last updated: 2026-10-20 · Open: 25 · Blocked: 3
 | 15 | Age-restricted lines (alcohol, energy drinks, lighters, knives)? | Client | 2026-10-20 | Open | Changes checkout and delivery handover |
 | 16 | Business legal details: Ltd? company number, registered office, VAT number | Client | 2026-10-20 | Open | Required in footer/T&Cs if Ltd |
 | 18 | Vercel project import (connector is read-only) | Alex | 2026-10-20 | Open | Import via dashboard after #17, paste project ID into CLAUDE.md |
-| 19 | Supabase project: confirm cost of a new project in phantomdev-sys before creating | Alex | 2026-10-20 | Open | Org already has 5 projects |
+| 19 | Supabase project: confirm cost of a new project in phantomdev-sys before creating | Alex | 2026-10-20 | Open | Org already has 5 projects. Migrations written and validated (PGlite, 15 checks); ready to apply once the project exists |
 | 21 | Taxonomy clean-up: duplicate Pizza/Sausages (fresh+frozen), Prosecco Glasses under Cutlery, Plastic Cups top-level, Absolute Range as aisle | Alex | 2026-10-20 | Decided | Provisional aisle map in `scripts/seed_from_wp.py`; Absolute Range becomes a brand filter + landing page |
 | 22 | Absolute Catering Salmon has no aisle (only in Absolute Range) | Client | 2026-10-20 | Open | Fresh or frozen? |
 | 23 | Slug `hanfwers-pork-sausages` vs name "Hanfers Pork Sausages": correct brand spelling | Client | 2026-10-20 | Open | Product URL kept as-is until confirmed |
@@ -31,6 +31,14 @@ Last updated: 2026-10-20 · Open: 25 · Blocked: 3
 | 29 | Order email addresses (e.g. orders@) for sending/receiving order mail via Resend | Alex | 2026-10-20 | Open | Later; domain email is with Google (per Alex), leave existing mailboxes untouched |
 | 30 | Gift cards, sweets, fizzy drinks: WP media has gift card and drinks/sweets banners. Sold? | Client | 2026-10-20 | Open | Gift cards would need their own build (not v1) |
 | 31 | Share payment explainer with Ciaran and Noel; it asks who picks, no-substitutions at launch, who gets order emails | Alex | 2026-10-20 | Open | Claude Doc "How payment works on your new website" |
+
+| 34 | Fontshare fonts (Clash Display, Satoshi) to download on the Mac into public/fonts | Alex | 2026-10-20 | Open | Fontshare blocked from Claude's side; site currently on system fallback fonts |
+| 35 | WP product images have prices/captions baked in (and Gluten Free Turkey Burgers shows a Chicken Kiev) | Alex | 2026-10-20 | Decided | Not used on the new site; neutral placeholders until the Drive packshots arrive |
+| 36 | 30-mile radius reaches Derry~Londonderry (27.9 mi), Lisnaskea (27.0), Magherafelt (29.4) | Client | 2026-10-20 | Open | Big area for one van; confirm Ciaran is happy before slots are set |
+| 37 | Claude sessions can't push to the repo | Alex | 2026-10-20 | Open | Optional: install the Claude GitHub App on phantomdev-sys. Meanwhile Claude commits locally, Alex pushes |
+| 38 | Drafted copy to verify: homepage "from cafés and takeaways to families stocking the freezer", About page | Client | 2026-10-20 | Open | Facts only elsewhere; their own story should replace About |
+| 39 | Opening hours | Client | 2026-10-20 | Open | Not shown anywhere until confirmed |
+| 40 | 21st.dev components | Alex | 2026-10-20 | Decided | Quantity Stepper (Spectrum UI) chosen for the Phase 3 basket; Product Listing Card used as layout reference for tiles |
 
 ## Resolved
 
