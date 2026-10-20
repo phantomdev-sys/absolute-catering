@@ -100,17 +100,31 @@
   color-scheme: light;
 }
 
-/* Example self-hosted face — uncomment and duplicate per weight once the
-   woff2 files are in public/fonts/.
-
+/* Fontshare, self-hosted (Fontshare Free Licence, copies in docs/fonts/).
+   Variable files: one request per family covers every weight. */
 @font-face {
   font-family: 'Satoshi';
   src: url('/fonts/Satoshi-Variable.woff2') format('woff2-variations');
   font-weight: 300 900;
-  font-display: swap;
   font-style: normal;
+  font-display: swap;
 }
-*/
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-VariableItalic.woff2') format('woff2-variations');
+  font-weight: 300 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/fonts/ClashDisplay-Variable.woff2') format('woff2-variations');
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* ---------------------------------------------------------------------------
    Base
@@ -140,6 +154,10 @@
   h3 {
     font-family: var(--font-display);
     text-wrap: balance;
+    /* Clash Display is set tight by design and its word space is narrow;
+       at display sizes words start to run together without this. */
+    word-spacing: 0.08em;
+    letter-spacing: 0.005em;
   }
 
   /* A visible, high-contrast focus ring everywhere. Removing focus styles is

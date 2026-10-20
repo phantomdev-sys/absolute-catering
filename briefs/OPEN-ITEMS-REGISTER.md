@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 32 · Blocked: 3
+Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 
 ## Open
 
@@ -32,7 +32,6 @@ Last updated: 2026-10-20 · Open: 32 · Blocked: 3
 | 30 | Gift cards, sweets, fizzy drinks: WP media has gift card and drinks/sweets banners. Sold? | Client | 2026-10-20 | Open | Gift cards would need their own build (not v1) |
 | 31 | Share payment explainer with Ciaran and Noel; it asks who picks, no-substitutions at launch, who gets order emails | Alex | 2026-10-20 | Open | Claude Doc "How payment works on your new website" |
 
-| 34 | Fontshare fonts (Clash Display, Satoshi) to download on the Mac into public/fonts | Alex | 2026-10-20 | Open | Fontshare blocked from Claude's side; site currently on system fallback fonts |
 | 35 | WP product images have prices/captions baked in (and Gluten Free Turkey Burgers shows a Chicken Kiev) | Alex | 2026-10-20 | Decided | Not used on the new site; neutral placeholders until the Drive packshots arrive |
 | 36 | 30-mile radius reaches Derry~Londonderry (27.9 mi), Lisnaskea (27.0), Magherafelt (29.4) | Client | 2026-10-20 | Open | Big area for one van; confirm Ciaran is happy before slots are set |
 | 37 | Claude sessions can't push to the repo | Alex | 2026-10-20 | Open | Optional: install the Claude GitHub App on phantomdev-sys. Meanwhile Claude commits locally, Alex pushes |
@@ -53,3 +52,4 @@ Last updated: 2026-10-20 · Open: 32 · Blocked: 3
 | 32 | Architecture plan | 2026-10-20 | Approved as written; adjust as we go |
 | 17 | GitHub repo | 2026-10-20 | Published from VS Code (no gh/brew on the Mac) to slightlymucky by mistake, transferred to `phantomdev-sys/absolute-catering` |
 | 33 | Design direction | 2026-10-20 | B · Within 30 Miles, plus A's label treatment on product pages and allergen panel. Logo teal #60C4CA fails on white (2.1:1); deep teal #00747C for interactive |
+| 34 | Fontshare fonts | 2026-10-20 | Clash Display + Satoshi variable woff2 self-hosted in public/fonts; FFL licences in docs/fonts (self-hosting for websites permitted) |

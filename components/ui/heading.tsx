@@ -11,8 +11,8 @@ type HeadingProps = {
 };
 
 const sizes = {
-  xl: 'text-4xl md:text-6xl leading-[1.05] tracking-tight font-semibold',
-  lg: 'text-3xl md:text-4xl leading-[1.1] tracking-tight font-semibold',
+  xl: 'text-4xl md:text-6xl leading-[1.05] font-semibold',
+  lg: 'text-3xl md:text-4xl leading-[1.1] font-semibold',
   md: 'text-xl md:text-2xl leading-snug font-semibold',
   sm: 'text-base md:text-lg leading-snug font-semibold',
 } as const;
