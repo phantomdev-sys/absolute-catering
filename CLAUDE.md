@@ -14,7 +14,7 @@ British English throughout: site copy, comments, commits.
 | Platform | Identifier |
 |---|---|
 | Supabase org | phantomdev-sys (`tniqszshwsqrjsvxaxlb`) |
-| Supabase project ref | TBD (not yet created; check cost first) |
+| Supabase project | `absolute-catering` · ref `zlzdjentqmjjnxmojtko` · eu-west-1 (Ireland) · created by Alex 20 Oct 2026 |
 | Vercel team | phantom-dev1 (`team_HqP6SQwx4jkuTVYNACgBcyyI`) |
 | Vercel project | `absolute-catering` · `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7` · absolute-catering.vercel.app (Standard Protection: Vercel login required) |
 | GitHub repo | `phantomdev-sys/absolute-catering` (private). Never `slightlymucky`, an old account Alex no longer uses |
@@ -37,7 +37,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - `content/taxonomy.ts`: aisles and shelves, mapped from the WooCommerce categories. Drives navigation AND the 301s (`lib/redirects.ts`, exported to `data/redirects/redirects.csv` by `npm run redirects:export`).
 - `content/delivery.ts`: store coordinates, radius, town distances (postcodes.io, 20 Oct 2026).
 - `lib/catalogue.ts`: product data access. Supabase when configured, the WooCommerce seed otherwise.
-- `supabase/migrations/`: schema, written and validated in PGlite on 20 Oct 2026, **not yet applied** (no project yet).
+- `supabase/migrations/`: schema, validated in PGlite, applied to `zlzdjentqmjjnxmojtko` on 20 Oct 2026.
 - `data/scrape/`: raw 20 Oct 2026 WooCommerce Store API dump. `data/seed/`: generated seed. `scripts/seed_from_wp.py` regenerates.
 
 ## Product images

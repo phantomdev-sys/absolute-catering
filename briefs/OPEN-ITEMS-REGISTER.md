@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 33 · Blocked: 3
+Last updated: 2026-10-20 · Open: 31 · Blocked: 3
 
 ## Open
 
@@ -20,7 +20,6 @@ Last updated: 2026-10-20 · Open: 33 · Blocked: 3
 | 14 | Range beyond the 56 online | Alex | 2026-10-20 | Decided | Launch with the 56; range grows on the retainer. Notes: WP pages exist for Ham, Butter, Cheese, Pre Packed Dinners, Chicken Chunks, Food Wrap, Christmas with 0 products; 12 menu links 404 (Drinks, Pasta, Condiments, Cleaning…) |
 | 15 | Age-restricted lines (alcohol, energy drinks, lighters, knives)? | Client | 2026-10-20 | Open | Changes checkout and delivery handover |
 | 16 | Business legal details: Ltd? company number, registered office, VAT number | Client | 2026-10-20 | Open | Required in footer/T&Cs if Ltd |
-| 19 | Supabase project: confirm cost of a new project in phantomdev-sys before creating | Alex | 2026-10-20 | Open | Org already has 5 projects. Migrations written and validated (PGlite, 15 checks); ready to apply once the project exists |
 | 21 | Taxonomy clean-up: duplicate Pizza/Sausages (fresh+frozen), Prosecco Glasses under Cutlery, Plastic Cups top-level, Absolute Range as aisle | Alex | 2026-10-20 | Decided | Provisional aisle map in `scripts/seed_from_wp.py`; Absolute Range becomes a brand filter + landing page |
 | 22 | Absolute Catering Salmon has no aisle (only in Absolute Range) | Client | 2026-10-20 | Open | Fresh or frozen? |
 | 23 | Slug `hanfwers-pork-sausages` vs name "Hanfers Pork Sausages": correct brand spelling | Client | 2026-10-20 | Open | Product URL kept as-is until confirmed |
@@ -39,7 +38,6 @@ Last updated: 2026-10-20 · Open: 33 · Blocked: 3
 | 40 | 21st.dev components | Alex | 2026-10-20 | Decided | Quantity Stepper (Spectrum UI) chosen for the Phase 3 basket; Product Listing Card used as layout reference for tiles |
 
 | 41 | Demo prices (£1.00, NEXT_PUBLIC_DEMO_PRICES=1) must be OFF in Production | Alex | 2026-10-20 | Open | Set only on Vercel Preview; launch checklist item. Banner shows whenever it's on |
-| 42 | Supabase project for accounts/favourites/orders | Alex | 2026-10-20 | Waiting | MCP create was cancelled twice (cost-approval box not shown); Alex creating in dashboard: absolute-catering, eu-west-2 |
 | 43 | Stripe test keys in Vercel (Alex's account to start, switch to client's later) | Alex | 2026-10-20 | Open | Names given when checkout is wired |
 
 ## Resolved
@@ -58,3 +56,5 @@ Last updated: 2026-10-20 · Open: 33 · Blocked: 3
 | 34 | Fontshare fonts | 2026-10-20 | Clash Display + Satoshi variable woff2 self-hosted in public/fonts; FFL licences in docs/fonts (self-hosting for websites permitted) |
 | 18 | Vercel project | 2026-10-20 | Imported by Alex: `prj_1VRDG6Pk0evirDnuBHzZLDCBPMI7`, first deploy of 2bd7e79 READY, Standard Protection on |
 | 44 | Stock imagery | 2026-10-20 | 5 Adobe Stock images licensed (4 by Claude, 1 by Alex); record in docs/STOCK-LICENCES.md; mood/category slots only |
+| 19 | Supabase project | 2026-10-20 | Created by Alex in the dashboard: `zlzdjentqmjjnxmojtko` (eu-west-1, Ireland, not London; fine for NI) |
+| 42 | Schema applied | 2026-10-20 | 5 migrations applied, 56 products seeded as awaiting_client; advisors: security flags intentional, FK indexes added |
