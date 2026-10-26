@@ -8,7 +8,7 @@ import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { Breadcrumbs } from '@/components/shop/breadcrumbs';
 import { PostcodeForm } from '@/components/delivery/postcode-form';
-import { RadiusMap } from '@/components/delivery/radius-map';
+import { DeliveryAreaMap } from '@/components/delivery/delivery-area-map';
 
 export const metadata: Metadata = {
   title: copy.title,
@@ -100,7 +100,7 @@ export default async function DeliveryPage({ searchParams }: Props) {
         </div>
 
         <div className="lg:sticky lg:top-6">
-          <RadiusMap
+          <DeliveryAreaMap
             pin={result.kind === 'ok' ? { lat: result.lat, lng: result.lng, label: result.postcode, delivers: result.delivers } : undefined}
           />
           <details className="mt-6 rounded-md border border-line">

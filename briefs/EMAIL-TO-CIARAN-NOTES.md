@@ -20,7 +20,8 @@ Collected 26 Oct 2026. Not sent yet. Turn these into one email with `data/pack-l
    - Cooked Sliced Chicken Breast 500g / Cooked Pulled Chicken Breast
 6. **Pack sizes** where the photo doesn't show one (marked NEEDED).
 7. **Kenny's sauces:** the Italian Dressing and Ketchup stickers say £4.50. Are the Garlic Mayo, Taco and Spicy Fried Chicken the same price?
-8. **Tip for future photos:** price stickers on the front cover the product name and end up on the website image. If possible, photograph before stickering, or put the sticker on the back.
+8. **Photo quality, for the next batch.** We've cleaned his photos up for now, but on clear and shiny bags the background removal can't always tell the pack from the black box, and some edges get clipped. A white or light grey background (a white sheet or foam board in the box is fine), with the pack flat and filling most of the frame, will give much sharper results. We can then redo the weaker ones.
+9. **Tip for future photos:** price stickers on the front cover the product name and end up on the website image. If possible, photograph before stickering, or put the sticker on the back.
 
 ## Still open from before (check the register)
 Delivery and collection slot times, delivery charge and minimum order, opening hours, business legal details (company number, VAT), and who receives order emails.
