@@ -24,6 +24,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 
 ## Hard rules
 - Never invent allergen, ingredient, price, VAT or pack-size data. Null + `data_status` until the client supplies it; allergens need a named person's written sign-off.
+- Decisions 26 Oct 2026 (Alex): every product the client sends goes on the site, with or without full information; no product cap. Prices printed on the pack or the shop's sticker in the client's photos ARE the price (`data/pack-labels/prices.json`; Ciaran is told). Ingredient/allergy text read off pack photos is shown only as "from the pack photo" under the unchecked-information disclaimer, never as confirmed data. Gaps are tracked in `data/pack-labels/info-needed.csv` and filled before the public domain goes live.
 - No Phantom fees (hosting, retainer, build) on any client-facing page or document — figure still TBC.
 - Product images are keyed by product slug so Drive photos (`<slug>-front.jpg`, `<slug>-back.jpg`) drop in without code changes.
 - Product URLs stay `/product/<slug>` (identical to WooCommerce). Category and page URLs 301 per `data/redirects/redirects.csv`.
@@ -41,7 +42,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - `data/scrape/`: raw 20 Oct 2026 WooCommerce Store API dump. `data/seed/`: generated seed. `scripts/seed_from_wp.py` regenerates.
 
 ## Product images
-- Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp`, then `npm run packshots`. Until then, neutral placeholders.
+- Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp` / `-extra-N.webp`, then `npm run packshots`. Until then, neutral placeholders. Client photos are cut out of their black photobox onto white without recolouring the product (26 Oct 2026; method notes in `data/pack-labels/README.md`).
 - **Do not use the old WordPress product images on the site.** They are social-media screenshots with prices and captions printed on them (and at least one is the wrong product). They're kept in `media/wp-library/` for reference only.
 
 ## Working setup

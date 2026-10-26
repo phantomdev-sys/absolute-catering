@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-20 · Open: 34 · Blocked: 3
+Last updated: 2026-10-26 · Open: 34 · Blocked: 3
 
 ## Open
 
@@ -9,7 +9,6 @@ Last updated: 2026-10-20 · Open: 34 · Blocked: 3
 | 2 | Hosting/retainer figure | Alex | 2026-10-20 | Waiting | Keep off all client-facing pages until confirmed |
 | 3 | Product data sheet (due 16 Oct): no sign of it in Drive or email | Client | 2026-10-20 | Blocked | Gates launch: price, pack size, VAT, sell-online, allergens. Alex pushing client; launch asap with what arrives |
 | 4 | Allergen + ingredients data with named written sign-off | Client | 2026-10-20 | Blocked | Legal requirement before any product is sold online |
-| 5 | Product photography (Drive folder empty as of 20 Oct 19:10) | Client | 2026-10-20 | Waiting | Placeholders keyed by slug; expected from 21 Oct |
 | 6 | Download WP media library (114 files, renamed by slug) | Alex | 2026-10-20 | Waiting | Export received 20 Oct. Run `bash scripts/fetch-wp-media.sh` on the Mac (site blocked from Claude's side); then Claude sorts the 24 unsorted files |
 | 7 | Delivery slots: days, times, capacity, cut-off, blackout dates | Client | 2026-10-20 | Blocked | Slot engine built configurable; can't go live without values |
 | 8 | Collection slots: hours, capacity | Client | 2026-10-20 | Waiting | |
@@ -44,6 +43,13 @@ Last updated: 2026-10-20 · Open: 34 · Blocked: 3
 | 47 | Staff order screen: picking list, mark unavailable, capture payment | Alex | 2026-10-20 | Open | Next build step; until then capture/cancel in the Stripe dashboard (test mode) |
 | 48 | Resend: confirmation email for newsletter double opt-in, order emails | Alex | 2026-10-20 | Open | Newsletter sign-ups stored unconfirmed until then |
 
+| 51 | 5 photo products may duplicate, or be flavour/size variants of, old-site products | Client | 2026-10-26 | Open | In info-needed.csv; if variants, consider one product with options |
+| 55 | Before the public domain goes live: catalogue switches to live-only once a product is live in Supabase; DB `live_requires_complete_data` still needs signed-off allergens to sell | Alex | 2026-10-26 | Open | Decision: everything shows on the site now; information is completed before the domain cutover |
+| 56 | Tell Ciaran we've used pack/sticker prices; send him the info-needed sheet | Alex | 2026-10-26 | Open | Notes ready in `briefs/EMAIL-TO-CIARAN-NOTES.md` |
+| 49 | Pack-photo text (ingredients, allergy advice) is a Claude transcription, unchecked | Client | 2026-10-26 | Open | Shown on product pages as "from the pack photo" under a disclaimer (decision: missing info must not keep products off the site). Needs checking + named sign-off; `data/pack-labels/info-needed.csv` is the to-do list |
+| 52 | 8 Rosie & Jim back-of-pack photos are identical brand panels with no product name | Client | 2026-10-26 | Open | Not attached to any product. Back photos showing the ingredients panel would be more useful |
+| 53 | 45 old-site products still have no photo; 3 cutouts worth a reshoot (AIA wings, Steak Crunch n Seal tub, Vista Popcorn Chicken) | Client | 2026-10-26 | Open | Placeholders sort after photographed products on every shelf |
+
 ## Resolved
 
 | # | Item | Resolved | Outcome |
@@ -62,4 +68,7 @@ Last updated: 2026-10-20 · Open: 34 · Blocked: 3
 | 44 | Stock imagery | 2026-10-20 | 5 Adobe Stock images licensed (4 by Claude, 1 by Alex); record in docs/STOCK-LICENCES.md; mood/category slots only |
 | 19 | Supabase project | 2026-10-20 | Created by Alex in the dashboard: `zlzdjentqmjjnxmojtko` (eu-west-1, Ireland, not London; fine for NI) |
 | 42 | Schema applied | 2026-10-20 | 5 migrations applied, 56 products seeded as awaiting_client; advisors: security flags intentional, FK indexes added |
+| 5 | Product photography | 2026-10-26 | 112 photos from Ciaran (23 Oct): 79 products now have packshots on white (68 new products + 11 old-site ones), all 124 in Supabase as awaiting_client |
+| 50 | Price stickers in photos | 2026-10-26 | Run with prices printed on pack/sticker (29 products, `data/pack-labels/prices.json`); Ciaran to be told (#56) |
+| 54 | Product cap | 2026-10-26 | No cap for now; upload whatever the client sends |
 | 43 | Stripe test keys | 2026-10-20 | Alex's own new 'Absolute Catering Supplies' Stripe account, sandbox keys added to Vercel |

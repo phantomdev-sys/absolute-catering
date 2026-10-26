@@ -17,6 +17,19 @@ unrelated policy is a migration you cannot reason about when it fails halfway.
 never "added later". A table with RLS off is readable by anyone with the anon
 key, which is published in the client bundle by design.
 
+**Every table gets explicit grants.** In the same migration that creates it.
+Since 30 Oct 2026 Supabase no longer grants API roles access to new tables in
+`public`, and that includes tables rebuilt by replaying these migrations
+(preview branches, `supabase db reset`). Without grants the API returns
+"permission denied". Grant `anon` select only on tables with a public select
+policy; never grant `anon` writes:
+
+```sql
+grant select on public.your_table to anon;            -- public tables only
+grant select, insert, update, delete on public.your_table to authenticated;
+grant select, insert, update, delete on public.your_table to service_role;
+```
+
 **Gate child rows in the policy, not in application code.** Child records
 visible only when the parent is published, enforced in the database — so a
 query that forgets the filter cannot leak a draft. Application-level filtering

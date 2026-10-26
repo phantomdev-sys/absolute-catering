@@ -1,0 +1,2180 @@
+{
+  "transcribed": "2026-10-26",
+  "source": "Client photos in Drive folder \"Absolute Catering - Photography\" (uploaded 23 Oct 2026)",
+  "status": "UNVERIFIED: read off the pack photos by Claude; must be checked against the pack and signed off before it counts as product data",
+  "labels": {
+    "aia-durango-spiced-roasted-chicken-wings": {
+      "name_on_pack": "Durango Alette di Pollo Arrosto",
+      "brand": "AIA",
+      "pack_size": "1000g",
+      "storage": "frozen",
+      "ingredients": "chicken wings(87%)lemon juice from concentrate, potato starch, WHEAT flour (gluten), [illegible] salt,potato granules, dextrose, flavourings, red chilli peppers,spices, antioxidant: sodium ascorbate, [illegible]phosphates, smoke flavoring, may contain: EGGS, MILK, SOYA, MUSTARD.",
+      "allergen_statement": "may contain: eggs, milk, soya, mustard (allergens underlined on pack: wheat, eggs, milk, soya, mustard)",
+      "sticker_price": null,
+      "facts": [
+        "Roasted chicken wings (Alette di pollo arrosto)",
+        "1000g",
+        "Surgelato / quick-frozen",
+        "Air fryer 12 minutes; oven 15 minutes (icons on pack)",
+        "Spiced chicken wings. Mildly hot. Pre-cooked. Quick-frozen",
+        "Air fryer: preheat to 190°C, cook 12 minutes",
+        "Fan-assisted oven: preheat to 220°C, cook frozen wings in an oven dish for 15 minutes",
+        "Once thawed, do not refreeze; keep in the refrigerator and consume within 24 hours",
+        "Freezer star ratings: *** (-18°C) see date on pack; ** (-12°C) 1 month; * (-6°C) 1 week; ice compartment 3 days",
+        "Multilingual pack (Italian, English, German, French, Spanish, Croatian, Greek)",
+        "Produced by AIA S.p.A., Italy (A.I.A. S.P.A. (UK), London)",
+        "Nutrition per 100g (as read, alignment uncertain): 834kJ/199kcal, fat 11g, saturates 3.3g, carbohydrate 5.5g, sugars 0.6g, protein 20g, salt 2.3g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of the AIA Durango pack (back = 1o6AvOsZ98GBb4xpMrTo0LNLOosD04HWa). Front text is Italian; 'quick-frozen' printed in multiple languages top left.",
+        "Back of pack, crumpled. English ingredients left edge cut off by fold: start of line 3 (Italian equivalent reads 'paprica, sale') and start of line 4 ('[...]phosphates', Italian 'trifosfati') not fully legible. Allergens shown underlined (not caps); written in caps here. Pack weight not visible (bottom edge cut). Nutrition table rows tilted - verify values."
+      ],
+      "source_drive_ids": [
+        "1z0Lnj5etLbKKo37X6GrujlteXPFLQfLt",
+        "1o6AvOsZ98GBb4xpMrTo0LNLOosD04HWa"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "breaded-chicken-maryland": {
+      "name_on_pack": "Breaded Chicken Maryland x4",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "x4",
+      "storage": "frozen",
+      "ingredients": null,
+      "allergen_statement": "Allergen Information: Contains : Chicken (71%), wheat, egg",
+      "sticker_price": "£5.99",
+      "facts": [
+        "4 breaded chicken marylands per pack",
+        "Keep Frozen at -18°C",
+        "Once Defrosted Do Not Refreeze",
+        "Best results heat from frozen",
+        "Preheat oven to 200°C, remove from packaging and place on a baking tray, bake for 20-25 (units not stated) turning once halfway",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone, BT78 5EJ"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label sticker. No full ingredients list on label - only allergen line (wheat, egg). Cooking time units missing on label ('Bake for 20-25')."
+      ],
+      "source_drive_ids": [
+        "1yHzFFr97LRx3CJKKeTkkZhpfAzd89umI"
+      ],
+      "pack_size_display": "4 pack"
+    },
+    "cooked-chicken-breast-fillet": {
+      "name_on_pack": "Cooked Chicken Breast Fillet",
+      "brand": "Absolute Catering",
+      "pack_size": "Approx: 2.5KG",
+      "storage": "chilled",
+      "ingredients": "Chicken Breast (99.1%), Salt, Water. DOES NOT CONTAIN GLUTEN.",
+      "allergen_statement": "DOES NOT CONTAIN GLUTEN.",
+      "sticker_price": null,
+      "facts": [
+        "Steam cooked",
+        "Low in fat",
+        "High in protein",
+        "Ready to eat",
+        "No artificial colours or flavours",
+        "Origin Brazil",
+        "Keep refrigerated between 0°C - 5°C",
+        "Not suitable for freezing",
+        "Use within 2 days of opening",
+        "Per 100g: Energy 475kJ/113kcal, Fat 1.2g, of which saturates 1.0g, Carbohydrates 0.0g, of which sugars 0.0g, Protein 26g, Salt 0.5g",
+        "Unit 23c Gortrush Ind Est, Omagh, BT78 5EJ"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Photo rotated 90°. Brand line at top of label cut off; same label/barcode (5034207019348) as photo 1Lhzhk-FR7h8rkz_otilEqqccDeHz29mg, which shows 'ABSOLUTE CATERING'. Use By 12/10/26. Not the same as existing 'cooked-pulled-chicken-breast' (this is whole fillets, not pulled). Nutrition values small print - verify.",
+        "Same label as 1JVEcfOTAiGG7bg2o_kkDtPZnF2_D6ogU (that photo has the clearer close-up). Use By 12/10/26. Not the existing pulled chicken product."
+      ],
+      "source_drive_ids": [
+        "1Lhzhk-FR7h8rkz_otilEqqccDeHz29mg",
+        "1JVEcfOTAiGG7bg2o_kkDtPZnF2_D6ogU"
+      ],
+      "pack_size_display": "approx. 2.5kg"
+    },
+    "cooked-sliced-roast-beef-500g": {
+      "name_on_pack": "Cooked Sliced Roast Beef",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "0.500KG e",
+      "storage": "chilled",
+      "ingredients": "Beef, Salt, Dried Glucose Syrup, Emulsifier: [E451], Stabiliser: [E407a], Dextrose, Yeast Extract. Made With 105g Raw Beef Per 100g Finished Product. Origin of Beef: Ireland",
+      "allergen_statement": "WARNING: THIS PRODUCT MAY CONTAIN BONE",
+      "sticker_price": null,
+      "facts": [
+        "Cooked, sliced",
+        "Made with 105g raw beef per 100g finished product",
+        "Origin of beef: Ireland",
+        "Keep refrigerated. Store between 0°C and 4°C. Use within 3 days of opening",
+        "Packed in a protective atmosphere",
+        "Warning: this product may contain bone",
+        "Nutrition per 100g: Energy 545kJ/129kcal, Fat 3.6g, of which saturates 1.2g, Carbohydrates 1.0g, of which sugars <0.1g, Fibre <0.5g, Protein 23.3g, Salt 1.5g",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone",
+        "Health mark IE 2042 EU",
+        "Cooked sliced roast beef",
+        "KEEP REFRIGERATED. Store between 0°C and 4°C. Use within 3 days of opening",
+        "Nutrition per 100g: 545kJ/129kcal, fat 3.6g, saturates 1.2g, carbohydrates 1.0g, sugars <0.1g, fibre <0.5g, protein 23.3g, salt 1.5g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label pack. No allergens emphasised on label.",
+        "Own-label. No allergens declared on label (bone warning only). Last letter of 'Ireland' cut at label edge."
+      ],
+      "source_drive_ids": [
+        "1S_mcMCcLTyXEniQGb6pmEQFyvkNh_WTT",
+        "1oJQBGVkgiftaCi_neImKFg7i-0C04PBn"
+      ],
+      "pack_size_display": "500g"
+    },
+    "cooked-sliced-roast-beef-1kg": {
+      "name_on_pack": "Cooked Sliced Roast Beef",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "1.000KG e",
+      "storage": "chilled",
+      "ingredients": "Beef, Salt, Dried Glucose Syrup, Emulsifier: [E451], Stabiliser: [E407a], Dextrose, Yeast Extract. Made With 105g Raw Beef Per 100g Finished Product. Origin of Beef: Ireland",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked, sliced",
+        "Made with 105g raw beef per 100g finished product",
+        "Origin of beef: Ireland",
+        "Keep refrigerated. Store between 0°C and 4°C. Use within 3 days of opening",
+        "Packed in a protective atmosphere",
+        "Warning: this product may contain bone",
+        "Nutrition per 100g: Energy 545kJ/129kcal, Fat 3.6g, of which saturates 1.2g, Carbohydrates 1.0g, of which sugars <0.1g, Fibre <0.5g, Protein 23.3g, Salt 1.5g",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone",
+        "Health mark IE 2042 EU"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label pack, 1kg size of same product as the 0.5kg pack (1S_mcMCcLTyXEniQGb6pmEQFyvkNh_WTT). No allergens emphasised."
+      ],
+      "source_drive_ids": [
+        "1Z9sCjTz2nV7H8db5EmxiYPwWI2Laodx5"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "absolute-catering-pork-sausages-4": {
+      "name_on_pack": "Pork 4's Sausages",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "x4",
+      "storage": "frozen",
+      "ingredients": "pork62% ,pork fat, water.wheat flour,salt,soya flour,stailiser, E451,rusk(wheat flour(calcium carbonate, iron,niacin,thiamin),salt,sugar,pea starch, isolated soya protein,spice(white pepper, mustard),flavour enhancerE621,preservative, (sodium metabisulphite E223),hydroysled, (soya),maize protein,dextrose,natural flavouring, acidity regulator(E331iii),and antioxidant(E301)",
+      "allergen_statement": "Allergen Information: Contains :Pork (52%), WHEAT, SOYA, MUSTARD, SUPHITE",
+      "sticker_price": "£2.99",
+      "facts": [
+        "4 sausages per pack",
+        "Keep Frozen at -18°C",
+        "Once Defrosted Do Not Refreeze",
+        "Best results heat from frozen",
+        "Grill: medium heat 5-7 mins turning occasionally",
+        "Shallow fry: melt a little fat in pan, fry gently 5-7 mins",
+        "Deep fry: cook from frozen 5-7 mins at approx 180°",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone, BT78 5EJ"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label sticker. Label inconsistency: allergen box says Pork (52%) but ingredients say pork62%. Typos as printed ('SUPHITE', 'stailiser', 'hydroysled'). Ingredients not emphasised in caps except in the Contains line; allergens there are WHEAT, SOYA, MUSTARD, SULPHITE. Client should check label wording."
+      ],
+      "source_drive_ids": [
+        "1jU6fdt83fQpp9-M1eGWGDRhbAS1-HpEf"
+      ],
+      "pack_size_display": "4 pack"
+    },
+    "battered-sausages": {
+      "name_on_pack": "Battered Sausages x10",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "x10",
+      "storage": "frozen",
+      "ingredients": "Pork (50%), WHEAT FLOUR, MILK, SOYA FLOUR, SOYA PROTEIN, MAIZE FLOUR, WHEAT STARCH, WHEAT GULTEN, SKIMMED MILK POWDER, WHEAT GLUTEN, MUSTARD,",
+      "allergen_statement": "Allergen Information: Contains : Pork (50%), WHEATFLOUR, MILK, SOYA FLOUR, SOYA PROTEIN, MAIZE FLOUR, WHEAT STARCH, WHEAT GULTEN, SKIMMED MILK POWDER, WHEAT GLUTEN, MUSTARD,",
+      "sticker_price": "£4.75",
+      "facts": [
+        "10 battered sausages",
+        "Keep frozen at -18°C",
+        "Once defrosted do not refreeze",
+        "Oven from frozen: preheat to 200°C, bake on a baking tray 16-18 minutes",
+        "Deep fry from frozen 6-9 minutes",
+        "Absolute Catering Supplies, 23 Gortrush Industrial Estate, Omagh, Co. Tyrone - Tel 028 8224 8104"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Shop's own printed label; the only composition text is an 'Allergen Information: Contains' list (whole label is upper case). Typos as printed: 'WHEATFLOUR', 'GULTEN', 'fozen'. Best Before: Sep 27. This is not a full legal ingredients list - check with supplier."
+      ],
+      "source_drive_ids": [
+        "1QrW1LWMnQm0ZILwyF-x72d0ZIckKnXF7"
+      ],
+      "pack_size_display": "10 pack"
+    },
+    "cooked-chicken-kebabs-1kg": {
+      "name_on_pack": "Cooked Chicken Kebabs (Defrosted)",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "1.000KG e",
+      "storage": "chilled",
+      "ingredients": "Chicken (88%), Water, Salt, Tapioca Starc[h] Stabilisers (E331, E500), D-xylose, Soybean Oil).",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked chicken kebabs on wooden skewers",
+        "Supplied defrosted",
+        "Chicken 88%",
+        "Reheat - Oven: preheat oven to 180°C, place on baking tray, cover with aluminium foil and heat for 15-20 minutes",
+        "Reheat - Microwave: place on a microwavable dish, heat on full power for 2 minutes (800W oven); times vary",
+        "Keep refrigerated. Store between 0°C and 5°C. Use within 3 days of opening",
+        "Packed in a protective atmosphere",
+        "Warning: this product may contain bone",
+        "Nutrition per 100g: Energy 614kJ/147kcal, Fat 6.0g, of which saturates 1.9g, Carbohydrates 3.8g, of which sugars 3.0g, Protein 21g, Salt 1.0g",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone; health mark IE 2042 EU"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label. End of first ingredient line is cut off by label edge ('Tapioca Starc...') and the list has an unmatched closing bracket - possibly a word/opening bracket missing; verify. Contains Soybean Oil (soya) but no allergen emphasis on label. Not matched to seasoned-chicken-kebabs (that listing may be a raw product) - confirm."
+      ],
+      "source_drive_ids": [
+        "1gBoOauh5JDa6aZ-A70tFAWqmAReJrAeG"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "cooked-gammon-ham-sliced-500g": {
+      "name_on_pack": "Cooked Gammon Ham Sliced",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "0.500KG e",
+      "storage": "chilled",
+      "ingredients": "Pork (92%), Water, Salt, Antioxidant: Sodium Ascorbate [E301], preservatives: Sodium Nitrite (E250),Sodium Nitrate(E251)",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked gammon ham, sliced",
+        "Pork 92%",
+        "Keep refrigerated. Store between 0°C and 3°C. Use within 3 days of opening.",
+        "Warning: This product may contain bone",
+        "Per 100g: Energy 454kJ/108kcal, Fat 3.0g, of which saturates 1.2g, Carbohydrate 1.0g, of which sugars 0.9g, Protein 20g, Salt 2.2g",
+        "Label code 'HAMGAMMONSLICED 8X50'",
+        "Packed by Absolute Catering Supplies, Omagh, Co Tyrone (IE 2042 EU)",
+        "Cooked, sliced gammon ham",
+        "Warning: this product may contain bone",
+        "Product code HAMGAMMONSLICED 8X50",
+        "Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label tray. Use by 15/10/26, batch 40980. '8X50' printed under product code - may indicate case/slice spec, unclear. No allergen statement on label.",
+        "No allergens declared. Code line 'HAMGAMMONSLICED 8X50' (possibly 8 x 50g slices - not stated explicitly). Use by 15/10/26, batch 40980, IE 2042 EU."
+      ],
+      "source_drive_ids": [
+        "19sGqxt6ANPmK-BeX_GMrTY_e6pRT6kgO",
+        "1SFlOgvDREctowDom9mUTNioNuL4EEJu4"
+      ],
+      "pack_size_display": "500g"
+    },
+    "hot-spicy-chicken-kebabs": {
+      "name_on_pack": "Cooked Hot & Spicy Chicken Kebabs (Defrosted)",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "1.000KG",
+      "storage": "chilled",
+      "ingredients": "Chicken (83%), Water, Salt, Tapioca Starch, D-xylose, Stabilisers (E331, E452), Soyabean oil), HNS Glaze (5%). (Sugar, Starch, Salt, Maltodextrin, Dried Tomato, Spices (Paprika, Cayenne, White Pepper, Cumin), Dried Garlic, Herbs (Parsley, Thyme, Sage, Oregano), Yeast Extract, Colours: (Paprika Extract, Carmine), Thickener (Guar Gum), Flavour (Natural Jalapeno Extract).",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked",
+        "Defrosted",
+        "Oven: preheat to 180°C, cover with foil, 15-20 minutes",
+        "Microwave: full power 2 minutes (800W)",
+        "Keep refrigerated between 0°C and 5°C; use within 3 days of opening",
+        "Packed in a protective atmosphere",
+        "Warning: this product may contain bone",
+        "Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone",
+        "Per 100g: Energy 614kJ/163kcal (other values appear misaligned on label)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Ingredients transcribed as printed including unbalanced brackets. No allergens emphasised; 'Soyabean oil' appears in plain text - soya should be checked. Nutrition column appears offset (Protein shows next to 5.5g, 21.2g below) - verify. Use by 10/10/26, batch 40697/32844, IE 2042 EU."
+      ],
+      "source_drive_ids": [
+        "1Nqyp8O2_xlrmm_vzUYIv_KA5Pq7Yp0bd"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "cooked-pulled-pork-500g": {
+      "name_on_pack": "Cooked Pulled Pork",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "0.500KG",
+      "storage": "chilled",
+      "ingredients": "Pork, water salt, dried glucose syrup, emulsifier: [E451], stabiliser: [E412], yeast extract, preservative [E325]. Made with 105g raw pork per 100g finished product. Origin of Pork: Ireland",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked",
+        "Made with 105g raw pork per 100g finished product",
+        "Origin of pork: Ireland",
+        "Keep refrigerated. Store between 0°C and 5°C. Use within 3 days of opening.",
+        "Packed in a protective atmosphere",
+        "Warning: this product may contain bone",
+        "Per 100g: Energy 447kJ/106kcal, Fat 2.4g, of which saturates 1.3g, Carbohydrate 1.0g, of which sugars <0.5g, Protein 21.1g, Salt 1.9g",
+        "Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone"
+      ],
+      "legibility": "good",
+      "notes": [
+        "'water salt' printed without comma. 'Made' slightly cut at label edge. No allergens declared/emphasised. Use by 01/10/26, batch 150926PP. Shop has pulled chicken, not pulled pork."
+      ],
+      "source_drive_ids": [
+        "1QUJ6-q4Gvn5dGYovxAGKV_63F9WW6STJ"
+      ],
+      "pack_size_display": "500g"
+    },
+    "cooked-sliced-chicken-breast-500g": {
+      "name_on_pack": "Cooked Sliced Chicken Breast",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "0.500KG e",
+      "storage": "chilled",
+      "ingredients": "Chicken Breast, water, salt Made with 105g Raw Chicken per 100g finished product.",
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Cooked, sliced chicken breast",
+        "Made with 105g raw chicken per 100g finished product",
+        "Keep refrigerated. Store 0-3°C. Once opened consume within 3 days and by use by date.",
+        "Packed in a protective atmosphere",
+        "Warning: This product may contain bone",
+        "Per 100g: Energy 485kJ/115kcal, Fat 1.3g, of which saturates 0.4g, Carbohydrate 0.6g, of which sugars 0.6g, Protein 25.1g, Salt 0.95g",
+        "Packed by Absolute Catering Supplies, Omagh, Co Tyrone (IE 2042 EU)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label tray. Use by 01/10/26, batch 150926SC. Possibly related to existing 'cooked-pulled-chicken-breast' but that is pulled, this is sliced - not matched."
+      ],
+      "source_drive_ids": [
+        "10Srvfev3w6Pg7q3DALJ4yKM-jFmv7Cg0"
+      ],
+      "pack_size_display": "500g"
+    },
+    "farmhouse-ham-sliced-500g": {
+      "name_on_pack": "Farmhouse Ham Sliced",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "0.500KG e",
+      "storage": "chilled",
+      "ingredients": "Pork (97%), Salt, Sugar, Maltodextrin, Stabiliser ([E450], [E451], [E452]), Antioxidant (E301), Hydrolysed Vegetable Protein, Preservative (E250).",
+      "allergen_statement": "Allergen Advice: May contain traces of Wheat and Gluten.",
+      "sticker_price": null,
+      "facts": [
+        "Sliced ham, 97% pork",
+        "Keep refrigerated. Store between 0°C and 3°C. Use within 3 days of opening.",
+        "Packed in a protective atmosphere",
+        "Warning: This product may contain bone",
+        "Per 100g: Energy 736kJ/176kcal, Fat 10.46g, of which saturates 3.43g, Carbohydrate 0.29g, of which sugars 0.4g, Protein 20.3g, Salt 2.53g",
+        "Packed by Absolute Catering Supplies, 23D Gortrush Industrial Estate, Omagh, Co Tyrone (IE 2042 EU)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label tray. Nutrition table lists sugars (0.4g) higher than carbohydrate (0.29g) - as printed. Use by 08/10/26, batch 40982."
+      ],
+      "source_drive_ids": [
+        "10SdmTBW5v86WeWwObTb4mdAHCEHcK24F"
+      ],
+      "pack_size_display": "500g"
+    },
+    "hot-dog-pastry-lattice": {
+      "name_on_pack": "Hot Dog Pastry Lattice",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": null,
+      "storage": "frozen",
+      "ingredients": "cooked pork sausage 32% (pork, water, lard, salt, dextrose, spices (garlic, pepper, nutmeg), seasoning, stabiliser E331, antioxidant E300, natural flavouring, preservative E250, smoke), wheat flour, water, palm oil, mustard 3% (water, mustard seeds, spirit vinegar, salt, sugar, spices), sugar, yeast, rapeseed oils, salt, palm kernel oil, dextrose, modified starch, wheat gluten, wheat malt flour, milk protein, sweet whey powder (milk), spices (contains celery), emulsifiers (E[illegible], E471), thickeners (E401, E[illegible]), wheat starch, concentrated lemon juice, corn starch, flour treatment agents (E[illegible]), enzymes (hemicellulases, amylases)), acid E330, colour E160[illegible], sunflower oil, fructose.",
+      "allergen_statement": "ALLERGEN INFORMATION CONTAINS: WHEAT FLOUR, MILK, MUSTARD, GLUTEN, CELERY, EGG, NUTS, SOYA, SESAME.",
+      "sticker_price": "£3",
+      "facts": [
+        "Hot dog sausage in lattice pastry",
+        "Cooked pork sausage 32%",
+        "Best results heat from frozen",
+        "1. Preheat oven to 190°C; 2. Remove from packaging and place on a baking tray; 3. Bake for 16-18 minutes until golden brown",
+        "Keep frozen at -18°C (figure faint); once defrosted do not refreeze",
+        "Packed by Absolute Catering Supplies, 23 Gortrush Industrial Estate, Omagh, Co. Tyrone, Tel 028 8224 8104"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Own-label sticker on clear bag (multiple pieces). Ingredients printed lowercase with no emphasis; allergen 'CONTAINS' line is all caps. Last 3-4 ingredient lines are blurred - E-numbers marked [illegible]. Allergen line lists EGG, NUTS, SOYA, SESAME as 'Contains' even though not seen in the legible ingredients - verify with supplier. Price £3 printed on label; weight/count not shown. Frozen temp reads '-1?°C' (blurred)."
+      ],
+      "source_drive_ids": [
+        "1eUa0NEJdCQpXiRuqkyD-BJEAYeIL2t_h"
+      ],
+      "pack_size_display": null
+    },
+    "kebab-portions": {
+      "name_on_pack": "Kebab Portions",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": null,
+      "storage": "frozen",
+      "ingredients": "mechanically separated chicken([illegible]%),beef (10%),lamb(5%),rusk,(wheat flour, calcium carbonate,iron,niacin,thiamin),salt,raising agent: ammonium bicarbonate),seasoninh(flavour enhancer:monosodium glutamate,salt,onion powder,chilli powder,garlic powder),cumin.",
+      "allergen_statement": "ALLERGEN INFORMATION CONTAINS :WHEAT , DAIRY",
+      "sticker_price": "£1.99",
+      "facts": [
+        "Keep frozen at -18°C",
+        "Once defrosted do not refreeze",
+        "Best before: Sep 27",
+        "Absolute Catering Supplies, 23 Gortrush Industrial Estate, Omagh, Co. Tyrone. Tel: 028 8224 8104"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Printed price on label £1.99. Chicken percentage digit blurred (reads like 65% or 55%). 'seasoninh' typo as printed. Allergen line declares DAIRY but no dairy ingredient appears in the list - flag to client. Ingredients printed entirely lower case (no emphasis). Cooking instructions at bottom of label folded/illegible. No weight or piece count visible."
+      ],
+      "source_drive_ids": [
+        "15pOckVfGN_n82yEtymXLOhFrNSjm5kkP"
+      ],
+      "pack_size_display": null
+    },
+    "turkey-ham-stuffing-6-pack": {
+      "name_on_pack": "Turkey, Ham & Stuffing 6/7oz (6pk)",
+      "brand": "Absolute Catering Supplies",
+      "pack_size": "6/7oz (6pk) 1.10Kg",
+      "storage": "chilled",
+      "ingredients": "Turkey Breast (50%), Water, Brine Mix: (Salt, Dextrose, MILK Protein, Gelling Agent: [E407a], [E508], Stabilisers: [E451], [E452], Yeast Extract), Starch, Preservative: Vinegar. Ham (25%): Contains Pork Leg, Water, Salt, Antioxidant: [E301], Preservatives: ([E250], [E251]). Stuffing (25%): (Breadcrumbs: (WHEAT Flour (GLUTEN), Flour Treatment Agent: [E300], Water, Yeast, Salt), Onion, Rapeseed Oil, Butter (MILK), Water, Parsley, Lemon Zest, Thyme, Vegetable Bouillon (Salt, Yeast Extract, Maltodextrin, Sugar, Onions, Carrot Extract, Non-hydrogenated Rapeseed Oil, Tomato, CELERY Extract, Herbs), Salt, Sage, CELERY Salt (Salt, CELERY Extracts), White Pepper). Made from 115g raw Turkey per 100g Turkey and 110g raw Pork per 100g Ham.",
+      "allergen_statement": "WARNING: THIS PRODUCT MAY CONTAIN BONE",
+      "sticker_price": null,
+      "facts": [
+        "Cooked turkey breast, ham and stuffing - 6 portions of 6/7oz, 1.10kg tray",
+        "Made from 115g raw turkey per 100g turkey and 110g raw pork per 100g ham",
+        "KEEP REFRIGERATED. Store between 0°C and 3°C. Use within 3 days of opening",
+        "Packed in a protective atmosphere",
+        "Reheat oven: 180°C, covered with foil, 15-20 minutes; microwave: full power 2 minutes (800W). Check food is piping hot throughout before serving",
+        "Health mark IE 2042 EU",
+        "Nutrition per 100g: 688kJ/164kcal, fat 5.3g, saturates 1.6g, carbohydrates 9.4g, sugars 1.1g, protein 19.5g, salt 1.12g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Own-label. Allergens in bold on label: MILK, WHEAT (GLUTEN), CELERY. Photographed outdoors (held). Possibly corresponds to existing 'Turkey Trays' listing - not certain, confirm with client."
+      ],
+      "source_drive_ids": [
+        "1z719VZ-SEznIZTNt3RBV4cRGS_1pucok"
+      ],
+      "pack_size_display": "6 x 6/7oz, 1.1kg"
+    },
+    "americana-seeded-burger-buns-12": {
+      "name_on_pack": "4.5\" Seeded Burger Buns",
+      "brand": "Americana",
+      "pack_size": "12x",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£2.99",
+      "facts": [
+        "12 x 4.5\" seeded burger buns",
+        "Made the American way"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients/allergens visible (sesame seeds visible on buns - check back label). Price sticker partly cut off at edge but reads £2.99."
+      ],
+      "source_drive_ids": [
+        "1mdxypMUfons6AHiO4bu3hWkwva7V7SPD"
+      ],
+      "pack_size_display": "12 pack"
+    },
+    "apollo-dan-bol-chicken-noodles": {
+      "name_on_pack": "dan Bol Chicken Flavour Instant Noodles",
+      "brand": "Apollo",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Chicken flavour instant noodles",
+        "XL format bowl",
+        "Bilingual pack (English/French: Saveur Poulet Nouilles Instantanées)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Weight not visible in this photo (small text on lid unreadable)."
+      ],
+      "source_drive_ids": [
+        "1jThXGUGn09cqbgWymKoFRJAy-JVgefA4"
+      ],
+      "pack_size_display": null
+    },
+    "majestic-bagasse-plates-7in-50": {
+      "name_on_pack": "Bagasse White Round Plates",
+      "brand": "Majestic",
+      "pack_size": "50pcs",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Size: 7\"",
+        "Qty: 50pcs",
+        "Ref: BRP 7",
+        "P/C: 09890 - BV8",
+        "Suitable for food use",
+        "Made from sugarcane fibre",
+        "Bio-degradable",
+        "Compostable",
+        "Round plates, 7\" size",
+        "50pcs per pack",
+        "Made from [bagasse] fibre (partially obscured)",
+        "Product code fragment '...09890 - BV8'"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food disposable. Not matched to strong-paper-plates (bagasse, not paper).",
+        "Non-food. Printed label on top plate distorted by shrink-wrap; brand name truncated ('...ESTIC...'), and 'BAGASSE' and 'Suitable fo[r]...' partially hidden. Existing 'strong-paper-plates' is a different (paper) product - not matched; confirm with client."
+      ],
+      "source_drive_ids": [
+        "1UhBv3uZjRT86TIOKXdP3NCC5pLc0eEeX",
+        "136scAyyXxmh7wpMIlWHfVfX7Ve_07T3j"
+      ],
+      "pack_size_display": "50pcs"
+    },
+    "paper-coffee-cups": {
+      "name_on_pack": "4oz Paper Cup",
+      "brand": null,
+      "pack_size": "4oz",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "4oz",
+        "Black ripple-wall paper cups",
+        "Sleeve pack"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Not food. Sleeve of black ripple cups, printed '4oz Paper Cup' on film; count not printed (about 23+ cups visible). Photographed outdoors. Slug match by product type only; differs in size from the 12/16oz lid photo."
+      ],
+      "source_drive_ids": [
+        "1RIwp1OZxVrCmMUMZAaVLpJGyRuPKnRCV",
+        "1KMN_FLZmxvmosdmaO0o8Bt_7XTI3Xw8I",
+        "1_YowfiMgS1TQkOlfd868OxGdQxxJIO5"
+      ],
+      "pack_size_display": "4oz"
+    },
+    "black-hot-cup-lids-12-16oz": {
+      "name_on_pack": null,
+      "brand": null,
+      "pack_size": "12/16 oz",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Fits 12/16 oz cups",
+        "Embossed 'Caution contents hot'",
+        "PP (recycling code 5)",
+        "Black, sip-through lid"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Not food - a single black cup lid, probably accessory to the black ripple cups (1KMN_FLZmxvmosdmaO0o8Bt_7XTI3Xw8I). Embossed 'SEAM HERE' arrow and mould number 22."
+      ],
+      "source_drive_ids": [
+        "1N2LqVDcCk4i4Zojj04xeL8J5aeZd2nM6"
+      ],
+      "pack_size_display": "12/16 oz"
+    },
+    "blenders-chicken-bouillon-paste-880g": {
+      "name_on_pack": "Chicken Bouillon Paste",
+      "brand": "Blenders",
+      "pack_size": "880g",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Makes 40 litres",
+        "880g tub",
+        "Est. 1989 Dublin, Ireland"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; ingredients/allergens not visible."
+      ],
+      "source_drive_ids": [
+        "1O4eR4BE8nXwGKzNnAdpBJJZTbzao-raH"
+      ],
+      "pack_size_display": "880g"
+    },
+    "blenders-garlic-mayonnaise": {
+      "name_on_pack": "Garlic Mayonnaise",
+      "brand": "Blenders",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Garlic mayonnaise",
+        "Top-down squeezy bottle with flip cap",
+        "Perfecting sauces, est. 1989, Dublin, Ireland"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients, allergens or pack size visible. Mayonnaise typically contains egg - must be confirmed from back label before listing."
+      ],
+      "source_drive_ids": [
+        "1ejbIE8mOUokGWA43Yuvz42QplLaRODX2"
+      ],
+      "pack_size_display": null
+    },
+    "blenders-korean-bbq-sauce": {
+      "name_on_pack": "Korean BBQ Sauce",
+      "brand": "Blenders",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Heat rating: Hot",
+        "Perfecting sauces Est. 1989 Dublin, Ireland",
+        "Top-down squeeze bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front label only; no ingredients, allergens, size or price visible. Need back-of-pack photo."
+      ],
+      "source_drive_ids": [
+        "1-7YDwlleeScu-YPaZme1VDt9mMaso2GV"
+      ],
+      "pack_size_display": null
+    },
+    "blenders-real-mayonnaise": {
+      "name_on_pack": "Real Mayonnaise",
+      "brand": "Blenders",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Est. 1989 Dublin, Ireland",
+        "Top-down squeezy bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; size, ingredients and allergens not visible (mayonnaise typically contains egg - must be confirmed from back label)."
+      ],
+      "source_drive_ids": [
+        "1KS9SIl66CQ8GyzQTXkKPz3X0ZHCYlMek"
+      ],
+      "pack_size_display": null
+    },
+    "blenders-taco-sauce": {
+      "name_on_pack": "Taco Sauce",
+      "brand": "Blenders",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Heat rating: Medium",
+        "Perfecting sauces Est. 1989 Dublin, Ireland",
+        "Top-down squeeze bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front label only; no ingredients, allergens, size or price visible. Creamy (likely mayo-based) sauce - allergens must come from back label."
+      ],
+      "source_drive_ids": [
+        "165vOsIP1JkEr7fywkBeZ9I579Qz0pF_Q"
+      ],
+      "pack_size_display": null
+    },
+    "breaded-chicken-goujons-2kg": {
+      "name_on_pack": "Breaded Chicken Goujons",
+      "brand": null,
+      "pack_size": "2kg",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast ([illegible]%), WHEAT Flour (WHEAT Flour, Calcium Carbonate, Iron, Niacin, Thiamin), Yeast, Salt, Emulsifier: Mono- and Diacetyl Tartaric Acid Esters of Mono- and Diglycerides of Fatty Acids, Flour Treatment Agent: Ascorbic Acid, Cornflour, Raising Agents: Diphosphates, Polyphosphates, [illegible] Carbonate, Ammonium Carbonate, WHEAT Starch, Rapeseed Oil. For allergens including Cereals Containing Gluten, see ingredients in CAPITALS. [several words illegible due to bag creases]",
+      "allergen_statement": "For allergens including Cereals Containing Gluten, see ingredients in CAPITALS. May contain MILK and Mustard",
+      "sticker_price": "£17.50",
+      "facts": [
+        "THIS PRODUCT IS NOT FULLY COOKED",
+        "Cook from frozen",
+        "Oven: 200°C, Fan 180°C for approx 22-25 mins (partly legible)",
+        "Deep fry: preheat fryer to 180°C, fry for 6-8 mins",
+        "Ensure product is fully cooked before serving",
+        "Although every care has been taken to remove small bones, some may remain",
+        "Keep frozen at or below -18°C. Do not refreeze once thawed (partly legible)",
+        "Approx 772kJ/184kcal per 100g (partly legible)",
+        "UK (NI) health mark"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Print on clear crinkled bag; much small text faint, bracketed/inferred words read from partial letters - verify against a clearer photo before publishing. Possible match to generic slug chicken-goujons but no brand on pack; not the Vista 1kg product."
+      ],
+      "source_drive_ids": [
+        "1S_SNftHnT1nvEuPSAs1vsQzy8Bo1hdnJ"
+      ],
+      "pack_size_display": "2kg"
+    },
+    "country-range-one-cup-tea-bags-1100": {
+      "name_on_pack": "One Cup Tea Bags",
+      "brand": "Country Range",
+      "pack_size": "2.5kg 1100 Tea Bags",
+      "storage": "ambient",
+      "ingredients": "100% Black Tea.",
+      "allergen_statement": "For Allergens, see ingredients in BOLD.",
+      "sticker_price": null,
+      "facts": [
+        "1100 one-cup tea bags",
+        "2.5kg",
+        "Product of UK",
+        "Directions: place 1 teabag in a mug, add freshly drawn boiling water, steep for 2-4 minutes, remove teabag, add milk/sugar to taste",
+        "Store in a cool, dry place, away from direct sunlight",
+        "Nutrition per 100g: Energy 8kJ/4kcal, Fat 0.2g, of which saturates 0.1g, Carbohydrate 0.3g, of which sugars 0.1g, Fibre 0.1g, Protein 0.1g, Salt 0.01g",
+        "GB: The Country Range Group Ltd, 4 & 5 Jupiter House, Mercury Rise, Altham, Lancashire, BB5 5BY; EU: The Country Range Group Ltd, PO Box 246, Newtownabbey, BT36 9EZ"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Glare crosses '100% Black' in ingredients - characters partly obscured but readable ('10..% Bl.ck Tea'). Brand logo partly creased ('Country Ra...')."
+      ],
+      "source_drive_ids": [
+        "1UH_n1xLZpQSrLXqQ0LnQ5CLMUGlMxlCV"
+      ],
+      "pack_size_display": "1100 tea bags (2.5kg)"
+    },
+    "daz-washing-powder-125-washes": {
+      "name_on_pack": "Daz Universal Whites & Colours (Mega Pack)",
+      "brand": "Daz",
+      "pack_size": "125 washes",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£18",
+      "facts": [
+        "Mega Pack",
+        "125 washes",
+        "Cleaning & freshness even at low temperatures",
+        "Universal - whites & colours",
+        "85% recycled carton"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Not food - laundry detergent powder. Price sticker handwritten '£18'. Weight not visible."
+      ],
+      "source_drive_ids": [
+        "1QLJ3bvpB4h7bzhU6dSU0AGpF7YO1hMVh"
+      ],
+      "pack_size_display": "125 washes"
+    },
+    "diggers-breaded-chicken-burgers": {
+      "name_on_pack": "Breaded Chicken Burgers",
+      "brand": "Diggers",
+      "pack_size": "1.05kg",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Tender chicken burgers coated in crispy golden breadcrumbs",
+        "1.05kg",
+        "Cooking method icons shown (oven, grill/fryer type icons - unlabelled)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of bag only; ingredients/allergens/storage not visible. Not the existing diggers-boneless-wings product."
+      ],
+      "source_drive_ids": [
+        "1doRfnDFe2g_kyIqLzOYivnLZ_qAdizaz"
+      ],
+      "pack_size_display": "1.05kg"
+    },
+    "diggers-buttermilk-chicken-fillets": {
+      "name_on_pack": "Buttermilk Chicken Fillets",
+      "brand": "Diggers",
+      "pack_size": "8x 125g",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Tender chicken fillets coated in a crispy buttermilk breadcrumb",
+        "100% chicken fillet",
+        "Full flavour coatings",
+        "8 x 125g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of pack only; side label with ingredients not readable in this shot. Buttermilk coating implies milk but no allergen text visible - need back photo. Not the same as existing 'diggers-boneless-wings'."
+      ],
+      "source_drive_ids": [
+        "10XmJJnnpSbdq-M_QrSbpgfAfXlEhLJGu"
+      ],
+      "pack_size_display": "8 x 125g"
+    },
+    "diggers-tortilla-wraps-10": {
+      "name_on_pack": "Tortilla Wraps Original",
+      "brand": "Diggers",
+      "pack_size": "600 g (10 x 25 cm)",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£ 2.99P",
+      "facts": [
+        "10 wheat flour tortilla wraps 25 cm",
+        "Original",
+        "600 g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; ingredients not visible (wheat flour stated on front)."
+      ],
+      "source_drive_ids": [
+        "1S5ZLNvWRj5ZE_ZDQeGry-VwdOjTqDXZm"
+      ],
+      "pack_size_display": "10 x 25cm (600g)"
+    },
+    "kennys-garlic-mayo-1l": {
+      "name_on_pack": "Premium Quality Garlic Mayo",
+      "brand": "Kenny's",
+      "pack_size": "1 litre e",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Premium quality garlic mayo",
+        "Punchy, garlic flavour! Great with chips, burgers, or anything you fancy!",
+        "Family recipes since 1977",
+        "1 litre",
+        "Top-down squeeze bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front label only; no ingredients/allergens visible (mayo typically contains EGG and possibly MUSTARD - must confirm from back label)."
+      ],
+      "source_drive_ids": [
+        "19QalsjGoIcOy_O_CCFe20z1zUvBUhuJz"
+      ],
+      "pack_size_display": "1 litre"
+    },
+    "kennys-italian-dressing-1l": {
+      "name_on_pack": "Premium Quality Italian Dressing",
+      "brand": "Kenny's",
+      "pack_size": "1 litre e",
+      "storage": "ambient",
+      "ingredients": "Rapeseed Oil, Water, Sugar, Tomatoes, Spirit Vinegar, Salt, Lemon Juice from Concentrate, Herbs, Garlic, Spices (MUSTARD), Stabiliser (Xanthan Gum), Preservative (Potassium Sorbate), Antioxidant (Calcium Disodium EDTA).",
+      "allergen_statement": "ALLERGENS: SEE BOLD",
+      "sticker_price": "£4.50",
+      "facts": [
+        "Premium quality",
+        "Signature blend with a tomato and herb flavour",
+        "Drizzle on salad",
+        "1 litre squeezy top-down bottle",
+        "Family recipes since 1977",
+        "Premium quality Italian dressing",
+        "Keep in a cool dry place away from direct sunlight; once opened refrigerate and use within 6 weeks",
+        "Nutrition per 100g: 1871kJ/453kcal, fat 45g, saturates 3.0g, carbohydrate 11.0g, sugars 11.0g, protein 0.4g, salt 2.2g",
+        "Kenny's is a brand of Zafron Foods Ltd; manufactured in England by Zafron Foods Ltd, Mitcham, CR4 4NX"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients or allergens visible. Price sticker covers end of 'ITALIAN'.",
+        "Allergen in bold: Mustard. Size not visible in this photo (bottle looks same format as Kenny's 1 litre ketchup - unconfirmed). Storage = ambient until opened, then refrigerate."
+      ],
+      "source_drive_ids": [
+        "1TM53zhdsEP78MqnqLF1w60Mr488A8dgE",
+        "1srpVGHthaZJsAIjiGdW99nvfCe5B7AXy"
+      ],
+      "pack_size_display": "1 litre"
+    },
+    "kennys-taco-sauce-1l": {
+      "name_on_pack": "Premium Quality Taco Sauce",
+      "brand": "Kenny's",
+      "pack_size": "1 litre",
+      "storage": "ambient",
+      "ingredients": "Rapeseed Oil, Water, Sugar, Salt, Thickener (Modified Starch), Spirit Vinegar, Pasteurised EGG Yolk, Lemon Juice from Concentrate, Spices, Stabiliser (Guar Gum), Colour (Paprika Extract), Preservative (Potassium Sorbate), Acidity Regulator (Citric Acid), Garlic, Antioxidant (Calcium Disodium EDTA).",
+      "allergen_statement": "ALLERGENS: SEE BOLD",
+      "sticker_price": null,
+      "facts": [
+        "Premium quality taco sauce",
+        "Authentic Mexican sauce for tacos",
+        "1 litre squeezy bottle",
+        "Family recipes since 1977",
+        "Premium quality",
+        "Storage: keep in a cool dry place away from direct sunlight; once opened refrigerate and use within 6 weeks",
+        "Nutrition per 100g: Energy 1908kJ/463kcal, Fat 47.6g, of which saturates 3.4g, Carbohydrate 8.0g, of which sugars 7.7g, Protein 0.1g, Salt 2.1g",
+        "Kenny's is a brand of Zafron Foods Ltd. Manufactured in England by Zafron Foods Ltd, The Willow Centre, 17 Willow Lane, Mitcham, CR4 4NX",
+        "Top-down squeezy bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients/allergens visible.",
+        "Back label; pack size not printed on this side (same bottle format as Kenny's 1 litre Italian Dressing, but not confirmed). 'Egg' is bold on pack (converted to UPPER CASE)."
+      ],
+      "source_drive_ids": [
+        "1yXg6-L2WwvxILsuwnLrwQeONqRh_0H8w",
+        "1_0cvOnlZKv2yoUldQOUynfppetn6OXmi"
+      ],
+      "pack_size_display": "1 litre"
+    },
+    "kennys-tomato-ketchup-1l": {
+      "name_on_pack": "Premium Quality Tomato Ketchup",
+      "brand": "Kenny's",
+      "pack_size": "1 litre",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£4.50p",
+      "facts": [
+        "Premium quality tomato ketchup",
+        "1 litre squeezy bottle",
+        "Our rich authentic premium ketchup is bursting with tomatoes, free from artificial colours",
+        "Family recipes since 1977"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Price sticker reads '£ 4.50P' and covers part of the word 'TOMATO'. No ingredients visible on this side."
+      ],
+      "source_drive_ids": [
+        "1sJ6FZUQtgrlqo2Th03PqI7cZk1L6_vBn"
+      ],
+      "pack_size_display": "1 litre"
+    },
+    "kennys-spicy-fried-chicken-sauce-1l": {
+      "name_on_pack": "Spicy Fried Chicken Sauce",
+      "brand": "Kenny's",
+      "pack_size": "1 litre",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Premium quality",
+        "An onion based mayonnaise with that distinctive chilli kick, also known as the Algerian style sauce",
+        "Family recipes since 1977",
+        "1 litre top-down squeezy bottle"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; ingredients/allergens not visible (mayonnaise-based, so egg likely - must confirm from back label). First letters of descriptor lines curve out of view ('[A]N ONION', '[CH]ILLI')."
+      ],
+      "source_drive_ids": [
+        "1PiucPtgKXdS1d2QeqsSYTi2KdlkGs2ol"
+      ],
+      "pack_size_display": "1 litre"
+    },
+    "lotus-biscoff-topping-1kg": {
+      "name_on_pack": "Biscoff Topping",
+      "brand": "Lotus Biscoff",
+      "pack_size": "Net weight 1kg",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£8.50p",
+      "facts": [
+        "Biscoff topping",
+        "Net weight 1kg squeezy bottle",
+        "Shake! before use"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients/allergens visible (Biscoff products typically contain wheat/soya - do not use without back label). Price sticker '£ 8.50P' on bottle shoulder."
+      ],
+      "source_drive_ids": [
+        "1usGF-k-81Y3b5S9zcHhTAMTadOrXhV3N"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "mae-ploy-sweet-chilli-sauce-4kg": {
+      "name_on_pack": "Sweet Chilli Sauce",
+      "brand": "Mae Ploy",
+      "pack_size": "3200 ml / 4 kg",
+      "storage": "ambient",
+      "ingredients": "Sugar 46.0%, Water 21.0%, Pickled Red Chilli 19.0%, Distilled vinegar 6.8%, Garlic 6.0%, Salt 1.0%, Stabilizer:(E415) 0.2%",
+      "allergen_statement": null,
+      "sticker_price": "£10.50p",
+      "facts": [
+        "Gluten free",
+        "No preservative and coloring added",
+        "Net contents 3200 ml / 4 kg",
+        "Product of Thailand",
+        "Store in cool place. Do not expose to sunlight. Refrigerate after opening",
+        "Per 100ml: Energy 1121kJ/268kcal, Fat 0g, of which saturates 0g, Carbohydrate 65g, of which sugars 62g, Fibre 1.2g, Protein 0.6g, Salt 4.0g",
+        "Halal logo on pack",
+        "Importer: Musgrave Wholesale (sticker)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Handwritten price sticker reads '£ 10.50p'. Side English importer sticker partially cut off (mentions xanthan gum (E415) 0.2%, 'Once opened keep refrig...'). Multilingual ingredients; English version transcribed."
+      ],
+      "source_drive_ids": [
+        "1-5defomrGMHA9X-HezgxlvMYlM9yUYF6"
+      ],
+      "pack_size_display": "3.2 litres (4kg)"
+    },
+    "majestic-white-paper-plates-9in-100": {
+      "name_on_pack": "9\" White Paper Plates",
+      "brand": "Majestic",
+      "pack_size": "100pcs",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£3.99p",
+      "facts": [
+        "9\" white paper plates",
+        "Qty: 100pcs",
+        "P/C: 05682 - EJ9",
+        "Suitable for food use",
+        "Bio-degradable",
+        "Compostable",
+        "9 inch white paper plates",
+        "QTY: 100pcs"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food disposable. Price sticker reads '£3.99p' (pound sign faint/partly rubbed). Possibly the existing strong-paper-plates listing, but pack does not say 'strong' - left null for confirmation.",
+        "Non-food item. Price sticker reads '3.99P' with a faint hand-written/smudged mark before it (possibly £) - likely £3.99. Possibly the same as existing 'Strong Paper Plates' listing but not confirmable.",
+        "Angled view of same plates as 1pwAtH0-uP5siyodBAitBcXMLDFgKCAnZ. Price sticker '3.99P' with smudged character before it (likely £)."
+      ],
+      "source_drive_ids": [
+        "1ckJBK70ylaq36YIFliJ-7SnLLcjppRGS",
+        "1pwAtH0-uP5siyodBAitBcXMLDFgKCAnZ",
+        "1uY96Opf_z6T4g-5CQy_rnRAJpzlvc4bI"
+      ],
+      "pack_size_display": "100pcs"
+    },
+    "75-meter-aluminium-foil": {
+      "name_on_pack": "Catering Aluminium Foil",
+      "brand": "Alu-Wrap / Majestic",
+      "pack_size": "75 metres",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Catering aluminium foil",
+        "75 metres",
+        "Super strong kitchen foil",
+        "Alu-Wrap range (sub-brand name partly cut off: '...LU-WRAP')",
+        "Supplied in dispenser box"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food item. Photographed outdoors, held in hand. Width not visible.",
+        "Non-food item. Box long side shown; left end cut off so sub-brand reads '...LU-WRAP' (likely 'ALU-WRAP'). Roll width not visible."
+      ],
+      "source_drive_ids": [
+        "1rOEHnjbXAp-rGS9mSU7XuFXGkKWgvfUC",
+        "1UBdfgrQa5xjzsM3YSD9qZPpB1b15M45I"
+      ],
+      "pack_size_display": "75 metres"
+    },
+    "majestic-baking-paper-50m": {
+      "name_on_pack": "Non-Stick Baking Paper",
+      "brand": "Majestic",
+      "pack_size": "50 metres (50m x 300mm)",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Non-stick baking paper",
+        "50m x 300mm",
+        "Fat-free cooking",
+        "No need for greasing",
+        "Microwave & oven proof",
+        "Dispenser box",
+        "Brown baking paper",
+        "Non-stick",
+        "Heat-resistant",
+        "Eco-friendly",
+        "Fat free cooking",
+        "Roll width 300mm (dimension partly visible: '...m x 300mm')",
+        "Lift to tear dispenser box"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food item. Text on top of box partly visible ('...brown baking paper', 'heat resistant...') but not fully legible.",
+        "Non-food item. Roll length cut off at left edge ('?0 METRES'); brand logo on top face too small/angled to read (possibly Majestic - unconfirmed)."
+      ],
+      "source_drive_ids": [
+        "1ckvXJ_E0zbsVuS02ojFN0JHFtujxNMcy",
+        "1rFGF2qwnIQwWuk57eEiNj9_CU08LRJXd"
+      ],
+      "pack_size_display": "50m x 300mm"
+    },
+    "majestic-baking-paper-5m": {
+      "name_on_pack": "Non-Stick Baking Paper",
+      "brand": "Majestic",
+      "pack_size": "5 Metres (5m x 375mm)",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£ 1.75P",
+      "facts": [
+        "5m x 375mm",
+        "Fat-free cooking",
+        "No need for greasing",
+        "Microwave & oven proof"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Not food. Price sticker covers the 'P' of PAPER. Photographed outdoors."
+      ],
+      "source_drive_ids": [
+        "1S7h3H_sJfKCnfrenziQRfvQK2ikoIDND"
+      ],
+      "pack_size_display": "5m x 375mm"
+    },
+    "mixers-garlic-mayonnaise-900g": {
+      "name_on_pack": "Garlic Mayonnaise",
+      "brand": "Mixers Culinary Sauces",
+      "pack_size": "900grams",
+      "storage": null,
+      "ingredients": "[illegible] Rapeseed Oil, [illegible] Vinegar, Sugar, [illegible] Salt, Lemon Juice [illegible] (Contains MUSTARD [illegible] [illegible]ified Maize Starch, [illegible] Xanthan Gum, Guar Gum, [illegible] Potassium Sorbate, Parsley.",
+      "allergen_statement": "[Allergens] indicated in CAPITALS (only MUSTARD visible in this shot)",
+      "sticker_price": null,
+      "facts": [
+        "Garlic mayonnaise",
+        "Product code GCGS035",
+        "900g",
+        "Once opened keep [refrigerated] and use within 7 w[eeks?] ... by best before date (partly cut off)",
+        "Per 100g: Energy 2280kJ/545kcal, Fat 57.67g, of which saturates 4.10g, Carbohydrate 3.75g, of which sugar 2.53g, Fibre 0.35g, Protein 1.60g, Salt 0.97g",
+        "Manufactured by Mixers Sauces, IDA Business Park, Killygarry, Ca[van] (cut off)"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Ingredients list wraps around the left of the bottle and the start of each line is out of view - likely includes EGG which cannot be seen here. Needs a side photo before publishing allergens. Storage after opening text also cut off."
+      ],
+      "source_drive_ids": [
+        "1J7NkNKIZ5AHieJOB8Rt_w6LQxRRsC_Kk"
+      ],
+      "pack_size_display": "900g"
+    },
+    "mixers-american-bbq-sauce-1kg": {
+      "name_on_pack": "American Style BBQ Sauce",
+      "brand": "Mixers Sauces",
+      "pack_size": "1kg",
+      "storage": null,
+      "ingredients": "[illegible] Water, Sugar, [illegible] Tomato Puree, Molasses, [illegible] Maize Starch, Soy Sauce ([illegible] SOYA & GLUTEN), Salt, [illegible] Flavour, Spices, Maltodextrin, [illegible] Caramel E150D, [illegible] Potassium Sorbate,",
+      "allergen_statement": "[AL]LERGENS indicated in CAPITALS",
+      "sticker_price": null,
+      "facts": [
+        "Net quantity: 1kg",
+        "Product code GHBB61",
+        "Once opened, keep refrigerated and use within 7 weeks or by best before date",
+        "Manufactured by Mixers Sauces, IDA Business Park, Killygarry, Ca[van]",
+        "Per 100g (as printed, columns appear misaligned): Energy 481kJ/115kcal; values listed 0.1g, 0.02g, 26.03g, 21.57g, 0.34g, 0.63g, 0.92g"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Label wraps round bottle; left edge of every ingredient line is cut off (first word fragments like 'fied Maize Starch', 'ntains SOYA & GLUTEN', 'oke Flavour', 'louring Caramel', 'servative Potassium Sorbate' are partly hidden). Need a photo of the left side to complete. Storage before opening not visible (refrigerate after opening). Best Before 06-11-20[..]. Nutrition table values look offset by one row - verify before use."
+      ],
+      "source_drive_ids": [
+        "1NncTmOoUwnMDx2wzIAdYnBRvoPHtic0B"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "mixers-taco-sauce-900g": {
+      "name_on_pack": "Taco Sauce",
+      "brand": "Mixers Sauces",
+      "pack_size": "900g",
+      "storage": null,
+      "ingredients": "Rapeseed Oil, [Wa]ter, Tomato Ketchup, EGG, [Su]gar, Vinegar, Lemon Juice, Salt, MUSTARD (contains MUSTARD Powder), Spices, Preservative: Potassium Sorbate, Stabilisers: Xanthan Gum, Guar Gum. Allergens indicated in CAPITALS",
+      "allergen_statement": "Allergens indicated in CAPITALS",
+      "sticker_price": null,
+      "facts": [
+        "Squeezy bottle with flip cap",
+        "Net quantity 900g",
+        "Product code GCTS610",
+        "Once opened keep [refrigerated] and use within [7] weeks or by best before date (partly cut off)",
+        "Nutrition per 100g: Energy 2218kJ/539kcal, Fat 57.25g, of which saturates 4.15g, Carb 4.47g, of which sugars 3.75g, Fibre 0.22g, Protein 1.15g, Salt 1.19g",
+        "Manufactured by Mixers Sauces, IDA Business Park, Killygarry"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Left edge of ingredient lines wraps round bottle; letters in [ ] are partly cut off ('ater', 'ugar' visible). Once-opened storage text on right edge partly cut off; no pre-opening storage stated."
+      ],
+      "source_drive_ids": [
+        "1SZrbWwN2nJCh_TJjvW-CDyAg5APRCG39"
+      ],
+      "pack_size_display": "900g"
+    },
+    "nutella-food-service-tub": {
+      "name_on_pack": "Nutella Food Service",
+      "brand": "Ferrero",
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Food service tub",
+        "Resealable clip lid",
+        "Nutella Food Service catering tub",
+        "Ferrero"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; weight, ingredients and allergens not visible (hazelnut spread - contains nuts/milk on standard Nutella labels, must be confirmed from the tub label). Faint embossed date 08 06 2027 and lot code.",
+        "Large white catering tub with lid; no size, ingredients or allergens visible. Photographed on a cream shelf, not the usual black background."
+      ],
+      "source_drive_ids": [
+        "1Rqhv_4Y2EtZrcxBrXW1d57tnBkuqSB-r",
+        "1um1qOhNO34L7Oi0KasNXGNZLbaVByfGM"
+      ],
+      "pack_size_display": null
+    },
+    "pvc-cling-film-300mm": {
+      "name_on_pack": "PVC Cling Film 300mm",
+      "brand": "Poly Wrap",
+      "pack_size": "300mm x 300m",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "PVC cling film",
+        "For catering use",
+        "Width 300mm, length 300m",
+        "Swift, Secure, Tidy"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food. 'Poly Wrap' may be brand or product line name."
+      ],
+      "source_drive_ids": [
+        "14cjjlO0-GxkldhyiK6L4WE3ObDnW1G0X"
+      ],
+      "pack_size_display": "300mm x 300m"
+    },
+    "pvc-cling-film-450mm": {
+      "name_on_pack": "PVC Cling Film 450mm",
+      "brand": "Poly Wrap",
+      "pack_size": "450mm x 300m",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "PVC cling film",
+        "450mm wide",
+        "300m length",
+        "For catering use",
+        "Swift, Secure, Tidy",
+        "300m long",
+        "Dispenser box"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Non-food item. Photographed outdoors, held in hand.",
+        "Non-food item. Photo taken outdoors holding box; 'Poly Wrap' small text above product name taken as brand."
+      ],
+      "source_drive_ids": [
+        "1uvgtTz-4XfoEBjihxHx_mMIxst6E_DS7",
+        "1W9RTdKSJehrXBNA_jCCzeCHmnCgyEudW"
+      ],
+      "pack_size_display": "450mm x 300m"
+    },
+    "roosters-crunchy-coated-fillets-1kg": {
+      "name_on_pack": "Crunchy Coated Fillets",
+      "brand": "Roosters",
+      "pack_size": "1kg",
+      "storage": "frozen",
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£7.99",
+      "facts": [
+        "Frozen fully cooked chicken breast fillets in a crunchy batter",
+        "Heat & Eat range",
+        "Made with 100% chicken breast meat",
+        "Deep fry from frozen: 5 mins",
+        "Air fry from frozen: 12-14 mins",
+        "Oven cook from frozen: 25 mins",
+        "Full cooking instructions are on the back",
+        "Finest Chicken Products"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Existing slug match is probable, not certain: shop has 'Roosters Chicken Fillets' plus separate Crispy Shredded and Kick'In variants; this is the plain Crunchy Coated Fillets. Logo partly reads 'oosters' due to fold."
+      ],
+      "source_drive_ids": [
+        "1M7GGuXlcoQgfYxdPVt5tuayCrNjPLj7S"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-battered-chicken-nuggets": {
+      "name_on_pack": "Battered Chicken Nuggets",
+      "brand": "Rosie & Jim",
+      "pack_size": "1000g e",
+      "storage": "frozen",
+      "ingredients": "Declaration: Chicken Breast Fillet (53%), Water, Rapeseed Oil, Pea Flour, Maize Flour, Tapioca Starch, Rice Flour, Salt, Pea Protein, Dried Glucose Syrup, Pea Fibre, Pea Starch, Acidity Regulator: Sodium Bicarbonates, Emulsifier: Guar Gum, Natural Olive Extract",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS",
+      "sticker_price": null,
+      "facts": [
+        "Crossed grain (gluten free) symbol on pack",
+        "High protein",
+        "EU grown",
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "Air fryer suitability badge partly visible",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C / 375°F / Gas mark 5 (fan 180°C), 25-30 minutes, middle shelf",
+        "Deep fry: preheat oil to 180°C, fry for 7 minutes",
+        "If defrosting, defrost in the fridge and subtract 10 minutes from cooking time",
+        "While great care has been taken to remove all bones, some may remain",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Cross Grain Licence Number IE-033-068",
+        "Nutrition per 100g: Energy 788kJ/188kcal (digits faint), Fat 8.2g, of which saturates 0.93g, Carbohydrates 13.03g, of which sugars 0.1g, Protein 14.6g, Salt 0.93g",
+        "Oven from frozen: 190°C / 375°F / Gas mark 5 (fan 180°C), 25-30 minutes"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Label print faint; punctuation between ingredients (commas/colons) partly invisible and reconstructed. No ingredients in CAPITALS. Energy kJ/kcal digits faint (788/188 best reading).",
+        "Duplicate shot of the same pack as 1cIaYvUv4F69EKj-aWojw6W7YZmIQn1ze (same batch 260131, best before 31 07 27); text read from that photo's crops - faint print, punctuation reconstructed."
+      ],
+      "source_drive_ids": [
+        "1cIaYvUv4F69EKj-aWojw6W7YZmIQn1ze",
+        "1e1Br-I79dQgVpsSgz1_6x0nRLbzweMbv"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-breaded-chicken-burgers": {
+      "name_on_pack": "Breaded Chicken Burgers",
+      "brand": "Rosie & Jim",
+      "pack_size": "1080g e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (68%), Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Emulsifier: Guar Gum, Potato Protein, Dextrose, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": "£8.99",
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "Crossed grain symbol (Cross Grain Licence Number IE-033-042)",
+        "Suitable for airfryer",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven cook from frozen: 190°C/375°F/Gas mark 5 (fan 180°C), 30-35 minutes; if defrosted subtract 10 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Important: While great care has been taken to remove all bones, some may remain",
+        "Per 100g: Energy 771kJ/184kcal, Fat 8.4g, of which saturates 1.0g, Carbohydrates 9.1g, of which sugars 0.5g, Protein 18g, Salt 0.58g",
+        "EU grown",
+        "Oven cook from frozen: 190°C/375°F/Gas mark 5 (fan 180°C), 30-35 minutes"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Price sticker covers part of the logo only. '68%' slightly blurred. No ingredients in capitals.",
+        "Near-duplicate shot of photo 124t2eavSvGWS6IgGY4jDpoX15-6lkg6j (same pack, same batch 260708 P745). '68%' slightly blurred."
+      ],
+      "source_drive_ids": [
+        "124t2eavSvGWS6IgGY4jDpoX15-6lkg6j",
+        "1GY16W7-bXGboEIYh0bxbvuOf9OyyARrH"
+      ],
+      "pack_size_display": "1080g"
+    },
+    "gluten-free-chicken-chunks": {
+      "name_on_pack": "Breaded Chicken Chunks",
+      "brand": "Rosie & Jim",
+      "pack_size": "1000g e",
+      "storage": "frozen",
+      "ingredients": "Declaration: Chicken Breast Fillet (70%), Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Emulsifier: Guar Gum, Potato Protein, Dextrose, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": null,
+      "facts": [
+        "Crossed grain (gluten free) symbol on pack",
+        "High protein",
+        "EU grown",
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C / 375°F / Gas mark 5 (fan 180°C), 25-30 minutes, middle shelf",
+        "If defrosting, defrost in the fridge and subtract 10 minutes from cooking time",
+        "While great care has been taken to remove all bones, some may remain",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Cross Grain Licence Number IE-033-039",
+        "Nutrition per 100g: Energy 759kJ/181kcal, Fat 8.1g, of which saturates 1.0g, Carbohydrates 9.3g, of which sugars 0.1g, Protein 18g, Salt 0.68g",
+        "Air fryer suitability badge partly visible ('Sui... for...')"
+      ],
+      "legibility": "good",
+      "notes": [
+        "No ingredients in CAPITALS on this pack. Right-hand badge (likely air fryer suitable) is cut off at edge. Matched to gluten-free-chicken-chunks based on Cross Grain GF symbol."
+      ],
+      "source_drive_ids": [
+        "1SuZJHbY-neAVyUVOum9s60HgTefxxlX5"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-breaded-chicken-goujons": {
+      "name_on_pack": "Breaded Chicken Goujons",
+      "brand": "Rosie & Jim",
+      "pack_size": "1000g",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (66%), Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Emulsifier: Guar Gum, Potato Protein, Dextrose, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": null,
+      "facts": [
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed-grain (gluten free) symbol; Cross Grain Licence Number IE-033-034",
+        "Suitable for air fryer (badge partly cut off)",
+        "RAW chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C/375°F/Gas 5 (fan 180°C), 25-30 minutes",
+        "Panini grill: highest setting, 25-30 minutes",
+        "If defrosting, defrost thoroughly in the fridge and subtract 10 minutes from cooking time",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Per 100g: Energy 913kJ/218kcal, Fat 9.9g, of which saturates 1.1g, Carbohydrates 11g, of which sugars 0.1g, Protein 21g, Salt 0.68g",
+        "Healthy made tasty - since 1997"
+      ],
+      "legibility": "good",
+      "notes": [
+        "No words are in CAPITALS in the ingredients list (no allergens declared). Shop has a generic 'chicken-goujons' and 'Vista Food' goujons; brand not confirmed for the generic one, so left null. Best Before 09 03 28; frozen on 09.09.2026."
+      ],
+      "source_drive_ids": [
+        "1NLMNNVECHyXlZHSqd7uC7ailRgXbY02-"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-crispy-shredded-chicken": {
+      "name_on_pack": "Crispy Shredded Chicken",
+      "brand": "Rosie & Jim",
+      "pack_size": "900g e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (58%), Water, Rapeseed Oil, Maize Starch, Maize Flour, Rice Flour, Gram Flour, Salt, Spice Extracts, Potato Starch, Onion Powder, Raising Agent: Sodium Bicarbonates, Stabilisers: Citrus Fiber, Natural Flavouring, Paprika Extract, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS",
+      "sticker_price": null,
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed grain symbol (Cross Grain Licence Number IE-033-063)",
+        "Suitable for airfryer",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven cook from frozen: 190°C/375°F/Gas mark 5 (fan 180°C), 10-12 minutes",
+        "Traditional fryer: preheat oil to 180°C, fry approx. 3-5 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Important: While great care has been taken to remove all bones, some may remain",
+        "Per 100g: Energy 1117kJ/267kcal, Fat 12.9g, of which saturates 1.25g, Carbohydrates 21.3g, of which sugars 0.4g, Protein 15.7g, Salt 0.45g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "No ingredients in capitals. Not matched to 'roosters-crispy-shredded-chicken-fillets' (different brand)."
+      ],
+      "source_drive_ids": [
+        "17LUZd-YI41130mhaQSHZ58kdGSsSWJxU"
+      ],
+      "pack_size_display": "900g"
+    },
+    "rosie-jim-farmhouse-stuffing-chicken-kiev": {
+      "name_on_pack": "Farmhouse Stuffing Chicken Kiev",
+      "brand": "Rosie & Jim",
+      "pack_size": "750g",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (65%), Stuffing(11%) (Bread Crumb, Diced Onion, Chicken Gelatine, Butter (MILK), Rapeseed Oil, Chicken Stock Powder (Salt, Maltodextrin, Flavouring, Sugar, Yeast Extract, Sunflower Oil, Acidity Regulator: Citric Acid), Sage, Parsley), Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Citrus Fibre, Emulsifier: Guar Gum, Potato Protein, Dextrose, Natural Olive Extract",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": "£8.99",
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed-grain (gluten free) symbol; Cross Grain Licence Number IE-033-027",
+        "Suitable for air fryer",
+        "RAW chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C/375°F/Gas 5 (fan 180°C), 35-40 minutes",
+        "If defrosting, defrost thoroughly in the fridge and subtract 10 minutes from cooking time",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Per 100g: Energy 842kJ/201kcal, Fat 9.7g, of which saturates 1.5g, Carbohydrates 13.0g, of which sugars 0.3g, Protein 15.4g, Salt 0.7g",
+        "Healthy made tasty - since 1997"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Price sticker is upside down, reads £3.99. Only MILK is capitalised. 'Bread Crumb' listed in a crossed-grain-licensed product - presumably a gluten-free crumb but not stated; verify. Slug match via crossed-grain symbol (gluten free) + kiev. Best Before 11 12 27; frozen on 11.06.2026."
+      ],
+      "source_drive_ids": [
+        "1OHpwR6p6THb2SVU4uNinAo4p2A2BETRS"
+      ],
+      "pack_size_display": "750g"
+    },
+    "gluten-free-chicken-kiev": {
+      "name_on_pack": "Garlic Chicken Kiev",
+      "brand": "Rosie & Jim",
+      "pack_size": "750g",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (68%), Water, Rapeseed Oil, Rice Flour, Garlic Butter (MILK) (7%), Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Garlic Puree, Citrus Fibre, Emulsifier: Guar Gum, Potato Protein, Dextrose, Parsley, Lemon Juice, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": null,
+      "facts": [
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed grain (gluten free) symbol, Cross Grain Licence Number IE-033-007",
+        "Suitable for air fryer",
+        "RAW chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C/375°F/Gas 5 (fan 180°C), 35-40 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Nutrition per 100g: 973kJ/233kcal, fat 15g, saturates 6.33g, carbohydrates 9.23g, sugars 0.1g, protein 15.4g, salt 0.52g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Allergen: MILK. Chicken % read as 68% (slight glare)."
+      ],
+      "source_drive_ids": [
+        "1k8aic3Wuw5P3nNZaSWqdNACiCiLhQBFz"
+      ],
+      "pack_size_display": "750g"
+    },
+    "gluten-free-salt-chilli-chicken": {
+      "name_on_pack": "Salt & Chilli Chicken Chunks",
+      "brand": "Rosie & Jim",
+      "pack_size": "1000g",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (65%), Water, Pea Flour, Maize Flour, Tapioca Starch, Rice Flour, Rapeseed Oil, Pea Protein, Glucose Syrup, Pea Fibre, Salt, Pea Starch, Garlic, Chilli Flakes, Cracked Black Pepper, Acidity Regulator: Sodium Bicarbonates, Emulsifier: Guar Gum, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": null,
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed grain (gluten free) symbol, Cross Grain Licence Number IE-033-092",
+        "Suitable for air fryer",
+        "RAW chicken - must be cooked thoroughly; cook from frozen",
+        "Oven: 190°C/375°F/Gas 5 (fan 180°C), 25-30 minutes",
+        "Air fryer: 180°C, 11 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Nutrition per 100g: 717kJ/171kcal, fat 6.6g, saturates 0.71g, carbohydrates 11.73g, sugars 0.1g, protein 15.5g, salt 1.02g"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Some ingredient words partly obscured by glare (chicken % read as 65%, 'Rice Flour', 'Salt') - verify. No ingredients printed in capitals, i.e. no declared allergens visible. Deep-fry instructions partly cut by glare. Nutrition values read at an angle - verify."
+      ],
+      "source_drive_ids": [
+        "1gS694K8TrvRwfXNFh2xRgX3cTwgJEWak",
+        "1reZbKdTIxi8xhzlL9DVPZA9o0B86A39e"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-salt-chilli-shredded-chicken": {
+      "name_on_pack": "Salt & Chilli Shredded Chicken",
+      "brand": "Rosie & Jim",
+      "pack_size": null,
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (58%), Water, Rapeseed Oil, Maize Starch, Maize Flour, Rice [illegible] Peppers, Onion Powder, Parsley, Spices, Spice Extracts, Potato Starch, Natural Flavouring[illegible] [illegible]ated Red Bell [illegible] [illegible]odium Bicarbonates, Stabiliser: Citrus Fibre, Paprika Extract, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": "£8.99",
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "Crossed grain symbol (Cross Grain Licence Number IE-033-081)",
+        "Suitable for airfryer",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven cook from frozen: 190°C/375°F/Gas mark 5 (fan 180°C), 10-12 minutes",
+        "Traditional fryer: preheat oil to 180°C, fry approx. 3-5 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Important: While great care has been taken to remove all bones, some may remain",
+        "Per 100g: Energy 1070kJ/255kcal, Fat 12.1g, of which saturates 1.21g, Carbohydrates 20.5g, of which sugars 0.5g, Protein 16.0g, Salt 1.70g"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Price sticker covers part of product name ('Chicken'), the pack weight (ends '...0g e') and a section of the ingredients list. Re-photograph without sticker to complete ingredients and weight. No ingredients seen in capitals in the visible portion."
+      ],
+      "source_drive_ids": [
+        "105SI1XLAVq1IiV0UIxhDs5fVxS-gaYVA"
+      ],
+      "pack_size_display": null
+    },
+    "rosie-jim-southern-fried-chicken-goujons": {
+      "name_on_pack": "Southern Fried Chicken Goujons",
+      "brand": "Rosie & Jim",
+      "pack_size": "1000g",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast Fillet (66%), Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Sugar, Black Pepper Extract, Chilli Extract, Ground Black Pepper, Ground Chilli, Maize Starch, Dried Onion, Emulsifier: Guar Gum, Potato Protein, Cracked Black Pepper, Dextrose, Antioxidant: Citric Acid, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": null,
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "EU grown",
+        "Crossed grain (gluten free) symbol, Cross Grain Licence Number IE-033-035",
+        "Suitable for air fryer",
+        "RAW chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C/375°F/Gas 5 (fan 180°C), 25-30 minutes",
+        "Panini grill: preheat until hot and cook 25-30 minutes at the highest setting",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Nutrition per 100g: 803kJ/192kcal, fat 8.7g, saturates 1.1g, carbohydrates 11g, sugars 0.6g, protein 17g, salt 1.09g"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Glare over 'Rapeseed Oil' and 'Antioxidant: Citric Acid' - read with reasonable confidence; line order across wrapped lines inferred - verify. No ingredients in capitals (no declared allergens). Licence number last digits partly obscured (IE-033-035?). Not matched to generic 'chicken-goujons' slug - could be the same listing; confirm with client.",
+        "Duplicate shot of the same pack as 1uSBbshoVThd_Y6jbBAv90cO5mWfqclSQ (same batch 260919); consistent reading confirms ingredients. Finger blur at bottom. No ingredients in capitals."
+      ],
+      "source_drive_ids": [
+        "1uSBbshoVThd_Y6jbBAv90cO5mWfqclSQ",
+        "1ur6MoPVr5CdkhldBRKARnZMGskrKQL5s"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "rosie-jim-sweet-chilli-chicken-kiev": {
+      "name_on_pack": "Sweet Chilli Chicken Kiev",
+      "brand": "Rosie & Jim",
+      "pack_size": "750g e",
+      "storage": "frozen",
+      "ingredients": "Declaration: Chicken Breast Fillet (66%), Sweet Chilli Sauce (7%) (Sugar, Water, Chili Puree, Garlic Puree, Modified Maize Starch, Salt, Red Pepper, Acetic Acid, Preservative: Potassium Sorbate), Butter (MILK), Chicken Gelatine, Water, Rapeseed Oil, Rice Flour, Yellow Pea Flour, Potato Starch, Rice Starch, Salt, Maize Starch, Citrus Fibre, Emulsifier: Guar Gum, Potato Protein, Paprika, Dextrose, Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": "£8.99",
+      "facts": [
+        "Crossed grain (gluten free) symbol on pack",
+        "High protein",
+        "EU grown",
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "Suitable for air fryer (badge partly cut off)",
+        "Raw chicken - must be cooked thoroughly",
+        "Oven from frozen: 190°C / 375°F / Gas mark 5 (fan 180°C), 35-40 minutes, middle shelf",
+        "If defrosting, defrost in the fridge and subtract 10 minutes from cooking time",
+        "While great care has been taken to remove all bones, some may remain",
+        "Store at -18°C or below. Once defrosted, do not refreeze",
+        "Produced in Ireland using chicken reared on EU farms",
+        "Cross Grain Licence Number IE-033-026",
+        "Nutrition per 100g: Energy 816kJ/195kcal, Fat 9.2g, of which saturates 2.8g, Carbohydrates 12g, of which sugars 4.2g, Protein 17g, Salt 0.84g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Contains MILK. Price sticker covers part of 'HEALTHY'. Possible match to gluten-free-chicken-kiev but flavour of the existing product unknown - left null; confirm whether existing listing is this sweet chilli variant."
+      ],
+      "source_drive_ids": [
+        "1Vth3zt_HjfPYQQZOIXBtSYdO8evgy2yi"
+      ],
+      "pack_size_display": "750g"
+    },
+    "gluten-free-turkey-burgers": {
+      "name_on_pack": "Turkey Burgers (Quinoa & Herb)",
+      "brand": "Rosie & Jim",
+      "pack_size": "1015g",
+      "storage": "frozen",
+      "ingredients": "Turkey Breast Fillet (66%), Water, Rapeseed Oil, Rice Flour, Yellow Pea F[illegible] Potato Starch, Rice Starch, Salt, Dried Vegetables (Onion Powder, Garlic Powder), Quinoa (1.06%) (White, Red, Bla[illegible]) Dextrose, Maize Starch, Citrus Fibre, Emulsifier: Guar Gum, Potato Protein, Sugar, Dried Herbs and Spices (Pars[illegible], Sage, Oregano, Black Pepper, White Pepper), Natural Olive Extract.",
+      "allergen_statement": "For allergen advice, see ingredients in CAPITALS.",
+      "sticker_price": "£8.99",
+      "facts": [
+        "Made in Ireland",
+        "Clean label",
+        "No artificial colours, flavours or preservatives",
+        "High protein",
+        "Crossed grain symbol (Cross Grain Licence Number IE-033-008)",
+        "Suitable for airfryer",
+        "Raw turkey - must be cooked thoroughly",
+        "Oven cook from frozen: 190°C/375°F/Gas mark 5, 30-35 minutes",
+        "Store at -18°C or below. Once defrosted, do not refreeze.",
+        "Important: While great care has been taken to remove all bones, some may remain",
+        "Per 100g: Energy 778kJ/185kcal, Fat 7.8g, of which saturates 0.8g, Carbohydrates 12g, of which sugars 0.4g, Protein 17g, Salt 1.0g"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Price sticker partly covers '1015g' and 'Suitable for airfryer' text. Crease/glare obscures a few ingredient words (Yellow Pea Flour?, Black?, Parsley?). No ingredients printed in capitals. Label says 'Produced in Ireland using chicken reared on EU farms' despite being turkey - check with supplier. Existing slug match assumes the shop's 'Gluten Free Turkey Burgers' is this Rosie & Jim product (crossed grain symbol present)."
+      ],
+      "source_drive_ids": [
+        "1--XpARUV2DYWzeBeKkwR0TcqeInkzdu0"
+      ],
+      "pack_size_display": "1015g"
+    },
+    "santa-maria-tortilla-wraps-12in": {
+      "name_on_pack": "Tortilla Wrap 12\" (30cm)",
+      "brand": "Santa Maria",
+      "pack_size": "10 pieces",
+      "storage": "ambient",
+      "ingredients": "WHEAT flour (with calcium carbonate, iron, niacin, [fo]lic acid, thiamin) (65%), water, humectant (E422), rapeseed oil, WHEAT GLUTEN, [ra]ising agent (E450, E500), emulsifier (E471), acidity regulator (E296), preservative ([E]202, E282), stabiliser (E466, E412), OAT fibre, WHEAT fibre, flour treatment agent ([E]920).",
+      "allergen_statement": null,
+      "sticker_price": "£ 3.50P",
+      "facts": [
+        "12\" (30cm)",
+        "10 pieces",
+        "Soft yet durable",
+        "Vegan",
+        "No added sugar",
+        "Can be frozen",
+        "Baked with renewable energy",
+        "Storage: Room temperature. Opened package should be resealed and used within 3 days.",
+        "Produced in the UK",
+        "Santa Maria AB",
+        "Per 100g: Energy 1314kJ/311kcal, Fat 6.6g, of which saturates 1.1g, Carbohydrate 53g, Salt 0.85g (other values cut off)"
+      ],
+      "legibility": "partial",
+      "notes": [
+        "Multilingual back label. Left edge of the English (GB) block is cut by the photo edge: bracketed letters in [ ] are inferred from the visible word fragments (e.g. 'lic acid', 'ising agent'). Net weight value not visible. Price sticker sits over the Spanish text."
+      ],
+      "source_drive_ids": [
+        "1LskrFy07ntdRITd-upBH-WVfUVQDZhaQ"
+      ],
+      "pack_size_display": "10 pieces"
+    },
+    "scotts-salt-chilli-crispy-onions-75g": {
+      "name_on_pack": "Chinese Salt & Chilli Flavoured Crispy Onions",
+      "brand": "Scotts",
+      "pack_size": "75g",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": "Contains Gluten",
+      "sticker_price": null,
+      "facts": [
+        "Chinese salt & chilli flavoured crispy onions",
+        "No ordinary onions",
+        "Locally produced - Ready to eat",
+        "Spice up burgers, hot dogs, steak, fish, chicken, sandwiches, wraps, baked potatoes, salads, soup",
+        "75g",
+        "Flavoured crispy onions"
+      ],
+      "legibility": "good",
+      "notes": [
+        "'Contains Gluten' is inkjet-printed on the film with best before 02/05/27 (code '0207 Salt Chilli'). Unlike the Steak variant, this one is NOT gluten free. No ingredients list visible.",
+        "'Contains Gluten' read from rear label seen through the clear tray (first letters obscured by product) - verify on back label. Top strip text (cooked in rapeseed oil / vegan friendly, as on the Korean BBQ variant) too small to read here. No ingredients visible."
+      ],
+      "source_drive_ids": [
+        "1pdh1J-QUTSs0Q_5TOiHxBj7dxJs4aSil",
+        "1CjakyKCbFpmCb4FWohJHuT_uRiQIdTmh"
+      ],
+      "pack_size_display": "75g"
+    },
+    "scotts-original-crispy-onions-75g": {
+      "name_on_pack": "Flavoured Crispy Onions Original",
+      "brand": "Scotts",
+      "pack_size": "75g",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": "Contains Gluten",
+      "sticker_price": null,
+      "facts": [
+        "No Ordinary Onions",
+        "Original flavour",
+        "Ready to eat hot or cold",
+        "Oven heat 1-2 minutes or microwave 30 seconds",
+        "Spice up burgers, hot dogs, steak, salads, wraps, sandwiches, chicken, fish, baked potatoes, soup",
+        "Cooked in rapeseed oil",
+        "Vegan friendly",
+        "75g tray"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front sleeve only; full ingredients not visible. 'Contains Gluten' is printed on the tray film next to the best-before date (also faintly on tray rim)."
+      ],
+      "source_drive_ids": [
+        "1ZETDUp3wgg6zlH4-6Tb7sfoyCAXkQOFQ"
+      ],
+      "pack_size_display": "75g"
+    },
+    "scotts-korean-bbq-crispy-onions-75g": {
+      "name_on_pack": "Korean BBQ Flavoured Crispy Onions",
+      "brand": "Scotts",
+      "pack_size": "75g",
+      "storage": "ambient",
+      "ingredients": "Onions (65%), WHEAT Flour (Calcium Carbonate, Niacin, Thaimin), Rapeseed Oil, Korean BBQ Seasoning (Sea Salt, Korean Red Chilli (14%), Hungarian Paprika, Sugar, Garlic, Ginger, Onion), Paprika, Salt, Pepper.",
+      "allergen_statement": "ALLERGY ADVICE: For allergens, including cereals containing gluten, see ingredients in BOLD.",
+      "sticker_price": "£ 2.50P",
+      "facts": [
+        "Freshly cooked in rapeseed oil",
+        "Vegan friendly",
+        "Locally produced - Ready to eat",
+        "New",
+        "Spice up burgers, hot dogs, steak, fish, chicken, sandwiches, wraps, baked potatoes, salads, soup",
+        "Sliced fresh onion, cooked with rapeseed oil in a seasoned flour",
+        "Eat hot or cold",
+        "Serves 4 (pack also states 'This pack contains 2 servings')",
+        "Microwave: 800W 28 secs / 700W 30 secs",
+        "Oven: 180°C 2 mins",
+        "Pan: dry pan heat for 30 seconds, constantly stirring",
+        "Store at room temperature; once opened place in an airtight container",
+        "Suitable for vegetarians",
+        "Suitable for vegans",
+        "Scott's Fine Foods, 96 Moneybrannon Road, Aghadowey, Coleraine, BT51 3SL",
+        "Per 100g: Energy 2398kJ/577kcal, Fat 42.5g, Saturates 3.28g, Carbohydrate 41.01g, Sugars 6.0g, Fibre 2.7g, Protein 6.4g, Salt 1.33g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Back label seen through tray only partly visible (Best Before 2/02/27 and a word 'Gluten' faintly visible) - not legible enough to transcribe.",
+        "Price sticker covers part of the product name on the end panel (visible: 'KOREAN BBQ ... ONIONS'; brand panel reads 'Scotts ... Crispy Onions'). 'Thaimin' spelled as printed. Pack says both 'Serves 4' and 'contains 2 servings'."
+      ],
+      "source_drive_ids": [
+        "1h6KKB5CQgmBqNC2MDiAkaAaEv8tyUH9-",
+        "1Jd2ZFFtGzm9CbiwD8u4M1NTLl9ICnj14"
+      ],
+      "pack_size_display": "75g"
+    },
+    "scotts-steak-crispy-onions-75g": {
+      "name_on_pack": "Steak Flavoured Crispy Onions",
+      "brand": "Sco[obscured]",
+      "pack_size": "75g",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£2.50p",
+      "facts": [
+        "Gluten free",
+        "Steak flavoured crispy onions",
+        "Freshly cooked in rapeseed oil",
+        "Vegan friendly",
+        "No ordinary onions",
+        "Same great taste",
+        "Locally produced - Ready to eat",
+        "Spice up burgers, hot dogs, steak, fish, chicken, sandwiches, wraps, baked potatoes, salads, soup",
+        "75g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Handwritten price sticker '£ 2.50p' covers part of brand name (reads 'SCO...'; likely Scott's, matching Sydney B Scott & Sons tub) and an older price. No ingredients visible. Best before 18/09/26, inkjet '1811 Steak Gluten Free'. Same product line as the 1kg 'Steak Crunch n Seal Crispy Onions' tub but different pack size."
+      ],
+      "source_drive_ids": [
+        "17MtymC6d5MFAvnB41W9NahVJulAlEkhh"
+      ],
+      "pack_size_display": "75g"
+    },
+    "sephra-pistachio-topping-sauce-800g": {
+      "name_on_pack": "Pistachio Topping Sauce",
+      "brand": "Sephra",
+      "pack_size": "800g e",
+      "storage": null,
+      "ingredients": "Sugar, vegetable oil [illegible] protein, skimmed MILK powde[r] [illegible] sunflower lecithin), flavourings [illegible]",
+      "allergen_statement": "Allergens highlighted in BOLD (full list not visible)",
+      "sticker_price": null,
+      "facts": [
+        "20% pistachios",
+        "Authentic premium quality",
+        "Topping sauce (side text mentions ice cream, waffles)",
+        "800g"
+      ],
+      "legibility": "poor",
+      "notes": [
+        "Ingredients panel wraps around the bottle and is mostly out of view; only fragments of the English list readable. Other-language lists show PISTACHIO nuts and MILK protein in bold (NL 'PISTACHENOTEN', DK 'MÆLKEPROTEIN', FR 'LAIT', ES 'LECHE'), so contains MILK and PISTACHIO (nuts) - but full verbatim list needs a photo of the side panel. Colours E100 / E141(ii) appear in other-language lists."
+      ],
+      "source_drive_ids": [
+        "13QZr9gaOTu4DUfUADOvbpQztdSNIqxJ4"
+      ],
+      "pack_size_display": "800g"
+    },
+    "steak-crunch-n-seal-crispy-onions-1kg": {
+      "name_on_pack": "Steak Crunch n Seal Crispy Onions",
+      "brand": "Sydney B Scott & Sons",
+      "pack_size": "1KG",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Crispy onions",
+        "1kg tub",
+        "Once opened use within 30 days",
+        "Class: 1",
+        "Code: 1009",
+        "Sydney B Scott & Sons, 96 Moneybrannon Road, Coleraine BT51 3SL"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Only a yellow supplier label visible - no ingredients or allergen info in shot (crispy onions are usually coated in flour - must confirm from full label/spec sheet). B/B 10/07/27."
+      ],
+      "source_drive_ids": [
+        "15Mf1NbH5d3T625mS_xgIDkQ5ATAFpBwb"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "thompsons-punjana-one-cup-tea-bags-1100": {
+      "name_on_pack": "Punjana One Cup tea bags",
+      "brand": "Thompson's",
+      "pack_size": "1100 One Cup",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Punjana",
+        "1100 one cup (tea bags)",
+        "Great Taste 2023 (2 stars)",
+        "From our family to yours",
+        "Since 1896",
+        "Award-winning tea leaves; Member of Ethical Tea Partnership",
+        "Biodegradable plant based tea bags",
+        "Great Taste Producer - award-winning tea blends",
+        "Efficient recyclable packaging (see base)",
+        "Four generations expert blenders since 1896"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of large catering bag; photographed on a shelf (different background). '1100 ONE CUP' printed; the words 'tea bags' are not visible in shot - name inferred from 'ONE CUP' icon, confirm. No ingredients/weight visible.",
+        "Back of a large red tea bag pack; product name, count and weight not visible. Brand only from tree logo 'Robert S. Thompson'; side text partially reads '...AMILLE ...PSON' and 'www.th...'. Not photographed indoors on the usual black background."
+      ],
+      "source_drive_ids": [
+        "18iqleYeAUtUnj8f4DtnIX4CV142SYJ1s",
+        "1r0npqUCOt3SLuqg_zdTuyHgoRbXRcKdJ"
+      ],
+      "pack_size_display": "1100 one-cup tea bags"
+    },
+    "umc-battered-cocktail-sausages-1kg": {
+      "name_on_pack": "1KG Battered Cocktail Sausages",
+      "brand": "UMC",
+      "pack_size": "1KG",
+      "storage": "frozen",
+      "ingredients": "(Pork) (57%), Water, Rusk [WHEAT Flour (WHEAT Flour, Calcium Carbonate, Folic Acid, Iron, Niacin, Thiamin), Salt], Pork Fat, Flavourings, Stabilisers Diphosphates, Triphosphates, Salt, Dextrose Flavour Enhancer (Monosodium Glutamate), Preservative (Sodium SULPHITE), Spice, Antioxidant (Sodium Ascorbate), Filled into Beef Collagen Casings, Tempura Batter, WHEAT Flour (WHEAT Flour, Calcium Carbonate, Folic Acid, Iron, Niacin, Thiamin), Refined Palm Fat, Salt, Raising Agents (E450, E500), MAIZE Flour, WHEAT Starch, Dextrose, WHEAT GLUTEN, WHEAT Flour, WHEY POWDER (MILK), Flavouring, Dressing 4446, Breadcrumbs [Prepared from: WHEAT Flour (WHEAT Flour, Calcium Carbonate, Folic Acid, Iron, Niacin, Thiamin), Salt, Yeast] Adhesion Batter, WHEAT Flour (WHEAT Flour, Calcium Carbonate, Folic Acid, Iron, Niacin, Thiamin), Salt, MAIZE Flour, Raising Agent (E450, E500), WHEAT Starch",
+      "allergen_statement": "FOR ALLERGENS SEE INGREDIENTS IN BOLD.",
+      "sticker_price": null,
+      "facts": [
+        "Battered cocktail sausages, 1kg",
+        "Pork 57%",
+        "Filled into beef collagen casings",
+        "Deep fry: preheat oil to 175°C, lower product gently into oil, cook for 4-5 mins",
+        "Oven bake: preheat oven to 220°C and bake for 16-18 mins",
+        "Store at -18°C or below. Do not refreeze once thawed",
+        "Health mark UK JA 007 EC"
+      ],
+      "legibility": "good",
+      "notes": [
+        "On-pack allergens are in bold (not caps); converted bold words to UPPER CASE per brief - 'Maize' is also bold on pack. Ingredient list begins '(Pork) (57%)' as printed (no word before it visible). Label text is skewed on crumpled bag; line order reconstructed carefully, punctuation (comma vs full stop) may differ slightly. Different from existing battered-sausages (cocktail size) - left null."
+      ],
+      "source_drive_ids": [
+        "1Vy64ecqvaAmJwtPTgxvJPdMrL3eS0Kbg"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "burger-buns": {
+      "name_on_pack": null,
+      "brand": null,
+      "pack_size": null,
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": null,
+      "facts": [
+        "Round floured bread rolls/buns in clear bag",
+        "Best before 12 JUL 27, L6193 LINE 4 (inkjet on bun)"
+      ],
+      "legibility": "poor",
+      "notes": [
+        "No product label visible - only a best-before/lot inkjet print. Cannot identify brand, name, count, weight or allergens (bread will contain cereals containing gluten at minimum - must be confirmed from label). Possibly frozen given long best-before, but not stated."
+      ],
+      "source_drive_ids": [
+        "14K3jACCvH5XdkhvDfH1yT5etI-UZPX_X"
+      ],
+      "pack_size_display": null
+    },
+    "vista-battered-chicken-balls-1kg": {
+      "name_on_pack": "Battered Chicken Balls",
+      "brand": "Vista Foods",
+      "pack_size": "1kg e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast (58%), Water, Cereal Flour (WHEAT Flour, Maize Flour), WHEAT Starch, Breadcrumb (WHEAT Flour, Salt, Yeast), Vegetable Oil (Palm), Salt, Sugar, Raising Agents (E450i, E500ii), Stabilizer (E451i), Flavour Enhancer (E621), Dextrose, Modified Tapioca Starch (E1442) and MILK Solids.",
+      "allergen_statement": "For allergens, including cereals containing gluten, see ingredients in BOLD.",
+      "sticker_price": "£7.99",
+      "facts": [
+        "Chicken fillet chunks in golden batter",
+        "Hand-cut whole fillet",
+        "Fully cooked",
+        "1kg",
+        "See reverse for best before date",
+        "Product code CBB40",
+        "Cook from frozen",
+        "Oven bake: preheat oven to 200°C, cook in centre of oven for 10-15 minutes",
+        "Deep fry: preheat oil to 175°C, fry 3-5 minutes",
+        "Caution: Although great care has been taken to remove all bones, some may remain",
+        "Origin: Thailand. Produced in an EU Approved plant.",
+        "Store at -18°C or below",
+        "Halal certified logo (Central Islamic Council of Thailand)",
+        "Per 100g: Energy 737kJ/176kcal, Fat 6.9g, of which saturates 3.0g, Carbohydrate 14g, of which sugars 0.8g, Protein 15g, Salt 0.95g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front only; no ingredients/allergens or storage text visible (batter likely contains allergens - need back photo). Not the same as existing 'vista-food-breaded-chicken-goujons-1kg'.",
+        "Labelled reverse of the same product as front photo 12dFMaXMqJ0VziApdF5khqazxX-AX5lWJ. Nutrition values are visually offset from their row labels on the bag; mapped in standard order. Best before 07.11.202[7?], lot 25969127 01."
+      ],
+      "source_drive_ids": [
+        "12dFMaXMqJ0VziApdF5khqazxX-AX5lWJ",
+        "1CFngAD-Z5XR28R-8OJ-90iTvrde9vcP-"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "vista-food-breaded-chicken-goujons-1kg": {
+      "name_on_pack": "Breaded Chicken Goujons",
+      "brand": "Vista Foods",
+      "pack_size": "1kg",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "7.99",
+      "facts": [
+        "Whole hand-cut fillet",
+        "Fully cooked",
+        "1kg"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Price sticker reads '7.99' with no £ symbol; it partly covers the Vista logo."
+      ],
+      "source_drive_ids": [
+        "1JUHQ4-zDNEZkKxoHmEU-ACH8YoAE_EC0"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "vista-crispy-coat-chicken-fillet-1kg": {
+      "name_on_pack": "Crispy Coat Chicken Fillet",
+      "brand": "Vista Foods",
+      "pack_size": "(8 x 125g) 1kg e",
+      "storage": null,
+      "ingredients": null,
+      "allergen_statement": null,
+      "sticker_price": "£7.99",
+      "facts": [
+        "Fully cooked",
+        "Hand cut",
+        "Whole fillet",
+        "8 x 125g fillets, 1kg"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of bag only; no ingredients/allergens/storage visible. Price sticker upside down. A second round badge top-left is not legible."
+      ],
+      "source_drive_ids": [
+        "1T6133B9RyUkLVmWKjItBlE2ToF_-eXWA"
+      ],
+      "pack_size_display": "8 x 125g (1kg)"
+    },
+    "vista-popcorn-chicken-1kg": {
+      "name_on_pack": "Popcorn Chicken",
+      "brand": "Vista Foods",
+      "pack_size": "1kg e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast (65%), WHEAT Flour, WHEAT Starch, Vegetable Oil (Palm), Water, Tapioca Starch, WHEAT Gluten, Salt, Garlic Powder, Flavour Enhancers (E621, E635), Spices (Pepper, Chilli), Sugar, Raising Agents (E341i, E450i, E500ii), MILK Solids and Colouring (E160c).",
+      "allergen_statement": "For allergens, including cereals containing gluten, see ingredients in BOLD.",
+      "sticker_price": "£7.99",
+      "facts": [
+        "Chicken fillet pieces in crispy coating",
+        "Fully cooked",
+        "Hand-cut whole fillet",
+        "1kg",
+        "Product code CP11",
+        "Cook from frozen",
+        "Oven bake: preheat to 200°C, 10-15 minutes on a non-stick baking tray",
+        "Deep fry: preheat oil to 175°C, 3-5 minutes",
+        "Store at -18°C or below",
+        "Origin: Thailand. Produced in an EU Approved plant",
+        "Halal logo (The Central Islamic Council of Thailand)",
+        "Nutrition per 100g: 971kJ/232kcal, fat 9.5g, saturates 4.1g, carbohydrate 18g, sugars 0.7g, protein 19g, salt 1.2g"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of bag only; ingredients/allergens/storage on reverse (not shown).",
+        "Allergens in bold: WHEAT, MILK. Same brand as existing 'Vista Food Breaded Chicken Goujons 1kg' but different product."
+      ],
+      "source_drive_ids": [
+        "1VvupvMNjMhZLiJuFXmojWml7EoKIf6W1",
+        "1nVqfQaXA-Yla6Gxr-VAz4W6WKlwKZzz6"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "vista-shredded-chicken-1kg": {
+      "name_on_pack": "Shredded Chicken",
+      "brand": "Vista Foods",
+      "pack_size": "1kg e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast (62%), WHEAT Flour, Water, WHEAT Starch, Vegetable Oil (Palm), Tapioca Starch, Salt, WHEAT Gluten, Garlic Powder, Flavour Enhancers (E621, E635), Spices (Pepper, Chilli), Sugar, Raising Agents (E500ii, E450i, E341i), MILK Solids, Colouring (E160c).",
+      "allergen_statement": "For allergens, including cereals containing gluten, see ingredients in BOLD.",
+      "sticker_price": "7.99",
+      "facts": [
+        "Chicken breast strips in crispy coating",
+        "Hand-cut whole fillet",
+        "Fully cooked",
+        "1kg",
+        "See reverse for best before date",
+        "Product code SC14",
+        "Cook from frozen",
+        "Oven bake: preheat oven to 200°C, cook in centre of oven for 10-15 minutes",
+        "Deep fry: preheat oil to 175°C, fry 3-5 minutes",
+        "Caution: Although great care has been taken to remove all bones, some may remain",
+        "Origin: Thailand. Produced in an EU Approved plant.",
+        "Store at -18°C or below",
+        "Halal certified logo (Central Islamic Council of Thailand)",
+        "Per 100g: Energy 1045kJ/250kcal, Fat 13g, of which saturates 5.6g, Carbohydrate 15g, of which sugars 1.0g, Protein 17g (salt value cut off)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Front of the same Vista Shredded Chicken product as photo 13tlln0erIqS-Ooa3fAEzEeE--5WN9V4f (which shows the labelled reverse). Price sticker reads '7.99' with no £ sign and covers part of the Vista logo.",
+        "Nutrition table bottom (salt) cut off at photo edge; nutrient row/value alignment is skewed by bag curvature - mapping assumed in standard order. Not matched to Roosters shredded chicken (different brand)."
+      ],
+      "source_drive_ids": [
+        "17_G65C5e6H8AcP231ct10GP6bYqqDm7P",
+        "13tlln0erIqS-Ooa3fAEzEeE--5WN9V4f"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "vista-sizzler-tenders-hot-spicy-1kg": {
+      "name_on_pack": "Sizzler Tenders Hot & Spicy Chicken Mini Fillets",
+      "brand": "Vista Foods",
+      "pack_size": "1kg e",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast (63%), Water, WHEAT Flour, Vegetable Oil (Palm Oil), Modified Starch (E1420), Salt, Native Maize Starch, Stabilizer (E451i), Raising Agents (E450i, E500ii), Spices (Chilli, Pepper), Vegetable Powders (Garlic, Onion), WHEAT GLUTEN, Dextrose, Rice Flour, Spice Extracts (Chilli, Paprika), Sugar, Yeast Extract.",
+      "allergen_statement": "For allergens, including cereals containing gluten, see ingredients in Bold.",
+      "sticker_price": null,
+      "facts": [
+        "Fully cooked",
+        "Hot & spicy chicken mini fillets",
+        "Product code CT28",
+        "For best results cook from frozen",
+        "Oven bake: preheat oven to 200°C, place on non-stick baking tray, cook in centre of oven for 10-15 minutes",
+        "Deep fry: preheat oil to 175°C, fry in basket for 3-5 minutes, drain and serve",
+        "Although great care has been taken to remove all bones, some may remain",
+        "Origin: Thailand. Produced in an EU approved plant",
+        "Store at -18°C or below",
+        "Halal certified (The Central Islamic Council of Thailand)",
+        "Nutrition per 100g: Energy 812kJ/194kcal, Fat 8.8g, of which saturates 3.9g, Carbohydrate 12g, of which sugars 1.0g, Protein 16g, Salt 1.4g",
+        "Vista Foods Limited, Dublin 12"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Allergens shown in bold on pack (converted to UPPER CASE). Nutrition table values are printed offset from row labels; mapped in order."
+      ],
+      "source_drive_ids": [
+        "1W2lyPTfNJnvC1KKhQnjqXDsszvlD371k"
+      ],
+      "pack_size_display": "1kg"
+    },
+    "vista-southern-fried-chicken-goujons-1kg": {
+      "name_on_pack": "Southern Fried Chicken Goujons",
+      "brand": "Vista Foods",
+      "pack_size": "1kg",
+      "storage": "frozen",
+      "ingredients": "Chicken Breast (60%), WHEAT Flour, Water, Vegetable Oil (Palm), Salt, Breadcrumb (WHEAT Flour,Yeast, Salt, Sugar), Spice & Spice Extract (Pepper, Pepper Extract), WHEAT Starch, WHEAT Gluten, Dextrose, Modified Tapioca Starch (E1442), Yeast Extract, Raising Agents (E450i, E500ii), and Vegetable Powders (Garlic, Onion).",
+      "allergen_statement": "For allergens, including cereals containing gluten, see ingredients in BOLD.",
+      "sticker_price": null,
+      "facts": [
+        "Fully cooked",
+        "Product code SFG40",
+        "Cook from frozen",
+        "Oven bake: preheat to 200°C, 10-15 minutes on a non-stick baking tray",
+        "Deep fry: preheat oil to 175°C, 3-5 minutes",
+        "Caution: although great care has been taken to remove all bones, some may remain",
+        "Origin Thailand. Produced in an EU approved plant.",
+        "Store at -18°C or below",
+        "Halal logo (The Central Islamic Council of Thailand)",
+        "Per 100g: Energy 890kJ; Fat 0.8g?, 17g, 1.4g (rest of table obscured)"
+      ],
+      "legibility": "good",
+      "notes": [
+        "Different product from existing 'vista-food-breaded-chicken-goujons-1kg' (this is Southern Fried). Nutrition table folded/obscured - values not reliably assignable. Dates at bottom: 14.09.(20..), 06.2027 partly visible."
+      ],
+      "source_drive_ids": [
+        "1PVP7T4J-U19kJQ4kCQ1vUHc1YsuChhpQ"
+      ],
+      "pack_size_display": "1kg"
+    }
+  }
+}

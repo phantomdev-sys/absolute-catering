@@ -2,8 +2,9 @@ import { formatPrice, type Product } from '@/lib/catalogue';
 import { cn } from '@/lib/cn';
 
 /**
- * Price, or an honest gap. Prices come only from the client's data sheet; a
- * product without one shows "Price to follow" and can't be added to a basket.
+ * Price, or an honest gap. Prices come from the client (data sheet, or the price
+ * printed on the pack/sticker in his photos); a product without one shows
+ * "Price to follow" and can't be added to a basket.
  */
 export function Price({ product, size = 'md', className }: { product: Product; size?: 'md' | 'lg'; className?: string }) {
   if (product.pricePence == null) {

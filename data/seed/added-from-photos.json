@@ -1,0 +1,673 @@
+[
+  {
+    "slug": "aia-durango-spiced-roasted-chicken-wings",
+    "name": "AIA Durango Spiced Roasted Chicken Wings",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-chicken-breast-fillet",
+    "name": "Cooked Chicken Breast Fillet (approx. 2.5kg)",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-sliced-roast-beef-500g",
+    "name": "Cooked Sliced Roast Beef 500g",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-sliced-roast-beef-1kg",
+    "name": "Cooked Sliced Roast Beef 1kg",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "absolute-catering-pork-sausages-4",
+    "name": "Absolute Catering Pork Sausages (4 pack)",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "sausages-frozen-food",
+      "frozen-food"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-chicken-kebabs-1kg",
+    "name": "Cooked Chicken Kebabs 1kg",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "fresh-chicken",
+      "kebab"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-gammon-ham-sliced-500g",
+    "name": "Cooked Gammon Ham Sliced 500g",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-pulled-pork-500g",
+    "name": "Cooked Pulled Pork 500g",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "cooked-sliced-chicken-breast-500g",
+    "name": "Cooked Sliced Chicken Breast 500g",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "farmhouse-ham-sliced-500g",
+    "name": "Farmhouse Ham Sliced 500g",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "hot-dog-pastry-lattice",
+    "name": "Hot Dog Pastry Lattice",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "frozen-food",
+      "sausage-rolls"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "turkey-ham-stuffing-6-pack",
+    "name": "Turkey, Ham & Stuffing (6 pack)",
+    "own_brand": true,
+    "legacy_categories": [
+      "absolute-range",
+      "cooked-meats"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "americana-seeded-burger-buns-12",
+    "name": "Americana 4.5\" Seeded Burger Buns (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "bread-and-wraps"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "apollo-dan-bol-chicken-noodles",
+    "name": "Apollo dan Bol Chicken Flavour Instant Noodles",
+    "own_brand": false,
+    "legacy_categories": [
+      "noodles-and-snacks"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "majestic-bagasse-plates-7in-50",
+    "name": "Majestic Bagasse Round Plates 7\" (50)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "paper-plates"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "black-hot-cup-lids-12-16oz",
+    "name": "Black Sip-Through Hot Cup Lids 12/16oz",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "paper-cups"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "blenders-chicken-bouillon-paste-880g",
+    "name": "Blenders Chicken Bouillon Paste 880g",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "blenders-garlic-mayonnaise",
+    "name": "Blenders Garlic Mayonnaise",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "blenders-korean-bbq-sauce",
+    "name": "Blenders Korean BBQ Sauce",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "blenders-real-mayonnaise",
+    "name": "Blenders Real Mayonnaise",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "blenders-taco-sauce",
+    "name": "Blenders Taco Sauce",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "breaded-chicken-goujons-2kg",
+    "name": "Breaded Chicken Goujons 2kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "country-range-one-cup-tea-bags-1100",
+    "name": "Country Range One Cup Tea Bags (1100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "tea-and-coffee"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "daz-washing-powder-125-washes",
+    "name": "Daz Washing Powder Mega Pack (125 washes)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cleaning"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "diggers-breaded-chicken-burgers",
+    "name": "Diggers Breaded Chicken Burgers 1.05kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "diggers-buttermilk-chicken-fillets",
+    "name": "Diggers Buttermilk Chicken Fillets 8 x 125g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "diggers-tortilla-wraps-10",
+    "name": "Diggers Tortilla Wraps Original 25cm (10)",
+    "own_brand": false,
+    "legacy_categories": [
+      "bread-and-wraps"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "kennys-garlic-mayo-1l",
+    "name": "Kenny's Garlic Mayo 1 Litre",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "kennys-italian-dressing-1l",
+    "name": "Kenny's Italian Dressing 1 Litre",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "kennys-taco-sauce-1l",
+    "name": "Kenny's Taco Sauce 1 Litre",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "kennys-tomato-ketchup-1l",
+    "name": "Kenny's Tomato Ketchup 1 Litre",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "kennys-spicy-fried-chicken-sauce-1l",
+    "name": "Kenny's Spicy Fried Chicken Sauce 1 Litre",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "lotus-biscoff-topping-1kg",
+    "name": "Lotus Biscoff Topping 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "toppings-and-spreads"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "mae-ploy-sweet-chilli-sauce-4kg",
+    "name": "Mae Ploy Sweet Chilli Sauce 3.2L",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "majestic-white-paper-plates-9in-100",
+    "name": "Majestic White Paper Plates 9\" (100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "paper-plates"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "majestic-baking-paper-50m",
+    "name": "Majestic Non-Stick Baking Paper 50m x 300mm",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "baking-paper"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "majestic-baking-paper-5m",
+    "name": "Majestic Non-Stick Baking Paper 5m x 375mm",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "baking-paper"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "mixers-garlic-mayonnaise-900g",
+    "name": "Mixers Garlic Mayonnaise 900g",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "mixers-american-bbq-sauce-1kg",
+    "name": "Mixers American Style BBQ Sauce 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "mixers-taco-sauce-900g",
+    "name": "Mixers Taco Sauce 900g",
+    "own_brand": false,
+    "legacy_categories": [
+      "sauces-and-dressings"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "nutella-food-service-tub",
+    "name": "Nutella Food Service Tub",
+    "own_brand": false,
+    "legacy_categories": [
+      "toppings-and-spreads"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "pvc-cling-film-300mm",
+    "name": "PVC Cling Film 300mm x 300m",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cling-film"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "pvc-cling-film-450mm",
+    "name": "PVC Cling Film 450mm x 300m",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cling-film"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "roosters-crunchy-coated-fillets-1kg",
+    "name": "Roosters Crunchy Coated Fillets 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-battered-chicken-nuggets",
+    "name": "Rosie & Jim Battered Chicken Nuggets 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-breaded-chicken-burgers",
+    "name": "Rosie & Jim Breaded Chicken Burgers 1080g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-breaded-chicken-goujons",
+    "name": "Rosie & Jim Breaded Chicken Goujons 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-crispy-shredded-chicken",
+    "name": "Rosie & Jim Crispy Shredded Chicken 900g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-farmhouse-stuffing-chicken-kiev",
+    "name": "Rosie & Jim Farmhouse Stuffing Chicken Kiev 750g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-salt-chilli-shredded-chicken",
+    "name": "Rosie & Jim Salt & Chilli Shredded Chicken",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-southern-fried-chicken-goujons",
+    "name": "Rosie & Jim Southern Fried Chicken Goujons 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "rosie-jim-sweet-chilli-chicken-kiev",
+    "name": "Rosie & Jim Sweet Chilli Chicken Kiev 750g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets",
+      "gluten-free",
+      "gluten-free-chicken"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "santa-maria-tortilla-wraps-12in",
+    "name": "Santa Maria Tortilla Wraps 12\" (10)",
+    "own_brand": false,
+    "legacy_categories": [
+      "bread-and-wraps"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "scotts-salt-chilli-crispy-onions-75g",
+    "name": "Scott's Salt & Chilli Crispy Onions 75g",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "scotts-original-crispy-onions-75g",
+    "name": "Scott's Original Crispy Onions 75g",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "scotts-korean-bbq-crispy-onions-75g",
+    "name": "Scott's Korean BBQ Crispy Onions 75g",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "scotts-steak-crispy-onions-75g",
+    "name": "Scott's Steak Crispy Onions 75g (Gluten Free)",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials",
+      "gluten-free"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "sephra-pistachio-topping-sauce-800g",
+    "name": "Sephra Pistachio Topping Sauce 800g",
+    "own_brand": false,
+    "legacy_categories": [
+      "toppings-and-spreads"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "steak-crunch-n-seal-crispy-onions-1kg",
+    "name": "Scott's Steak Crunch n Seal Crispy Onions 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "cooking-essentials"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "thompsons-punjana-one-cup-tea-bags-1100",
+    "name": "Thompson's Punjana One Cup Tea Bags (1100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "tea-and-coffee"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "umc-battered-cocktail-sausages-1kg",
+    "name": "UMC Battered Cocktail Sausages 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "sausages-frozen-food"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "burger-buns",
+    "name": "Burger Buns",
+    "own_brand": false,
+    "legacy_categories": [
+      "bread-and-wraps"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-battered-chicken-balls-1kg",
+    "name": "Vista Foods Battered Chicken Balls 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-crispy-coat-chicken-fillet-1kg",
+    "name": "Vista Foods Crispy Coat Chicken Fillet 8 x 125g",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-popcorn-chicken-1kg",
+    "name": "Vista Foods Popcorn Chicken 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-shredded-chicken-1kg",
+    "name": "Vista Foods Shredded Chicken 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-sizzler-tenders-hot-spicy-1kg",
+    "name": "Vista Foods Sizzler Tenders Hot & Spicy 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "vista-southern-fried-chicken-goujons-1kg",
+    "name": "Vista Foods Southern Fried Chicken Goujons 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-goujons"
+    ],
+    "source": "client-photos-2026-10-23"
+  }
+]

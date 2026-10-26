@@ -42,6 +42,8 @@ export const aisles: Aisle[] = [
       { slug: 'eggs', name: 'Eggs', legacy: ['eggs'] },
       { slug: 'cakes-and-desserts', name: 'Cakes & desserts', legacy: ['cakes'] },
       { slug: 'pizza', name: 'Pizza', legacy: ['pizza'] },
+      // Added 26 Oct 2026 from the client's photos: own-label cooked meats.
+      { slug: 'cooked-meats', name: 'Cooked meats', legacy: ['cooked-meats'] },
     ],
   },
   {
@@ -80,15 +82,33 @@ export const aisles: Aisle[] = [
     ],
   },
   {
+    // Added 26 Oct 2026: the client's photos brought in sauces, toppings,
+    // wraps and tea, none of which the WooCommerce site listed. The category
+    // slugs below are new (not WooCommerce ones), so they create no redirects:
+    // lib/redirects.ts only maps slugs listed in data/seed/legacy-categories.json.
+    slug: 'food-cupboard',
+    name: 'Food Cupboard',
+    blurb: 'Sauces and dressings, dessert toppings, wraps and buns, crispy onions and tea.',
+    legacyTop: 'food-cupboard',
+    shelves: [
+      { slug: 'sauces-and-dressings', name: 'Sauces & dressings', legacy: ['sauces-and-dressings'] },
+      { slug: 'toppings-and-spreads', name: 'Toppings & spreads', legacy: ['toppings-and-spreads'] },
+      { slug: 'bread-and-wraps', name: 'Buns & wraps', legacy: ['bread-and-wraps'] },
+      { slug: 'stock-and-crispy-onions', name: 'Stock & crispy onions', legacy: ['cooking-essentials'] },
+      { slug: 'noodles', name: 'Noodles', legacy: ['noodles-and-snacks'] },
+      { slug: 'tea', name: 'Tea', legacy: ['tea-and-coffee'] },
+    ],
+  },
+  {
     slug: 'household',
     name: 'Household & Packaging',
     blurb: 'Foil, cups, plates, cutlery, blue roll and bits for the home.',
     legacyTop: 'household-packaging',
     shelves: [
-      { slug: 'foil-and-trays', name: 'Foil & trays', legacy: ['aluminium-foil'] },
+      { slug: 'foil-and-trays', name: 'Foil, film & baking paper', legacy: ['aluminium-foil', 'cling-film', 'baking-paper'] },
       { slug: 'cups-glasses-and-straws', name: 'Cups, glasses & straws', legacy: ['paper-cups', 'plastic-cups', 'plastic-glasses', 'straws'] },
       { slug: 'plates-and-cutlery', name: 'Plates & cutlery', legacy: ['paper-plates', 'cutlery'] },
-      { slug: 'paper-and-cleaning', name: 'Paper & cleaning', legacy: ['blue-roll'] },
+      { slug: 'paper-and-cleaning', name: 'Paper & cleaning', legacy: ['blue-roll', 'cleaning'] },
       { slug: 'for-the-home', name: 'For the home', legacy: ['for-the-home'] },
     ],
   },

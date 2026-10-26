@@ -6,8 +6,10 @@ import type { Product } from '@/lib/catalogue';
  * UK labelling requires on the pack itself, so the screen matches the box in
  * the customer's hand.
  *
- * Until the client supplies signed-off data the panel says so plainly. It
- * never shows "no allergens" by default — an empty list and an unknown list
+ * Until the client supplies signed-off data the panel says so plainly, and
+ * where we have a transcription of the pack photo it shows that, labelled as
+ * unchecked (decision 26 Oct 2026: missing data must not keep a product off
+ * the site; a disclaimer covers it). It never shows "no allergens" by default — an empty list and an unknown list
  * are different things, and confusing them is how someone gets hurt.
  */
 export function AllergenLabel({ product }: { product: Product }) {
@@ -46,12 +48,34 @@ export function AllergenLabel({ product }: { product: Product }) {
             </p>
           )}
         </>
+      ) : product.packLabel ? (
+        <>
+          <div className="mt-3 border-l-4 border-notice-line bg-notice p-3 text-sm">
+            <p className="font-semibold">Not yet checked by Absolute Catering.</p>
+            <p className="mt-1">
+              The text below was copied from a photo of the pack and may contain mistakes. If you have an allergy, always
+              read the label on the product itself or ask us before ordering.
+            </p>
+          </div>
+          {product.packLabel.ingredients && (
+            <p className="mt-3">
+              <span className="font-black uppercase">Ingredients (from the pack photo): </span>
+              {product.packLabel.ingredients}
+            </p>
+          )}
+          {product.packLabel.allergenStatement && (
+            <p className="mt-3">
+              <span className="font-black uppercase">Allergy advice (from the pack photo): </span>
+              <span className="font-semibold">{product.packLabel.allergenStatement}</span>
+            </p>
+          )}
+        </>
       ) : (
         <div className="mt-3 border-l-4 border-notice-line bg-notice p-3">
-          <p className="font-semibold">Ingredients and allergen information hasn’t been confirmed yet.</p>
+          <p className="font-semibold">Ingredients and allergen information hasn’t been added yet.</p>
           <p className="mt-1 text-sm">
-            It will appear here before this product goes on sale online. If you have an allergy, please check the pack
-            or ask us in store.
+            We’re adding it product by product. If you have an allergy, please read the label on the pack or ask us in
+            store before ordering.
           </p>
         </div>
       )}

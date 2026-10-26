@@ -70,7 +70,7 @@ function iconFor(product: Product): LucideIcon {
   );
 }
 
-type Packshot = { front?: string; back?: string };
+type Packshot = { front?: string; back?: string; extra?: string[] };
 
 export function packshotFor(slug: string): Packshot {
   return (packshots as Record<string, Packshot>)[slug] ?? {};

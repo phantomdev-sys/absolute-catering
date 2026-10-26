@@ -27,7 +27,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!product) return {};
   return {
     title: product.name,
-    description: `${product.name} from Absolute Catering Supplies, Omagh. Delivered within 30 miles or click & collect.`,
+    description:
+      product.description ??
+      `${product.name} from Absolute Catering Supplies, Omagh. Delivered within 30 miles or click & collect.`,
     alternates: { canonical: `/product/${product.slug}` },
   };
 }
@@ -44,7 +46,7 @@ export default async function ProductPage({ params }: Params) {
 
   const home = primaryPlacement(product);
   const related = await relatedProducts(product, 5);
-  const back = packshotFor(product.slug).back;
+  const { back, extra = [] } = packshotFor(product.slug);
   const crumbs: Crumb[] = [{ href: '/', label: 'Home' }];
   if (home) {
     crumbs.push({ href: `/shop/${home.aisle.slug}`, label: home.aisle.name });
@@ -74,6 +76,15 @@ export default async function ProductPage({ params }: Params) {
                 <Image src={back} alt={`Back of pack: ${product.name}`} fill sizes="40vw" className="object-contain p-3" />
               </figure>
             )}
+            {extra.length > 0 && (
+              <div className="grid grid-cols-3 gap-3">
+                {extra.map((src, i) => (
+                  <figure key={src} className="relative aspect-square overflow-hidden rounded-md border border-line">
+                    <Image src={src} alt={`${product.name}, photo ${i + 2}`} fill sizes="13vw" className="object-contain p-2" />
+                  </figure>
+                ))}
+              </div>
+            )}
           </div>
 
           <div>
@@ -82,6 +93,7 @@ export default async function ProductPage({ params }: Params) {
               {product.name}
             </Heading>
             {product.packSize && <p className="mt-2 text-lg text-ink-muted">{product.packSize}</p>}
+            {product.description && <p className="mt-4 max-w-prose text-[0.9375rem] leading-relaxed">{product.description}</p>}
 
             <div className="mt-6 border-y border-line py-6">
               <div className="flex flex-wrap items-center justify-between gap-4">
