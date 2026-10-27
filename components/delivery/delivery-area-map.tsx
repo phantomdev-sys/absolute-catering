@@ -50,8 +50,31 @@ function markerEl(colour: string, size: number) {
   return el;
 }
 
-export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
+export function DeliveryAreaMap({ pin, className }: { pin?: Pin; className?: string }) {
   const box = useRef<HTMLDivElement>(null);
+  const frame = useRef<HTMLElement>(null);
+  // MapLibre is a large download, so it's only fetched once the map is about
+  // to scroll into view (matters on the homepage, where it sits mid-page).
+  const [near, setNear] = useState(false);
+
+  useEffect(() => {
+    const el = frame.current;
+    if (!el || typeof IntersectionObserver === 'undefined') {
+      setNear(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          setNear(true);
+          io.disconnect();
+        }
+      },
+      { rootMargin: '400px 0px' },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
   const live = useRef<{ map: import('maplibre-gl').Map; bounds: import('maplibre-gl').LngLatBounds } | null>(null);
@@ -65,6 +88,7 @@ export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
   }, [ready]);
 
   useEffect(() => {
+    if (!near) return;
     let map: import('maplibre-gl').Map | undefined;
     let cancelled = false;
 
@@ -229,14 +253,14 @@ export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
       live.current = null;
       map?.remove();
     };
-  }, [pin]);
+  }, [pin, near]);
 
   const summary = pin
     ? `Map of our ${radiusMiles}-mile delivery area around Omagh, with ${pin.label} marked ${pin.delivers ? 'inside' : 'outside'} it.`
     : `Map of our ${radiusMiles}-mile delivery area around our store in Omagh.`;
 
   return (
-    <figure className="relative">
+    <figure ref={frame} className={className ? `relative ${className}` : 'relative'}>
       {/* The SVG version sits underneath until the real map has drawn. */}
       {!ready && <RadiusMap pin={pin} />}
       {!failed && (

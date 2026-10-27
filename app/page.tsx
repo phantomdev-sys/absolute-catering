@@ -9,7 +9,7 @@ import { aisles } from '@/content/taxonomy';
 import { aisleCounts, getOwnBrand } from '@/lib/catalogue';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
-import { RadiusMap } from '@/components/delivery/radius-map';
+import { DeliveryAreaMap } from '@/components/delivery/delivery-area-map';
 import { PostcodeForm } from '@/components/delivery/postcode-form';
 import { ProductGrid } from '@/components/shop/product-grid';
 
@@ -69,7 +69,7 @@ export default async function HomePage() {
               {home.area.link} <ArrowRight aria-hidden="true" className="size-4" />
             </Link>
           </div>
-          <RadiusMap className="mx-auto w-full max-w-xl" />
+          <DeliveryAreaMap className="w-full" />
         </Container>
       </section>
 
