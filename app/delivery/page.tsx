@@ -32,7 +32,7 @@ export default async function DeliveryPage({ searchParams }: Props) {
     <Container width="wide" className="py-8 md:py-10">
       <Breadcrumbs items={[{ href: '/', label: 'Home' }, { label: copy.title }]} />
 
-      <div className="mt-6 grid items-start gap-10 lg:grid-cols-2">
+      <div className="mt-6 grid items-start gap-10 lg:grid-cols-2 [&>*]:min-w-0">
         <div>
           <Heading level={1} size="lg">
             {copy.title}
@@ -105,23 +105,23 @@ export default async function DeliveryPage({ searchParams }: Props) {
           />
           <details className="mt-6 rounded-md border border-line">
             <summary className="flex min-h-11 cursor-pointer items-center px-4 font-semibold">{copy.townsHeading}</summary>
-            <table className="w-full text-sm">
+            <table className="w-full table-fixed text-sm">
               <caption className="sr-only">Approximate distance from our store to the centre of each postcode district</caption>
               <thead>
                 <tr className="border-y border-line text-left text-ink-muted">
-                  <th scope="col" className="px-4 py-2 font-medium">Town</th>
-                  <th scope="col" className="px-4 py-2 font-medium">District</th>
-                  <th scope="col" className="px-4 py-2 text-right font-medium">Miles</th>
-                  <th scope="col" className="px-4 py-2 font-medium">Delivery</th>
+                  <th scope="col" className="px-3 py-2 font-medium sm:px-4">Town</th>
+                  <th scope="col" className="w-[4.5rem] px-2 py-2 font-medium sm:w-24 sm:px-4">District</th>
+                  <th scope="col" className="w-14 px-2 py-2 text-right font-medium sm:w-20 sm:px-4">Miles</th>
+                  <th scope="col" className="w-[4.75rem] px-3 py-2 font-medium sm:w-28 sm:px-4">Delivery</th>
                 </tr>
               </thead>
               <tbody>
                 {[...districts].sort((a, b) => a.miles - b.miles).map((d) => (
                   <tr key={d.outcode} className="border-b border-line last:border-0">
-                    <th scope="row" className="px-4 py-2 text-left font-medium">{d.town}</th>
-                    <td className="px-4 py-2">{d.outcode}</td>
-                    <td className="px-4 py-2 text-right tabular-nums">{d.miles.toFixed(1)}</td>
-                    <td className="px-4 py-2">{d.miles <= radiusMiles ? 'Yes' : 'Collect'}</td>
+                    <th scope="row" className="px-3 py-2 text-left font-medium break-words sm:px-4">{d.town.replace('~', '~\u200b')}</th>
+                    <td className="px-2 py-2 sm:px-4">{d.outcode}</td>
+                    <td className="px-2 py-2 text-right tabular-nums sm:px-4">{d.miles.toFixed(1)}</td>
+                    <td className="px-3 py-2 sm:px-4">{d.miles <= radiusMiles ? 'Yes' : 'Collect'}</td>
                   </tr>
                 ))}
               </tbody>

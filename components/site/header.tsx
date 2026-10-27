@@ -6,15 +6,16 @@ import { site } from '@/content/site';
 import { aisles } from '@/content/taxonomy';
 import { Container } from '@/components/ui/container';
 import { PostcodeForm } from '@/components/delivery/postcode-form';
+import { AisleMenu } from '@/components/site/aisle-menu';
 
 /**
  * Grocer-style header, all Server Components and no JavaScript.
  *
  * Four bands, each with one job: who we are and how to reach us (plum strip),
- * find something (logo, search, basket), browse (aisle row — scrolls
- * sideways on small screens rather than hiding behind a hamburger, so every
- * aisle stays one tap away), and "will you deliver to me?" (Direction B's
- * persistent delivery bar).
+ * find something (logo, search, basket), browse (aisle row on desktop; a
+ * "Shop by aisle" list on phones and tablets, so nothing is hidden off the
+ * edge of the screen and pages never scroll sideways), and "will you deliver
+ * to me?" (Direction B's persistent delivery bar).
  */
 export function Header() {
   const tel = site.contact.phone.replace(/\s/g, '');
@@ -42,7 +43,7 @@ export function Header() {
       </div>
 
       <div className="border-b border-line bg-ground">
-        <Container width="wide" className="flex flex-wrap items-center gap-x-6 gap-y-3 py-4">
+        <Container width="wide" className="flex flex-wrap items-center gap-x-3 gap-y-3 py-4 md:gap-x-6">
           <Link href="/" className="shrink-0" aria-label={`${site.name} home`}>
             <Image
               src="/brand/logo.webp"
@@ -74,7 +75,7 @@ export function Header() {
             </button>
           </form>
 
-          <div className="ml-auto flex items-center gap-2 md:ml-0">
+          <div className="ml-auto flex items-center gap-1 sm:gap-2 md:ml-0">
             <Link
               href="/account"
               className="inline-flex min-h-11 items-center gap-2 rounded-md px-3 font-semibold hover:bg-ground-subtle"
@@ -89,7 +90,14 @@ export function Header() {
 
       <nav aria-label="Aisles" className="border-b border-line bg-ground">
         <Container width="wide">
-          <ul className="-mx-2 flex gap-1 overflow-x-auto py-1 text-[0.9375rem] font-semibold">
+          <AisleMenu
+            items={[
+              ...aisles.map((a) => ({ href: `/shop/${a.slug}`, label: a.name })),
+              { href: '/absolute-range', label: 'Absolute Range', tone: 'brand' as const },
+              { href: '/delivery', label: 'Delivery & collection', tone: 'muted' as const },
+            ]}
+          />
+          <ul className="-mx-2 hidden flex-wrap gap-1 py-1 text-[0.9375rem] font-semibold lg:flex">
             {aisles.map((a) => (
               <li key={a.slug} className="shrink-0">
                 <Link href={`/shop/${a.slug}`} className="inline-flex min-h-11 items-center rounded-md px-3 hover:bg-ground-subtle">
