@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { store, radiusMiles } from '@/content/delivery';
+import { store, radiusMiles, mapTowns } from '@/content/delivery';
 import { RadiusMap } from '@/components/delivery/radius-map';
 
 /**
@@ -21,7 +21,9 @@ import { RadiusMap } from '@/components/delivery/radius-map';
 
 type Pin = { lat: number; lng: number; label: string; delivers: boolean };
 
-const STYLE = 'https://tiles.openfreemap.org/styles/positron';
+// "Liberty": OpenFreeMap's full-colour style (fields, water, roads), chosen
+// 27 Oct 2026 over the grey "positron" for a warmer, more local feel.
+const STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 // Map paint needs literal colours, so read the theme tokens at runtime.
 const token = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 const KM = radiusMiles * 1.609344;
@@ -119,6 +121,82 @@ export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
             type: 'line',
             source: 'area',
             paint: { 'line-color': ACCENT, 'line-width': 2.5, 'line-dasharray': [3, 2] },
+          });
+
+          // Our own town labels (content/delivery.ts): at the zoom that fits the
+          // whole area the base map only names a few big towns. The base
+          // map's village and hamlet labels are hidden so they can't double up.
+          for (const id of ['label_village', 'label_other']) {
+            if (map.getLayer(id)) map.setLayoutProperty(id, 'visibility', 'none');
+          }
+          // Base town/city labels stay for places outside our list (Belfast,
+          // Letterkenny…) but skip ones we label ourselves, so none doubles up.
+          const ours = [...mapTowns.map((t) => t.name), 'Derry/Londonderry', 'Londonderry', 'Derry'];
+          for (const id of ['label_town', 'label_city']) {
+            const f = map.getLayer(id) ? map.getFilter(id) : undefined;
+            if (f) map.setFilter(id, ['all', f, ['!', ['in', ['get', 'name'], ['literal', ours]]]] as import('maplibre-gl').FilterSpecification);
+          }
+          const rank = { village: 1, town: 2, city: 3 } as const;
+          map.addSource('towns', {
+            type: 'geojson',
+            data: {
+              type: 'FeatureCollection',
+              features: mapTowns
+                .filter((t) => t.name !== 'Omagh')
+                .map((t) => ({
+                  type: 'Feature',
+                  properties: { name: t.name, kind: t.kind, rank: rank[t.kind] },
+                  geometry: { type: 'Point', coordinates: [t.lng, t.lat] },
+                })),
+            },
+          });
+          map.addLayer({
+            id: 'town-dots',
+            type: 'circle',
+            source: 'towns',
+            paint: {
+              'circle-radius': ['match', ['get', 'kind'], 'village', 2.5, 3.5],
+              'circle-color': INK,
+              'circle-stroke-color': token('--color-ground'),
+              'circle-stroke-width': 1,
+            },
+          });
+          map.addLayer({
+            id: 'town-labels',
+            type: 'symbol',
+            source: 'towns',
+            layout: {
+              'text-field': ['get', 'name'],
+              'text-font': ['match', ['get', 'kind'], 'village', ['literal', ['Noto Sans Regular']], ['literal', ['Noto Sans Bold']]],
+              'text-size': ['match', ['get', 'kind'], 'village', 11.5, 'town', 13, 14],
+              'text-variable-anchor': ['top', 'bottom', 'right', 'left'],
+              'text-radial-offset': 0.55,
+              'text-justify': 'auto',
+              'symbol-sort-key': ['-', 0, ['get', 'rank']],
+            },
+            paint: {
+              'text-color': INK,
+              'text-halo-color': token('--color-ground'),
+              'text-halo-width': 1.6,
+            },
+          });
+          map.addSource('store', {
+            type: 'geojson',
+            data: { type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [store.lng, store.lat] } },
+          });
+          map.addLayer({
+            id: 'store-label',
+            type: 'symbol',
+            source: 'store',
+            layout: {
+              'text-field': 'Omagh · our store',
+              'text-font': ['Noto Sans Bold'],
+              'text-size': 14,
+              'text-anchor': 'left',
+              'text-offset': [1.1, 0],
+              'text-allow-overlap': true,
+            },
+            paint: { 'text-color': BRAND, 'text-halo-color': token('--color-ground'), 'text-halo-width': 2 },
           });
 
           new maplibre.Marker({ element: markerEl(BRAND, 22) })
