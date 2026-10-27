@@ -3,12 +3,13 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { currentUser } from '@/lib/auth';
 import { getProducts } from '@/lib/catalogue';
-import { myOrders, buyAgainSlugs, myFavouriteSlugs, myProfile, STATUS_LABEL } from '@/lib/account';
-import { signOut, setMarketing } from './actions';
+import { myOrders, buyAgainSlugs, myFavouriteSlugs, myProfile, myAddresses, STATUS_LABEL } from '@/lib/account';
+import { signOut, setMarketing, deleteAddress, makeDefaultAddress } from './actions';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { ProductGrid } from '@/components/shop/product-grid';
 import { BuyAgainAll } from '@/components/account/buy-again-all';
+import { DetailsForm, AddAddressForm } from '@/components/account/details-forms';
 
 // Per-customer and session-dependent: never prerender or cache.
 export const dynamic = 'force-dynamic';
@@ -22,7 +23,13 @@ export default async function AccountPage() {
   const user = await currentUser();
   if (!user) redirect('/account/sign-in?next=/account');
 
-  const [products, orders, favourites, profile] = await Promise.all([getProducts(), myOrders(), myFavouriteSlugs(), myProfile()]);
+  const [products, orders, favourites, profile, addresses] = await Promise.all([
+    getProducts(),
+    myOrders(),
+    myFavouriteSlugs(),
+    myProfile(),
+    myAddresses(),
+  ]);
   const bySlug = new Map(products.map((p) => [p.slug, p]));
   const again = buyAgainSlugs(orders).flatMap((s) => (bySlug.get(s) ? [bySlug.get(s)!] : [])).slice(0, 10);
   const favs = favourites.flatMap((s) => (bySlug.get(s) ? [bySlug.get(s)!] : []));
@@ -82,7 +89,62 @@ export default async function AccountPage() {
         )}
       </section>
 
-      <section aria-labelledby="prefs-heading" className="mt-12 max-w-xl rounded-md border border-line p-6">
+      <div className="mt-12 grid items-start gap-8 lg:grid-cols-2">
+        <section aria-labelledby="details-heading" className="rounded-md border border-line p-6">
+          <Heading level={2} size="sm" id="details-heading">Your details</Heading>
+          <DetailsForm fullName={profile?.full_name ?? ''} phone={profile?.phone ?? ''} email={user.email ?? ''} />
+        </section>
+
+        <section aria-labelledby="addresses-heading" className="rounded-md border border-line p-6">
+          <Heading level={2} size="sm" id="addresses-heading">Delivery addresses</Heading>
+          {addresses.length > 0 ? (
+            <ul className="mt-4 space-y-3">
+              {addresses.map((a) => (
+                <li key={a.id} className="rounded-md border border-line bg-ground-subtle p-4">
+                  <div className="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <p className="font-semibold">
+                        {a.label || a.line1}
+                        {a.isDefault && <span className="ml-2 rounded-full bg-teal-soft px-2 py-0.5 text-xs font-semibold">Default</span>}
+                      </p>
+                      <p className="text-sm text-ink-muted">
+                        {[a.label ? a.line1 : null, a.line2, a.town, a.postcode].filter(Boolean).join(', ')}
+                      </p>
+                      <p className="mt-1 text-sm">
+                        {a.deliveryEligible
+                          ? `We deliver here${a.miles != null ? ` (about ${Math.round(a.miles)} miles)` : ''}`
+                          : 'Outside our delivery area: click & collect'}
+                      </p>
+                    </div>
+                    <div className="flex gap-2">
+                      {!a.isDefault && (
+                        <form action={makeDefaultAddress}>
+                          <input type="hidden" name="id" value={a.id} />
+                          <button type="submit" className="min-h-11 px-2 text-sm font-semibold text-accent underline underline-offset-4">Make default</button>
+                        </form>
+                      )}
+                      <form action={deleteAddress}>
+                        <input type="hidden" name="id" value={a.id} />
+                        <button type="submit" className="min-h-11 px-2 text-sm font-semibold text-ink-muted underline underline-offset-4">
+                          Remove<span className="sr-only"> {a.label || a.line1}</span>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-3 text-ink-muted">Save an address and checkout fills it in for you.</p>
+          )}
+          <details className="mt-5" open={addresses.length === 0}>
+            <summary className="min-h-11 cursor-pointer font-semibold text-accent">Add an address</summary>
+            <AddAddressForm />
+          </details>
+        </section>
+      </div>
+
+      <section aria-labelledby="prefs-heading" className="mt-8 max-w-xl rounded-md border border-line p-6">
         <Heading level={2} size="sm" id="prefs-heading">Email preferences</Heading>
         <form action={setMarketing} className="mt-4 space-y-4">
           <label className="flex items-start gap-3">

@@ -74,6 +74,22 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
       miles: check.miles,
       phone: input.phone?.trim() || null,
     };
+    // First delivery order: keep the address so next time checkout fills it in.
+    const { count } = await admin.from('addresses').select('id', { count: 'exact', head: true }).eq('user_id', user.id);
+    if ((count ?? 0) === 0) {
+      await admin.from('addresses').insert({
+        user_id: user.id,
+        line1: a.line1.trim(),
+        line2: a.line2?.trim() || null,
+        town: a.town.trim(),
+        postcode: check.postcode,
+        lat: check.lat,
+        lng: check.lng,
+        distance_miles: check.miles,
+        delivery_eligible: true,
+        is_default: true,
+      });
+    }
   }
 
   // 3. Slot: must match the fulfilment type; the hold is taken as the customer.

@@ -22,10 +22,13 @@ export function CheckoutForm({
   catalogue,
   slots,
   demoSlots,
+  saved,
 }: {
   catalogue: Record<string, BasketProduct>;
   slots: Slot[];
   demoSlots: boolean;
+  /** Prefill from the customer's saved address and profile (empty strings when none). */
+  saved: { line1: string; line2: string; town: string; postcode: string; phone: string };
 }) {
   const { lines } = useBasket();
   const [fulfilment, setFulfilment] = useState<'delivery' | 'collection'>('delivery');
@@ -121,11 +124,11 @@ export function CheckoutForm({
           <fieldset>
             <legend className="font-display text-xl font-semibold">2. Delivery address</legend>
             <div className="mt-4 grid gap-4 sm:grid-cols-2">
-              <div className="sm:col-span-2"><label htmlFor="line1" className="text-sm font-semibold">Address line 1</label><input id="line1" name="line1" autoComplete="address-line1" required className={input} /></div>
-              <div className="sm:col-span-2"><label htmlFor="line2" className="text-sm font-semibold">Address line 2 <span className="font-normal text-ink-muted">(optional)</span></label><input id="line2" name="line2" autoComplete="address-line2" className={input} /></div>
-              <div><label htmlFor="town" className="text-sm font-semibold">Town</label><input id="town" name="town" autoComplete="address-level2" required className={input} /></div>
-              <div><label htmlFor="postcode" className="text-sm font-semibold">Postcode</label><input id="postcode" name="postcode" autoComplete="postal-code" required className={cn(input, 'uppercase')} /></div>
-              <div className="sm:col-span-2"><label htmlFor="phone" className="text-sm font-semibold">Phone, for the driver</label><input id="phone" name="phone" type="tel" autoComplete="tel" className={input} /></div>
+              <div className="sm:col-span-2"><label htmlFor="line1" className="text-sm font-semibold">Address line 1</label><input id="line1" name="line1" autoComplete="address-line1" required defaultValue={saved.line1} className={input} /></div>
+              <div className="sm:col-span-2"><label htmlFor="line2" className="text-sm font-semibold">Address line 2 <span className="font-normal text-ink-muted">(optional)</span></label><input id="line2" name="line2" autoComplete="address-line2" defaultValue={saved.line2} className={input} /></div>
+              <div><label htmlFor="town" className="text-sm font-semibold">Town</label><input id="town" name="town" autoComplete="address-level2" required defaultValue={saved.town} className={input} /></div>
+              <div><label htmlFor="postcode" className="text-sm font-semibold">Postcode</label><input id="postcode" name="postcode" autoComplete="postal-code" required defaultValue={saved.postcode} className={cn(input, 'uppercase')} /></div>
+              <div className="sm:col-span-2"><label htmlFor="phone" className="text-sm font-semibold">Phone, for the driver</label><input id="phone" name="phone" type="tel" autoComplete="tel" defaultValue={saved.phone} className={input} /></div>
             </div>
           </fieldset>
         )}

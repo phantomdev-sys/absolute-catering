@@ -84,6 +84,40 @@ export async function myFavouriteSlugs(): Promise<string[]> {
 export async function myProfile() {
   const supabase = await serverClient();
   if (!supabase) return null;
-  const { data } = await supabase.from('profiles').select('full_name, marketing_consent').maybeSingle();
-  return data;
+  const { data } = await supabase.from('profiles').select('full_name, phone, marketing_consent').maybeSingle();
+  return data as { full_name: string | null; phone: string | null; marketing_consent: boolean } | null;
+}
+
+export type SavedAddress = {
+  id: string;
+  label: string | null;
+  line1: string;
+  line2: string | null;
+  town: string;
+  postcode: string;
+  miles: number | null;
+  deliveryEligible: boolean | null;
+  isDefault: boolean;
+};
+
+/** The customer's saved addresses, default first. RLS limits this to their own. */
+export async function myAddresses(): Promise<SavedAddress[]> {
+  const supabase = await serverClient();
+  if (!supabase) return [];
+  const { data } = await supabase
+    .from('addresses')
+    .select('id, label, line1, line2, town, postcode, distance_miles, delivery_eligible, is_default, created_at')
+    .order('is_default', { ascending: false })
+    .order('created_at', { ascending: true });
+  return (data ?? []).map((a) => ({
+    id: a.id,
+    label: a.label,
+    line1: a.line1,
+    line2: a.line2,
+    town: a.town,
+    postcode: a.postcode,
+    miles: a.distance_miles == null ? null : Number(a.distance_miles),
+    deliveryEligible: a.delivery_eligible,
+    isDefault: a.is_default,
+  }));
 }
