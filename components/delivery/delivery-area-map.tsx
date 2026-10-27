@@ -11,8 +11,9 @@ import { RadiusMap } from '@/components/delivery/radius-map';
  *
  * Decided 26 Oct 2026 (Alex): MapLibre with OpenFreeMap tiles rather than
  * Google Maps. No API key, no billing, no cookies (so no consent banner), and
- * styled in the brand colours. Attribution to OpenFreeMap/OpenMapTiles/
- * OpenStreetMap is shown by the map, as their licence requires.
+ * styled in the brand colours. The OpenStreetMap data licence requires a
+ * visible credit; it sits as a small line under the legend (26 Oct 2026),
+ * not over the map.
  *
  * The SVG ring (RadiusMap) renders first and stays if the map can't load
  * (no WebGL, tiles blocked, JavaScript off), so the page never shows a hole.
@@ -92,7 +93,9 @@ export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
           bounds,
           fitBoundsOptions: { padding: 28 },
           cooperativeGestures: true,
-          attributionControl: { compact: true },
+          // Credit is shown in our own caption below the map (see figcaption),
+          // so it can't sit over the map or the legend.
+          attributionControl: false,
           dragRotate: false,
           pitchWithRotate: false,
         });
@@ -186,6 +189,20 @@ export function DeliveryAreaMap({ pin }: { pin?: Pin }) {
               {pin.label}
             </span>
           )}
+          <span className="w-full text-xs">
+            Map{' '}
+            <a href="https://openfreemap.org" className="underline underline-offset-2" rel="noopener" target="_blank">
+              OpenFreeMap
+            </a>{' '}
+            ©{' '}
+            <a href="https://www.openmaptiles.org/" className="underline underline-offset-2" rel="noopener" target="_blank">
+              OpenMapTiles
+            </a>
+            , data ©{' '}
+            <a href="https://www.openstreetmap.org/copyright" className="underline underline-offset-2" rel="noopener" target="_blank">
+              OpenStreetMap contributors
+            </a>
+          </span>
         </figcaption>
       )}
     </figure>
