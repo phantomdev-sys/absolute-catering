@@ -8,6 +8,7 @@ export type OrderSummary = {
   status: string;
   fulfilment: 'delivery' | 'collection';
   totalPence: number;
+  deliveryPence: number;
   createdAt: string;
   items: { slug: string; name: string; qty: number; pricePence: number; unavailable: boolean }[];
 };
@@ -29,7 +30,7 @@ export async function myOrders(): Promise<OrderSummary[]> {
   if (!supabase) return [];
   const { data } = await supabase
     .from('orders')
-    .select('id, number, status, fulfilment, total_pence, created_at, order_items(slug, name, qty, price_pence, unavailable)')
+    .select('id, number, status, fulfilment, total_pence, delivery_pence, created_at, order_items(slug, name, qty, price_pence, unavailable)')
     .neq('status', 'awaiting_payment')
     .order('created_at', { ascending: false })
     .limit(50);
@@ -39,6 +40,7 @@ export async function myOrders(): Promise<OrderSummary[]> {
     status: o.status,
     fulfilment: o.fulfilment,
     totalPence: o.total_pence,
+    deliveryPence: o.delivery_pence ?? 0,
     createdAt: o.created_at,
     items: (o.order_items ?? []).map((i: { slug: string; name: string; qty: number; price_pence: number; unavailable: boolean }) => ({
       slug: i.slug,

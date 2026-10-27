@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { deliveryChargePence, deliveryMinimumPence } from '@/content/delivery';
 import Link from 'next/link';
 import { ArrowRight, Store, Truck } from 'lucide-react';
 import { useBasket } from './basket-provider';
@@ -93,11 +94,19 @@ export function BasketView({
           </div>
           <div className="flex justify-between text-ink-muted">
             <dt>Delivery</dt>
-            <dd>Calculated at checkout</dd>
+            <dd>{gbp(deliveryChargePence)}, or free click &amp; collect</dd>
           </div>
         </dl>
+        {subtotal < deliveryMinimumPence ? (
+          <p className="mt-3 rounded-md bg-teal-soft p-3 text-sm">
+            Spend <strong>{gbp(deliveryMinimumPence - subtotal)}</strong> more for delivery ({gbp(deliveryMinimumPence)} minimum). Click &amp;
+            collect has no minimum.
+          </p>
+        ) : (
+          <p className="mt-3 rounded-md bg-teal-soft p-3 text-sm">You’ve reached the {gbp(deliveryMinimumPence)} minimum for delivery.</p>
+        )}
         <div className="mt-4 flex justify-between border-t border-line pt-4 text-lg font-bold">
-          <span>Estimated total</span>
+          <span>Items total</span>
           <span className="tabular-nums">{gbp(subtotal)}</span>
         </div>
         <p className="mt-2 text-xs text-ink-muted">

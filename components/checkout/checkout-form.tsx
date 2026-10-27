@@ -7,6 +7,7 @@ import { cn } from '@/lib/cn';
 import { useBasket } from '@/components/basket/basket-provider';
 import type { BasketProduct } from '@/components/basket/basket-view';
 import { startCheckout } from '@/app/checkout/actions';
+import { deliveryChargePence, deliveryMinimumPence } from '@/content/delivery';
 
 type Slot = { id: string; type: 'delivery' | 'collection'; startsAt: string; endsAt: string; left: number };
 
@@ -34,6 +35,11 @@ export function CheckoutForm({
 
   const priced = lines.flatMap((l) => (catalogue[l.slug] ? [{ ...l, p: catalogue[l.slug]! }] : []));
   const subtotal = priced.reduce((n, l) => n + l.p.pricePence * l.qty, 0);
+  const deliveryPence = fulfilment === 'delivery' ? deliveryChargePence : 0;
+  const total = subtotal + deliveryPence;
+  // How far short of the delivery minimum the basket is (0 once it's met).
+  const shortfall = Math.max(0, deliveryMinimumPence - subtotal);
+  const blocked = fulfilment === 'delivery' && shortfall > 0;
 
   // Slots for the chosen method, grouped by day for the grid.
   const days = useMemo(() => {
@@ -55,6 +61,10 @@ export function CheckoutForm({
 
   function onSubmit(form: FormData) {
     setError('');
+    if (blocked) {
+      setError(`Delivery needs a minimum spend of ${gbp(deliveryMinimumPence)}. Add ${gbp(shortfall)} more, or choose click & collect.`);
+      return;
+    }
     if (!slotId) {
       setError('Please choose a slot.');
       return;
@@ -91,13 +101,20 @@ export function CheckoutForm({
           <div className="mt-4 flex flex-col gap-3 sm:flex-row">
             <label className={choice(fulfilment === 'delivery')}>
               <input type="radio" name="fulfilment" value="delivery" checked={fulfilment === 'delivery'} onChange={() => { setFulfilment('delivery'); setSlotId(''); }} className="mt-1 size-5 accent-accent" />
-              <span><span className="flex items-center gap-2 font-semibold"><Truck aria-hidden="true" className="size-5 text-brand" />Delivery</span><span className="text-sm text-ink-muted">Within 30 miles of Omagh, in our refrigerated van</span></span>
+              <span><span className="flex items-center gap-2 font-semibold"><Truck aria-hidden="true" className="size-5 text-brand" />Delivery</span><span className="block text-sm text-ink-muted">Within 30 miles of Omagh, in our refrigerated van</span><span className="mt-1 block text-sm font-semibold">{gbp(deliveryChargePence)} · minimum spend {gbp(deliveryMinimumPence)}</span></span>
             </label>
             <label className={choice(fulfilment === 'collection')}>
               <input type="radio" name="fulfilment" value="collection" checked={fulfilment === 'collection'} onChange={() => { setFulfilment('collection'); setSlotId(''); }} className="mt-1 size-5 accent-accent" />
-              <span><span className="flex items-center gap-2 font-semibold"><Store aria-hidden="true" className="size-5 text-brand" />Click &amp; collect</span><span className="text-sm text-ink-muted">From the store at Gortrush, Omagh</span></span>
+              <span><span className="flex items-center gap-2 font-semibold"><Store aria-hidden="true" className="size-5 text-brand" />Click &amp; collect</span><span className="block text-sm text-ink-muted">From the store at Gortrush, Omagh</span><span className="mt-1 block text-sm font-semibold">Free · no minimum spend</span></span>
             </label>
           </div>
+          {blocked && (
+            <p role="status" className="mt-3 rounded-md border-l-4 border-notice-line bg-notice p-3 text-sm">
+              Delivery needs a minimum spend of {gbp(deliveryMinimumPence)}. Add <strong>{gbp(shortfall)}</strong> more to your basket, or
+              choose click &amp; collect, which has no minimum.{' '}
+              <Link href="/basket" className="font-semibold underline">Back to basket</Link>
+            </p>
+          )}
         </fieldset>
 
         {fulfilment === 'delivery' && (
@@ -154,10 +171,14 @@ export function CheckoutForm({
             <li key={l.slug} className="flex justify-between gap-4"><span>{l.qty} × {l.p.name}</span><span className="tabular-nums">{gbp(l.p.pricePence * l.qty)}</span></li>
           ))}
         </ul>
-        <div className="mt-4 flex justify-between border-t border-line pt-4 text-lg font-bold"><span>Total</span><span className="tabular-nums">{gbp(subtotal)}</span></div>
+        <dl className="mt-4 space-y-1 border-t border-line pt-4 text-sm">
+          <div className="flex justify-between"><dt>Items</dt><dd className="tabular-nums">{gbp(subtotal)}</dd></div>
+          <div className="flex justify-between"><dt>{fulfilment === 'delivery' ? 'Delivery' : 'Click & collect'}</dt><dd className="tabular-nums">{deliveryPence > 0 ? gbp(deliveryPence) : 'Free'}</dd></div>
+        </dl>
+        <div className="mt-3 flex justify-between border-t border-line pt-3 text-lg font-bold"><span>Total</span><span className="tabular-nums">{gbp(total)}</span></div>
         <p className="mt-2 text-xs text-ink-muted">Your card is held for this amount and charged only for what we pick. <Link href="/payments" className="underline">How payment works</Link></p>
         {error && <p role="alert" className="mt-4 rounded-md border-l-4 border-notice-line bg-notice p-3 text-sm">{error}</p>}
-        <button type="submit" disabled={pending} className="mt-6 inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-md bg-accent px-6 text-lg font-semibold text-accent-ink hover:bg-accent-hover disabled:opacity-60">
+        <button type="submit" disabled={pending || blocked} className="mt-6 inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-md bg-accent px-6 text-lg font-semibold text-accent-ink hover:bg-accent-hover disabled:opacity-60">
           <Lock aria-hidden="true" className="size-4" />{pending ? 'Opening secure payment…' : 'Continue to payment'}
         </button>
         <p className="mt-3 text-center text-xs text-ink-muted">Payments are handled by Stripe.</p>

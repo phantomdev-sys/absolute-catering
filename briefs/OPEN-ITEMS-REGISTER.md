@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-26 · Open: 34 · Blocked: 3
+Last updated: 2026-10-27 · Open: 34 · Blocked: 3
 
 ## Open
 
@@ -12,7 +12,6 @@ Last updated: 2026-10-26 · Open: 34 · Blocked: 3
 | 6 | Download WP media library (114 files, renamed by slug) | Alex | 2026-10-20 | Waiting | Export received 20 Oct. Run `bash scripts/fetch-wp-media.sh` on the Mac (site blocked from Claude's side); then Claude sorts the 24 unsorted files |
 | 7 | Delivery slots: days, times, capacity, cut-off, blackout dates | Client | 2026-10-20 | Blocked | Slot engine built configurable; can't go live without values |
 | 8 | Collection slots: hours, capacity | Client | 2026-10-20 | Waiting | |
-| 9 | Delivery charge, minimum order, does charge vary by distance | Client | 2026-10-20 | Waiting | |
 | 10 | 30-mile straight-line radius incl. ROI for now; Alex asking client about crossing the border | Alex | 2026-10-20 | Decided | Revisit once on screen. Postcodes.io is UK-only, so Eircode lookup needed if ROI delivery stays in |
 | 11 | Stripe: new or existing account, business email, who holds it | Client | 2026-10-20 | Waiting | No Stripe connector in session; Alex sets up |
 | 13 | Order notifications: recipients and format (email, printed picking list) | Client | 2026-10-20 | Waiting | |
@@ -71,4 +70,5 @@ Last updated: 2026-10-26 · Open: 34 · Blocked: 3
 | 5 | Product photography | 2026-10-26 | 112 photos from Ciaran (23 Oct): 79 products now have packshots on white (68 new products + 11 old-site ones), all 124 in Supabase as awaiting_client |
 | 50 | Price stickers in photos | 2026-10-26 | Run with prices printed on pack/sticker (29 products, `data/pack-labels/prices.json`); Ciaran to be told (#56) |
 | 54 | Product cap | 2026-10-26 | No cap for now; upload whatever the client sends |
+| 9 | Delivery charge and minimum order | 2026-10-27 | £5 delivery, £50 minimum spend for delivery (items total); click & collect free, no minimum. Enforced at checkout; `content/delivery.ts` + `store_settings`. VAT on the charge still #26 |
 | 43 | Stripe test keys | 2026-10-20 | Alex's own new 'Absolute Catering Supplies' Stripe account, sandbox keys added to Vercel |

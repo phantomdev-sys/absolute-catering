@@ -7,8 +7,8 @@
  * main town in each district.
  *
  * Decided 20 Oct 2026: 30 miles straight line, to be reviewed once on screen
- * (register #10). Slots, charges and minimum order are still with the client
- * (register #7–9), so nothing here promises a time or a price.
+ * (register #10). Slots are still with the client (register #7–8); the
+ * delivery charge and minimum are set at the bottom of this file (#9).
  */
 
 export const store = {
@@ -112,3 +112,12 @@ export const mapTowns: MapTown[] = [
   { name: 'Lifford', kind: 'town', lat: 54.8327, lng: -7.48347 },
   { name: 'Ballybofey', kind: 'town', lat: 54.79906, lng: -7.78195 },
 ];
+
+/**
+ * Delivery charge and minimum spend (decided by Alex, 27 Oct 2026; register #9).
+ * Delivery is £5 with a £50 minimum basket; click & collect is free with no
+ * minimum. The minimum is checked against the items total before delivery.
+ * Checkout enforces both on the server (app/checkout/actions.ts).
+ */
+export const deliveryChargePence = 500;
+export const deliveryMinimumPence = 5000;

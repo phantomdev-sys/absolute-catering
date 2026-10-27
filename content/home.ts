@@ -1,8 +1,8 @@
 /**
  * Homepage copy. Facts only: what the shop sells (from the catalogue), where
  * it is, the 30-mile radius, the refrigerated van and the authorise-then-capture
- * payment model (both from the brief). No opening hours, slot times, charges
- * or minimum order until the client confirms them (register #7–9).
+ * payment model (both from the brief). No opening hours or slot times until
+ * the client confirms them (register #7–8); charges live in content/delivery.ts.
  */
 export const home = {
   hero: {

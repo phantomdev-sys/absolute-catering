@@ -4,6 +4,7 @@ import { serverClient } from '@/lib/supabase/server';
 import { adminClient } from '@/lib/supabase/admin';
 import { getProducts } from '@/lib/catalogue';
 import { checkPostcode } from '@/lib/delivery';
+import { deliveryChargePence, deliveryMinimumPence } from '@/content/delivery';
 import { siteOrigin } from '@/lib/origin';
 import { stripe } from '@/lib/stripe';
 
@@ -47,6 +48,13 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
   }
   if (priced.length === 0) return { error: 'Your basket is empty or its items are no longer available.' };
   const subtotal = priced.reduce((n, l) => n + l.product.pricePence! * l.qty, 0);
+  const gbp = (p: number) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(p / 100);
+  if (input.fulfilment === 'delivery' && subtotal < deliveryMinimumPence) {
+    return {
+      error: `Delivery needs a minimum spend of ${gbp(deliveryMinimumPence)}. Add ${gbp(deliveryMinimumPence - subtotal)} more, or choose click & collect (no minimum).`,
+    };
+  }
+  const deliveryPence = input.fulfilment === 'delivery' ? deliveryChargePence : 0;
 
   // 2. Delivery address must be inside the radius, checked here, not in the browser.
   let address: Record<string, unknown> | null = null;
@@ -87,8 +95,8 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
       slot_id: slot.id,
       address,
       subtotal_pence: subtotal,
-      delivery_pence: 0,
-      total_pence: subtotal,
+      delivery_pence: deliveryPence,
+      total_pence: subtotal + deliveryPence,
       vat_breakdown: process.env.NEXT_PUBLIC_DEMO_PRICES === '1' ? { demo: true } : {},
     })
     .select('id, number')
@@ -120,10 +128,15 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
       metadata: { order_id: order.id, order_number: String(order.number) },
       description: `Absolute Catering Supplies order ${order.number}`,
     },
-    line_items: priced.map((l) => ({
-      quantity: l.qty,
-      price_data: { currency: 'gbp', unit_amount: l.product.pricePence!, product_data: { name: l.product.name } },
-    })),
+    line_items: [
+      ...priced.map((l) => ({
+        quantity: l.qty,
+        price_data: { currency: 'gbp', unit_amount: l.product.pricePence!, product_data: { name: l.product.name } },
+      })),
+      ...(deliveryPence > 0
+        ? [{ quantity: 1, price_data: { currency: 'gbp', unit_amount: deliveryPence, product_data: { name: 'Delivery' } } }]
+        : []),
+    ],
     expires_at: Math.floor(Date.now() / 1000) + 30 * 60,
     success_url: `${origin}/checkout/success?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${origin}/basket`,

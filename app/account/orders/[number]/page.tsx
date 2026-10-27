@@ -45,6 +45,9 @@ export default async function OrderPage({ params }: Props) {
           </li>
         ))}
       </ul>
+      {order.deliveryPence > 0 && (
+        <p className="mt-3 flex justify-between"><span>Delivery</span><span className="tabular-nums">{gbp(order.deliveryPence)}</span></p>
+      )}
       <p className="mt-4 flex justify-between text-lg font-bold"><span>Held on your card</span><span className="tabular-nums">{gbp(order.totalPence)}</span></p>
       <p className="mt-1 text-sm text-ink-muted">You’re charged only for what we pick. <Link href="/payments" className="underline">How payment works</Link></p>
       <div className="mt-8">

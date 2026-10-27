@@ -34,8 +34,8 @@ export const deliveryPage = {
       body: 'Choose a collection time and we’ll have your order packed and waiting at the store: 23D Gortrush Industrial Estate, Omagh, BT78 5EJ.',
     },
     {
-      heading: 'Slots, charges and minimum order',
-      body: 'We’re finalising delivery days, collection times and charges. They’ll be shown here, and when you book, before online ordering opens.',
+      heading: 'Charges and minimum order',
+      body: 'Delivery is £5, with a minimum spend of £50. Click & collect is free, with no minimum. Delivery days and collection times are being finalised and will be shown when you book.',
     },
   ],
   townsHeading: 'Towns in and around our delivery area',
