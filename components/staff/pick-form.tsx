@@ -93,17 +93,25 @@ export function PickForm({
                   max={l.qty}
                   label={`Picked quantity of ${l.name}`}
                 />
-                <button
-                  type="button"
-                  onClick={() => set(l.id, v === 0 ? l.qty : 0)}
-                  className="inline-flex min-h-11 min-w-24 items-center justify-center gap-1 rounded-md border border-line-strong px-3 text-sm font-semibold hover:border-ink"
-                >
-                  {v === 0 ? (
-                    <><Check aria-hidden="true" className="size-4" /> Got all</>
-                  ) : (
-                    <><X aria-hidden="true" className="size-4" /> None</>
-                  )}
-                </button>
+                {/* Two fixed shortcuts, highlighted when they match the count. */}
+                <span role="group" aria-label={`Quick set for ${l.name}`} className="inline-flex overflow-hidden rounded-md border border-line-strong">
+                  <button
+                    type="button"
+                    aria-pressed={v === l.qty}
+                    onClick={() => set(l.id, l.qty)}
+                    className="inline-flex min-h-11 items-center gap-1 px-3 text-sm font-semibold hover:bg-ground-subtle aria-pressed:bg-accent aria-pressed:text-accent-ink"
+                  >
+                    <Check aria-hidden="true" className="size-4" /> All
+                  </button>
+                  <button
+                    type="button"
+                    aria-pressed={v === 0}
+                    onClick={() => set(l.id, 0)}
+                    className="inline-flex min-h-11 items-center gap-1 border-l border-line-strong px-3 text-sm font-semibold hover:bg-ground-subtle aria-pressed:bg-brand aria-pressed:text-brand-ink"
+                  >
+                    <X aria-hidden="true" className="size-4" /> None
+                  </button>
+                </span>
               </span>
               <span className="ml-auto w-20 text-right tabular-nums font-semibold print:hidden">{gbp(l.pricePence * v)}</span>
             </li>

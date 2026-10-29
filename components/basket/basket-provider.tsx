@@ -87,15 +87,21 @@ export function BasketProvider({ children }: { children: React.ReactNode }) {
     write(next);
   }, []);
 
+  // Stable identity: an effect that calls clear() must not re-run because the
+  // basket it just emptied changed (that loop crashed the order-confirmed page).
+  const clear = useCallback(() => {
+    if (read().length > 0) write([]);
+  }, []);
+
   const api = useMemo<BasketApi>(
     () => ({
       lines,
       count: lines.reduce((n, l) => n + l.qty, 0),
       qtyOf: (slug) => lines.find((l) => l.slug === slug)?.qty ?? 0,
       setQty,
-      clear: () => write([]),
+      clear,
     }),
-    [lines, setQty],
+    [lines, setQty, clear],
   );
 
   return <BasketContext.Provider value={api}>{children}</BasketContext.Provider>;
