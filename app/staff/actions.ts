@@ -160,14 +160,20 @@ async function cancel(
   reason: string,
 ): Promise<StaffState> {
   const pay = stripe();
-  if (pay && order.stripe_payment_intent_id) {
+  if (order.stripe_payment_intent_id) {
+    if (!pay) return { error: 'Card payments aren’t connected, so the hold can’t be released from here. Cancel it in Stripe.' };
     try {
       await pay.paymentIntents.cancel(order.stripe_payment_intent_id, undefined, {
         idempotencyKey: `cancel-${order.id}`,
       });
-    } catch {
-      const pi = await pay.paymentIntents.retrieve(order.stripe_payment_intent_id).catch(() => null);
-      if (pi?.status !== 'canceled') return { error: 'Couldn’t release the card hold. Please try again, or cancel it in Stripe.' };
+    } catch (e) {
+      console.error('[staff] cancel failed', order.number, e instanceof Error ? e.message : e);
+    }
+    // Only record the order as cancelled once Stripe itself says the hold is gone.
+    const pi = await pay.paymentIntents.retrieve(order.stripe_payment_intent_id).catch(() => null);
+    if (pi?.status !== 'canceled') {
+      console.error('[staff] hold not released', order.number, pi?.status);
+      return { error: 'Couldn’t release the card hold. Nothing has changed. Please try again, or cancel it in Stripe.' };
     }
   }
   const { data } = await admin
