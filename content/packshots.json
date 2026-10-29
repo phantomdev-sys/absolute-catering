@@ -103,10 +103,10 @@
     "front": "/images/packshots/gluten-free-chicken-kiev-front.webp"
   },
   "gluten-free-salt-chilli-chicken": {
-    "back": "/images/packshots/gluten-free-salt-chilli-chicken-back.webp",
     "front": "/images/packshots/gluten-free-salt-chilli-chicken-front.webp"
   },
   "gluten-free-turkey-burgers": {
+    "back": "/images/packshots/gluten-free-turkey-burgers-back.webp",
     "front": "/images/packshots/gluten-free-turkey-burgers-front.webp"
   },
   "hot-dog-pastry-lattice": {
@@ -198,12 +198,14 @@
     "front": "/images/packshots/roosters-crunchy-coated-fillets-1kg-front.webp"
   },
   "rosie-jim-battered-chicken-nuggets": {
+    "back": "/images/packshots/rosie-jim-battered-chicken-nuggets-back.webp",
     "extra": [
       "/images/packshots/rosie-jim-battered-chicken-nuggets-extra-1.webp"
     ],
     "front": "/images/packshots/rosie-jim-battered-chicken-nuggets-front.webp"
   },
   "rosie-jim-breaded-chicken-burgers": {
+    "back": "/images/packshots/rosie-jim-breaded-chicken-burgers-back.webp",
     "extra": [
       "/images/packshots/rosie-jim-breaded-chicken-burgers-extra-1.webp"
     ],
@@ -219,6 +221,7 @@
     "front": "/images/packshots/rosie-jim-farmhouse-stuffing-chicken-kiev-front.webp"
   },
   "rosie-jim-salt-chilli-shredded-chicken": {
+    "back": "/images/packshots/rosie-jim-salt-chilli-shredded-chicken-back.webp",
     "front": "/images/packshots/rosie-jim-salt-chilli-shredded-chicken-front.webp"
   },
   "rosie-jim-southern-fried-chicken-goujons": {
