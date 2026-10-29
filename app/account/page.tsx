@@ -3,7 +3,9 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { currentUser } from '@/lib/auth';
 import { getProducts } from '@/lib/catalogue';
-import { myOrders, buyAgainSlugs, myFavouriteSlugs, myProfile, myAddresses, STATUS_LABEL } from '@/lib/account';
+import { myOrders, buyAgainSlugs, myFavouriteSlugs, myProfile, myAddresses } from '@/lib/account';
+import { statusLabel } from '@/lib/picking';
+import { currentStaff } from '@/lib/staff';
 import { signOut, setMarketing, deleteAddress, makeDefaultAddress } from './actions';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
@@ -23,12 +25,13 @@ export default async function AccountPage() {
   const user = await currentUser();
   if (!user) redirect('/account/sign-in?next=/account');
 
-  const [products, orders, favourites, profile, addresses] = await Promise.all([
+  const [products, orders, favourites, profile, addresses, staff] = await Promise.all([
     getProducts(),
     myOrders(),
     myFavouriteSlugs(),
     myProfile(),
     myAddresses(),
+    currentStaff(),
   ]);
   const bySlug = new Map(products.map((p) => [p.slug, p]));
   const again = buyAgainSlugs(orders).flatMap((s) => (bySlug.get(s) ? [bySlug.get(s)!] : [])).slice(0, 10);
@@ -42,9 +45,16 @@ export default async function AccountPage() {
           <Heading level={1} size="lg">{first ? `Hello, ${first}` : 'Your account'}</Heading>
           <p className="mt-1 text-ink-muted">{user.email}</p>
         </div>
-        <form action={signOut}>
-          <button type="submit" className="min-h-11 rounded-md border border-line-strong px-4 font-semibold hover:border-ink">Sign out</button>
-        </form>
+        <div className="flex flex-wrap gap-3">
+          {staff && (
+            <Link href="/staff" className="inline-flex min-h-11 items-center rounded-md bg-accent px-4 font-semibold text-accent-ink hover:bg-accent-hover">
+              Shop orders
+            </Link>
+          )}
+          <form action={signOut}>
+            <button type="submit" className="min-h-11 rounded-md border border-line-strong px-4 font-semibold hover:border-ink">Sign out</button>
+          </form>
+        </div>
       </div>
 
       <section aria-labelledby="again-heading" className="mt-12">
@@ -69,7 +79,7 @@ export default async function AccountPage() {
                   </p>
                 </div>
                 <div className="flex flex-wrap items-center gap-3">
-                  <span className="rounded-full bg-teal-soft px-3 py-1 text-sm font-semibold">{STATUS_LABEL[o.status] ?? o.status}</span>
+                  <span className="rounded-full bg-teal-soft px-3 py-1 text-sm font-semibold">{statusLabel(o.status, o.fulfilment)}</span>
                   <BuyAgainAll items={o.items.filter((i) => !i.unavailable && bySlug.get(i.slug)?.status === 'live').map((i) => ({ slug: i.slug, qty: i.qty }))} />
                 </div>
               </li>

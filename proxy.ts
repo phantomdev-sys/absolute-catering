@@ -3,7 +3,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 /**
  * Keeps the Supabase session fresh on the pages that use it. Scoped by the
- * matcher to account, checkout and auth routes only, so the shop's product
+ * matcher to account, checkout, auth and staff routes only, so the shop's product
  * and aisle pages stay static and never wait on this.
  */
 export async function proxy(request: NextRequest) {
@@ -28,5 +28,5 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/account/:path*', '/checkout/:path*', '/auth/:path*', '/favourites/:path*'],
+  matcher: ['/account/:path*', '/checkout/:path*', '/auth/:path*', '/favourites/:path*', '/staff/:path*'],
 };

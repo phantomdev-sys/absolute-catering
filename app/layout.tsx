@@ -48,12 +48,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <BasketProvider>
           <FavouritesProvider>
-            <DemoBanner />
-            <Header />
+            <div className="print:hidden">
+              <DemoBanner />
+              <Header />
+            </div>
             <main id="main" className="flex-1">
               {children}
             </main>
-            <Footer />
+            <div className="print:hidden">
+              <Footer />
+            </div>
           </FavouritesProvider>
         </BasketProvider>
       </body>

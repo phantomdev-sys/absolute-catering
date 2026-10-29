@@ -9,8 +9,10 @@ export type OrderSummary = {
   fulfilment: 'delivery' | 'collection';
   totalPence: number;
   deliveryPence: number;
+  /** Set once the shop has picked and charged the order. */
+  capturedPence: number | null;
   createdAt: string;
-  items: { slug: string; name: string; qty: number; pricePence: number; unavailable: boolean }[];
+  items: { slug: string; name: string; qty: number; pickedQty: number | null; pricePence: number; unavailable: boolean }[];
 };
 
 export const STATUS_LABEL: Record<string, string> = {
@@ -30,7 +32,7 @@ export async function myOrders(): Promise<OrderSummary[]> {
   if (!supabase) return [];
   const { data } = await supabase
     .from('orders')
-    .select('id, number, status, fulfilment, total_pence, delivery_pence, created_at, order_items(slug, name, qty, price_pence, unavailable)')
+    .select('id, number, status, fulfilment, total_pence, delivery_pence, captured_pence, created_at, order_items(slug, name, qty, picked_qty, price_pence, unavailable)')
     .neq('status', 'awaiting_payment')
     .order('created_at', { ascending: false })
     .limit(50);
@@ -41,11 +43,13 @@ export async function myOrders(): Promise<OrderSummary[]> {
     fulfilment: o.fulfilment,
     totalPence: o.total_pence,
     deliveryPence: o.delivery_pence ?? 0,
+    capturedPence: o.captured_pence ?? null,
     createdAt: o.created_at,
-    items: (o.order_items ?? []).map((i: { slug: string; name: string; qty: number; price_pence: number; unavailable: boolean }) => ({
+    items: (o.order_items ?? []).map((i: { slug: string; name: string; qty: number; picked_qty: number | null; price_pence: number; unavailable: boolean }) => ({
       slug: i.slug,
       name: i.name,
       qty: i.qty,
+      pickedQty: i.picked_qty,
       pricePence: i.price_pence,
       unavailable: i.unavailable,
     })),

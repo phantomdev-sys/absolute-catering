@@ -1,6 +1,6 @@
 # Open items register — Absolute Catering Supplies
 
-Last updated: 2026-10-27 · Open: 34 · Blocked: 3
+Last updated: 2026-10-29 · Open: 34 · Blocked: 3
 
 ## Open
 
@@ -39,15 +39,16 @@ Last updated: 2026-10-27 · Open: 34 · Blocked: 3
 
 | 45 | Demo slot templates (is_demo) in the database: Mon–Sat delivery 10–12/2–4, collection 9–11/11–1/2–4 | Client | 2026-10-20 | Open | Replace with real slots (#7, #8): `delete from slot_templates where is_demo;` |
 | 46 | Stripe webhook (order confirmation if the customer closes the tab after paying) | Alex | 2026-10-20 | Open | Needs a Vercel protection bypass for /api/stripe/webhook; success page confirms orders meanwhile |
-| 47 | Staff order screen: picking list, mark unavailable, capture payment | Alex | 2026-10-20 | Open | Next build step; until then capture/cancel in the Stripe dashboard (test mode) |
+| 47 | Staff order screen: picking list, mark unavailable, capture payment | Alex | 2026-10-20 | Built 29 Oct, awaiting end-to-end test | `/staff`: list by slot, pick with steppers, two-step "charge £X" captures picked items + delivery via Stripe, or cancels and releases the hold; printable picking list; status steps to delivered/collected. Staff = rows in `public.staff`. Needs a test-mode order run on Vercel before launch |
+| 57 | Short picks: does the £5 delivery charge still apply when items are unavailable? | Client | 2026-10-29 | Waiting | Built as: charged if anything is delivered; nothing charged if nothing is picked. One line in `lib/picking.ts` to change |
 | 48 | Resend: confirmation email for newsletter double opt-in, order emails | Alex | 2026-10-20 | Open | Newsletter sign-ups stored unconfirmed until then |
 
 | 51 | 5 photo products may duplicate, or be flavour/size variants of, old-site products | Client | 2026-10-26 | Open | In info-needed.csv; if variants, consider one product with options |
 | 55 | Before the public domain goes live: catalogue switches to live-only once a product is live in Supabase; DB `live_requires_complete_data` still needs signed-off allergens to sell | Alex | 2026-10-26 | Open | Decision: everything shows on the site now; information is completed before the domain cutover |
-| 56 | Tell Ciaran we've used pack/sticker prices; send him the info-needed sheet | Alex | 2026-10-26 | Open | Notes ready in `briefs/EMAIL-TO-CIARAN-NOTES.md` |
+| 56 | Tell Ciaran we've used pack/sticker prices; send him the info-needed sheet | Alex | 2026-10-26 | Waiting | Sent 27 Oct; sheet is link-editable and Ciaran has passed it to staff (29 Oct) |
 | 49 | Pack-photo text (ingredients, allergy advice) is a Claude transcription, unchecked | Client | 2026-10-26 | Open | Shown on product pages as "from the pack photo" under a disclaimer (decision: missing info must not keep products off the site). Needs checking + named sign-off; `data/pack-labels/info-needed.csv` is the to-do list |
-| 52 | 8 Rosie & Jim back-of-pack photos are identical brand panels with no product name | Client | 2026-10-26 | Open | Not attached to any product. Back photos showing the ingredients panel would be more useful |
-| 53 | 45 old-site products still have no photo; 3 cutouts worth a reshoot (AIA wings, Steak Crunch n Seal tub, Vista Popcorn Chicken) | Client | 2026-10-26 | Open | Placeholders sort after photographed products on every shelf |
+| 52 | 8 Rosie & Jim back-of-pack photos are identical brand panels with no product name | Client | 2026-10-26 | Open | 29 Oct: Ciaran named them; 4 attached (burgers, battered nuggets, salt & chilli shredded, GF turkey burgers), the wrong back removed from GF salt & chilli. 3 still unnamed. Ingredients-panel photos still wanted |
+| 53 | 45 old-site products still have no photo; 3 cutouts worth a reshoot (AIA wings, Steak Crunch n Seal tub, Vista Popcorn Chicken) | Client | 2026-10-26 | Open | Placeholders sort after photographed products on every shelf. 29 Oct: Noel's "Steak Crispy Onions" upload is a duplicate of the 75g photo; 1kg tub retake still needed. Also asked: are the cup photos one product or two |
 
 ## Resolved
 
