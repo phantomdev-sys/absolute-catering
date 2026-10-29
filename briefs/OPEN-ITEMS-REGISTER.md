@@ -40,7 +40,6 @@ Last updated: 2026-10-29 · Open: 34 · Blocked: 3
 | 45 | Demo slot templates (is_demo) in the database: Mon–Sat delivery 10–12/2–4, collection 9–11/11–1/2–4 | Client | 2026-10-20 | Open | Replace with real slots (#7, #8): `delete from slot_templates where is_demo;` |
 | 46 | Stripe webhook (order confirmation if the customer closes the tab after paying) | Alex | 2026-10-20 | Open | Needs a Vercel protection bypass for /api/stripe/webhook; success page confirms orders meanwhile |
 | 47 | Staff order screen: picking list, mark unavailable, capture payment | Alex | 2026-10-20 | Built 29 Oct, awaiting end-to-end test | `/staff`: list by slot, pick with steppers, two-step "charge £X" captures picked items + delivery via Stripe, or cancels and releases the hold; printable picking list; status steps to delivered/collected. Staff = rows in `public.staff`. Needs a test-mode order run on Vercel before launch |
-| 57 | Short picks: does the £5 delivery charge still apply when items are unavailable? | Client | 2026-10-29 | Waiting | Built as: charged if anything is delivered; nothing charged if nothing is picked. One line in `lib/picking.ts` to change |
 | 58 | Stripe live setup by Noel: activate the account in the business's name, then set the statement descriptor (currently "Stripe") to e.g. ABSOLUTE CATERING, and time zone to Europe/London | Client | 2026-10-29 | Waiting | Business details tab is empty until activation. Alex must not activate with his own details. Picking/capture tested end to end in sandbox 29 Oct (order 1002: £70.49 captured, £18.50 released) |
 | 48 | Resend: confirmation email for newsletter double opt-in, order emails | Alex | 2026-10-20 | Open | Newsletter sign-ups stored unconfirmed until then |
 
@@ -73,4 +72,5 @@ Last updated: 2026-10-29 · Open: 34 · Blocked: 3
 | 50 | Price stickers in photos | 2026-10-26 | Run with prices printed on pack/sticker (29 products, `data/pack-labels/prices.json`); Ciaran to be told (#56) |
 | 54 | Product cap | 2026-10-26 | No cap for now; upload whatever the client sends |
 | 9 | Delivery charge and minimum order | 2026-10-27 | £5 delivery, £50 minimum spend for delivery (items total); click & collect free, no minimum. Enforced at checkout; `content/delivery.ts` + `store_settings`. VAT on the charge still #26 |
+| 57 | Delivery charge on short picks | 2026-10-29 | £5 delivery stays if anything is delivered; nothing charged if nothing can be picked (Alex). As built in `lib/picking.ts` |
 | 43 | Stripe test keys | 2026-10-20 | Alex's own new 'Absolute Catering Supplies' Stripe account, sandbox keys added to Vercel |
