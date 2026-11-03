@@ -669,5 +669,601 @@
       "frozen-goujons"
     ],
     "source": "client-photos-2026-10-23"
+  },
+  {
+    "slug": "musgrave-excellence-sweetcorn-2-5kg",
+    "name": "Musgrave Excellence Sweetcorn 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "musgrave-excellence-garden-peas-2-5kg",
+    "name": "Musgrave Excellence Garden Peas 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-savoy-cabbage-2-5kg",
+    "name": "Ardo Savoy Cabbage 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "country-range-fine-whole-green-beans-1kg",
+    "name": "Country Range Fine Whole Green Beans 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-broad-beans-1kg",
+    "name": "Ardo Broad Beans 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-sliced-mixed-peppers-2-5kg",
+    "name": "Ardo Sliced Mixed Peppers (Red & Green) 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-mixed-vegetables-2-5kg",
+    "name": "Chef's Selections Frozen Mixed Vegetables 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-half-corn-on-the-cob-1kg",
+    "name": "Ardo Half Corn on the Cob 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "musgrave-excellence-cauliflower-florets-2-5kg",
+    "name": "Musgrave Excellence Cauliflower Florets 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-brussels-sprouts-2-5kg",
+    "name": "Ardo Brussels Sprouts 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-sliced-mushrooms-2-5kg",
+    "name": "Ardo Sliced Mushrooms 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-vegetable-stir-fry-2-5kg",
+    "name": "Ardo Vegetable Stir-Fry 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "ardo-sliced-red-green-peppers-1kg",
+    "name": "Ardo Sliced Red & Green Peppers 1kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-vegetables"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-sweet-potato-fries-2-27kg",
+    "name": "Chef's Selections Sweet Potato Fries 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-hash-browns-2-27kg",
+    "name": "Chef's Selections Hash Browns 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "aviko-super-crunch-fries-2-27kg",
+    "name": "Aviko Super Crunch Fries 9.5mm 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "aviko-rostiko-triangles-2-5kg",
+    "name": "Aviko Röstiko Triangles (Hash Browns) 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lamb-weston-potato-dippers-2-5kg",
+    "name": "Lamb Weston Potato Dippers 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lamb-weston-seasoned-skin-on-wedges-2-5kg",
+    "name": "Lamb Weston Seasoned Skin-On Wedges 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lamb-weston-crisscuts-2-5kg",
+    "name": "Lamb Weston Seasoned CrissCuts 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-seasoned-cubes-2-27kg",
+    "name": "Chef's Selections Seasoned Cubes 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "seasoned-crispy-cubes-2-5kg",
+    "name": "Seasoned Crispy Cubes 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "potato-cubes"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "country-range-seasoned-wedges-2-5kg",
+    "name": "Country Range Frozen Seasoned Wedges 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "butler-pommes-frites-13mm-2-27kg",
+    "name": "Butler Pommes Frites 13x13mm 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "primafrit-family-fries-1-5kg",
+    "name": "Primafrit Family Fries 1.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-chunky-chips-18mm-2-27kg",
+    "name": "Chef's Selections Freeze Chill Chunky Chips (18mm) 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-shoestring-fries-7mm-2-27kg",
+    "name": "Chef's Selections Freeze Chill Shoestring Fries (7mm) 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "chefs-selections-straight-cut-chips-15mm-2-27kg",
+    "name": "Chef's Selections Freeze Chill Straight Cut Chips (15mm) 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "aviko-pommes-frites-15mm-2-27kg",
+    "name": "Aviko Pommes Frites 15mm 2.27kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "aviko-spicy-jacket-wedges",
+    "name": "Aviko Spicy Jacket Wedges",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "musgrave-excellence-skin-on-fries-2-5kg",
+    "name": "Musgrave Excellence Potato Fries Skin On 10x10mm 2.5kg",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lutosa-crinkle-fries",
+    "name": "Lutosa Crinkle Fries 10x10mm",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lutosa-oven-classic-fries",
+    "name": "Lutosa Oven Classic Fries",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-chips"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "cocktail-sausages-20",
+    "name": "Cocktail Sausages (20)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pastries"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "scotch-eggs-2",
+    "name": "Scotch Eggs (2)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pastries"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "steak-ale-cornish-pasties-2",
+    "name": "Steak & Ale Cornish Pasties (2)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pastries"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "bacon-cheese-turnovers-6",
+    "name": "Bacon & Cheese Turnovers (6)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pastries"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "battered-pasties-4",
+    "name": "Battered Pasties (4)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-pastries"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "leicester-bakery-pitta-bread-6",
+    "name": "Leicester Bakery Pitta Bread (6)",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-bread"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "burgers-5",
+    "name": "Burgers (5)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "frozen-burgers"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "cooked-chicken-breasts-9-11oz-2",
+    "name": "Cooked Chicken Breasts 9–11oz (2)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "chicken-fillets"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "authentic-doner-kebab-meat",
+    "name": "Authentic Doner Kebab Meat",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "kebab-meat"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "gluten-free-burgers-5",
+    "name": "Gluten Free Burgers (5)",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "gluten-free-pork-sausages-8",
+    "name": "Gluten Free Pork Sausages (8)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "gluten-free-fish-fingers-10",
+    "name": "Gluten Free Breaded Fish Fingers (10)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "gluten-free-mozzarella-bites-6",
+    "name": "Gluten Free Mozzarella Bites (6)",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "rosie-jim-gluten-free-tortilla-wraps-mexican-4",
+    "name": "Rosie & Jim Gluten Free Tortilla Wraps Mexican (4)",
+    "own_brand": false,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "gluten-free-stone-baked-pizza-base-10in",
+    "name": "Gluten Free Stone Baked Pizza Base 10\"",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-energy-original-12",
+    "name": "Monster Energy Original 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-juiced-mango-loco-12",
+    "name": "Monster Juiced Mango Loco 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-energy-lando-norris-zero-sugar-12",
+    "name": "Monster Energy Lando Norris Zero Sugar 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-energy-ultra-vice-guava-12",
+    "name": "Monster Energy Ultra Vice Guava 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-energy-ultra-rosa-12",
+    "name": "Monster Energy Ultra Rosa 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-juiced-viking-berry-12",
+    "name": "Monster Juiced Viking Berry 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "monster-energy-ultra-white-12",
+    "name": "Monster Energy Ultra (White) 500ml (12)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lucozade-energy-original-cans-24",
+    "name": "Lucozade Energy Original Cans (24)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "lucozade-energy-original-bottles-24",
+    "name": "Lucozade Energy Original Bottles (24)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "energy-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "rockwell-sparkling-water-24",
+    "name": "Rockwell Sparkling Water (24)",
+    "own_brand": false,
+    "legacy_categories": [
+      "drinks",
+      "soft-drinks"
+    ],
+    "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "blue-roll-6-pack",
+    "name": "Blue Roll (6 pack)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "blue-roll"
+    ],
+    "source": "client-photos-2026-10-30"
   }
 ]

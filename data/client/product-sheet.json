@@ -1,0 +1,726 @@
+{
+  "source": "Ciaran's product sheet 'Absolute Catering – Product information for the new website' (Google Sheets), fetched 3 Nov 2026",
+  "rule": "Client-supplied price (inc VAT), VAT rate and pack size. A value in the database wins; these win over pack/sticker prices and the demo price. Blank cells are left out, never guessed.",
+  "products": {
+    "75-meter-aluminium-foil": {
+      "price_pence": 999,
+      "vat_rate": "standard",
+      "pack_size": "75 metres"
+    },
+    "aia-durango-spiced-roasted-chicken-wings": {
+      "price_pence": 750,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "absolute-catering-pork-sausages-4": {
+      "price_pence": 299,
+      "pack_size": "4 pack"
+    },
+    "americana-seeded-burger-buns-12": {
+      "price_pence": 299,
+      "vat_rate": "zero",
+      "pack_size": "12 pack"
+    },
+    "apollo-dan-bol-chicken-noodles": {
+      "price_pence": 120,
+      "vat_rate": "zero",
+      "pack_size": "1 pack"
+    },
+    "battered-sausages": {
+      "price_pence": 525,
+      "vat_rate": "zero",
+      "pack_size": "10 pack"
+    },
+    "black-hot-cup-lids-12-16oz": {
+      "price_pence": 300,
+      "vat_rate": "standard",
+      "pack_size": "12/16 oz",
+      "name": "Black Sip-Through Hot Cup Lids 12/16oz (100)"
+    },
+    "blenders-chicken-bouillon-paste-880g": {
+      "price_pence": 1899,
+      "vat_rate": "zero",
+      "pack_size": "880g"
+    },
+    "blenders-garlic-mayonnaise": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "920ml"
+    },
+    "blenders-korean-bbq-sauce": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "920ml"
+    },
+    "blenders-real-mayonnaise": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "920ml"
+    },
+    "blenders-taco-sauce": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "920ml"
+    },
+    "breaded-chicken-goujons-2kg": {
+      "price_pence": 1750,
+      "vat_rate": "zero",
+      "pack_size": "2kg"
+    },
+    "breaded-chicken-maryland": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "4 pack"
+    },
+    "burger-buns": {
+      "price_pence": 250,
+      "vat_rate": "zero",
+      "pack_size": "8 pack"
+    },
+    "cooked-chicken-breast-fillet": {
+      "vat_rate": "zero",
+      "pack_size": "approx. 2.5kg"
+    },
+    "cooked-chicken-kebabs-1kg": {
+      "price_pence": 999,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "cooked-gammon-ham-sliced-500g": {
+      "price_pence": 650,
+      "vat_rate": "zero",
+      "pack_size": "500g"
+    },
+    "cooked-pulled-pork-500g": {
+      "price_pence": 650,
+      "vat_rate": "zero",
+      "pack_size": "500g"
+    },
+    "cooked-sliced-chicken-breast-500g": {
+      "price_pence": 650,
+      "vat_rate": "zero",
+      "pack_size": "500g"
+    },
+    "cooked-sliced-roast-beef-1kg": {
+      "price_pence": 2200,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "cooked-sliced-roast-beef-500g": {
+      "price_pence": 1100,
+      "vat_rate": "zero",
+      "pack_size": "500g"
+    },
+    "country-range-one-cup-tea-bags-1100": {
+      "price_pence": 1600,
+      "vat_rate": "zero",
+      "pack_size": "1100 tea bags"
+    },
+    "daz-washing-powder-125-washes": {
+      "price_pence": 1800,
+      "vat_rate": "standard",
+      "pack_size": "125 washes"
+    },
+    "diggers-breaded-chicken-burgers": {
+      "price_pence": 699,
+      "vat_rate": "zero",
+      "pack_size": "1.05kg"
+    },
+    "diggers-buttermilk-chicken-fillets": {
+      "price_pence": 840,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "diggers-tortilla-wraps-10": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "10 x 25cm (600g)"
+    },
+    "farmhouse-ham-sliced-500g": {
+      "price_pence": 750,
+      "vat_rate": "zero",
+      "pack_size": "500g"
+    },
+    "gluten-free-chicken-chunks": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "gluten-free-chicken-kiev": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "750g"
+    },
+    "gluten-free-salt-chilli-chicken": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "gluten-free-turkey-burgers": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1015g"
+    },
+    "hot-spicy-chicken-kebabs": {
+      "price_pence": 999,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "hot-dog-pastry-lattice": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "kebab-portions": {
+      "price_pence": 199,
+      "vat_rate": "zero"
+    },
+    "kennys-garlic-mayo-1l": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "1 litre"
+    },
+    "kennys-italian-dressing-1l": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "1 litre"
+    },
+    "kennys-spicy-fried-chicken-sauce-1l": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "1 litre"
+    },
+    "kennys-taco-sauce-1l": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "1 litre"
+    },
+    "kennys-tomato-ketchup-1l": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "1 litre"
+    },
+    "lotus-biscoff-topping-1kg": {
+      "price_pence": 850,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "mae-ploy-sweet-chilli-sauce-4kg": {
+      "price_pence": 1050,
+      "vat_rate": "zero",
+      "pack_size": "3.2 litres (4kg)"
+    },
+    "majestic-bagasse-plates-7in-50": {
+      "price_pence": 550,
+      "vat_rate": "standard",
+      "pack_size": "50 pieces"
+    },
+    "majestic-baking-paper-50m": {
+      "price_pence": 899,
+      "vat_rate": "standard",
+      "pack_size": "50m x 300mm"
+    },
+    "majestic-baking-paper-5m": {
+      "price_pence": 175,
+      "vat_rate": "standard",
+      "pack_size": "5m x 375mm"
+    },
+    "majestic-white-paper-plates-9in-100": {
+      "price_pence": 649,
+      "vat_rate": "standard",
+      "pack_size": "100 pieces"
+    },
+    "mixers-american-bbq-sauce-1kg": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "mixers-garlic-mayonnaise-900g": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "900g"
+    },
+    "mixers-taco-sauce-900g": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "900g"
+    },
+    "nutella-food-service-tub": {
+      "price_pence": 1999,
+      "vat_rate": "zero",
+      "pack_size": "3kg"
+    },
+    "pvc-cling-film-300mm": {
+      "price_pence": 699,
+      "vat_rate": "standard",
+      "pack_size": "300mm x 300m"
+    },
+    "pvc-cling-film-450mm": {
+      "price_pence": 750,
+      "vat_rate": "standard",
+      "pack_size": "450mm x 300m"
+    },
+    "paper-coffee-cups": {
+      "price_pence": 300,
+      "vat_rate": "standard",
+      "pack_size": "4oz",
+      "name": "Paper Coffee Cups 4oz (25)"
+    },
+    "roosters-crunchy-coated-fillets-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "rosie-jim-battered-chicken-nuggets": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "rosie-jim-breaded-chicken-burgers": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1080g"
+    },
+    "rosie-jim-breaded-chicken-goujons": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "rosie-jim-crispy-shredded-chicken": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "900g"
+    },
+    "rosie-jim-farmhouse-stuffing-chicken-kiev": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "750g"
+    },
+    "rosie-jim-salt-chilli-shredded-chicken": {
+      "price_pence": 899,
+      "vat_rate": "zero"
+    },
+    "rosie-jim-southern-fried-chicken-goujons": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "rosie-jim-sweet-chilli-chicken-kiev": {
+      "price_pence": 899,
+      "vat_rate": "zero",
+      "pack_size": "750g"
+    },
+    "santa-maria-tortilla-wraps-12in": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "10 pieces"
+    },
+    "scotts-korean-bbq-crispy-onions-75g": {
+      "price_pence": 189,
+      "vat_rate": "zero",
+      "pack_size": "75g"
+    },
+    "scotts-original-crispy-onions-75g": {
+      "price_pence": 189,
+      "vat_rate": "zero",
+      "pack_size": "75g"
+    },
+    "scotts-salt-chilli-crispy-onions-75g": {
+      "price_pence": 189,
+      "vat_rate": "zero",
+      "pack_size": "75g"
+    },
+    "scotts-steak-crispy-onions-75g": {
+      "price_pence": 189,
+      "vat_rate": "zero",
+      "pack_size": "75g"
+    },
+    "steak-crunch-n-seal-crispy-onions-1kg": {
+      "price_pence": 189,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "sephra-pistachio-topping-sauce-800g": {
+      "price_pence": 1299,
+      "vat_rate": "zero",
+      "pack_size": "800g"
+    },
+    "thompsons-punjana-one-cup-tea-bags-1100": {
+      "price_pence": 2639,
+      "vat_rate": "standard",
+      "pack_size": "1100 one-cup tea bags"
+    },
+    "turkey-ham-stuffing-6-pack": {
+      "price_pence": 1899,
+      "vat_rate": "zero",
+      "pack_size": "6 x 6/7oz, 1.1kg"
+    },
+    "umc-battered-cocktail-sausages-1kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-food-breaded-chicken-goujons-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-battered-chicken-balls-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-crispy-coat-chicken-fillet-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "8 x 125g (1kg)"
+    },
+    "vista-popcorn-chicken-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-shredded-chicken-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-sizzler-tenders-hot-spicy-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "vista-southern-fried-chicken-goujons-1kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "absolute-catering-salmon": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "client_note": "fresh"
+    },
+    "bannisters-ready-baked-potatoes": {
+      "price_pence": 1250,
+      "vat_rate": "zero",
+      "pack_size": "2.8kg"
+    },
+    "blue-roll-6-pack": {
+      "price_pence": 1440,
+      "vat_rate": "standard",
+      "pack_size": "6 pack"
+    },
+    "blue-roll": {
+      "price_pence": 299,
+      "vat_rate": "standard",
+      "pack_size": "1 roll"
+    },
+    "chicken-goujons": {
+      "price_pence": 1799,
+      "vat_rate": "zero",
+      "pack_size": "2kg"
+    },
+    "hanfwers-pork-sausages": {
+      "name": "Halfners Pork Sausages",
+      "client_note": "it halfners"
+    },
+    "lamb-weston-potato-puffs": {
+      "price_pence": 425,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "mc-cain-roast-potatoes": {
+      "price_pence": 999,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "sweet-cured-smoked-back-bacon": {
+      "price_pence": 1250,
+      "vat_rate": "zero",
+      "pack_size": "2kg"
+    },
+    "musgrave-excellence-sweetcorn-2-5kg": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "musgrave-excellence-garden-peas-2-5kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-savoy-cabbage-2-5kg": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "country-range-fine-whole-green-beans-1kg": {
+      "price_pence": 299,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "ardo-broad-beans-1kg": {
+      "price_pence": 299,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "ardo-sliced-mixed-peppers-2-5kg": {
+      "price_pence": 650,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "chefs-selections-mixed-vegetables-2-5kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-half-corn-on-the-cob-1kg": {
+      "price_pence": 475,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "musgrave-excellence-cauliflower-florets-2-5kg": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-brussels-sprouts-2-5kg": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-sliced-mushrooms-2-5kg": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-vegetable-stir-fry-2-5kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "ardo-sliced-red-green-peppers-1kg": {
+      "price_pence": 275,
+      "vat_rate": "zero",
+      "pack_size": "1kg"
+    },
+    "gluten-free-burgers-5": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "5 pack"
+    },
+    "gluten-free-pork-sausages-8": {
+      "price_pence": 299,
+      "vat_rate": "zero"
+    },
+    "gluten-free-fish-fingers-10": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "10 pack"
+    },
+    "gluten-free-mozzarella-bites-6": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "6 pack"
+    },
+    "rosie-jim-gluten-free-tortilla-wraps-mexican-4": {
+      "price_pence": 699,
+      "vat_rate": "zero",
+      "pack_size": "4 pack"
+    },
+    "gluten-free-stone-baked-pizza-base-10in": {
+      "price_pence": 125,
+      "vat_rate": "zero",
+      "pack_size": "1 pack"
+    },
+    "cooked-chicken-breasts-9-11oz-2": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2 pack"
+    },
+    "leicester-bakery-pitta-bread-6": {
+      "price_pence": 250,
+      "vat_rate": "zero",
+      "pack_size": "6 pack"
+    },
+    "scotch-eggs-2": {
+      "price_pence": 380,
+      "vat_rate": "zero",
+      "pack_size": "2 pack"
+    },
+    "cocktail-sausages-20": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "20 pack"
+    },
+    "steak-ale-cornish-pasties-2": {
+      "price_pence": 399,
+      "vat_rate": "zero",
+      "pack_size": "2 pack"
+    },
+    "bacon-cheese-turnovers-6": {
+      "price_pence": 725,
+      "vat_rate": "zero",
+      "pack_size": "6 pack"
+    },
+    "battered-pasties-4": {
+      "price_pence": 199,
+      "vat_rate": "zero",
+      "pack_size": "4 pack"
+    },
+    "burgers-5": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "5 pack"
+    },
+    "chefs-selections-sweet-potato-fries-2-27kg": {
+      "price_pence": 1050,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "chefs-selections-hash-browns-2-27kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "aviko-super-crunch-fries-2-27kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "aviko-rostiko-triangles-2-5kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "lamb-weston-potato-dippers-2-5kg": {
+      "price_pence": 799,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "lamb-weston-seasoned-skin-on-wedges-2-5kg": {
+      "price_pence": 625,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "lamb-weston-crisscuts-2-5kg": {
+      "price_pence": 625,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "chefs-selections-seasoned-cubes-2-27kg": {
+      "price_pence": 525,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "seasoned-crispy-cubes-2-5kg": {
+      "price_pence": 450,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "country-range-seasoned-wedges-2-5kg": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "butler-pommes-frites-13mm-2-27kg": {
+      "price_pence": 425,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "primafrit-family-fries-1-5kg": {
+      "price_pence": 350,
+      "vat_rate": "zero",
+      "pack_size": "1.5kg"
+    },
+    "chefs-selections-chunky-chips-18mm-2-27kg": {
+      "price_pence": 425,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "chefs-selections-shoestring-fries-7mm-2-27kg": {
+      "price_pence": 425,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "chefs-selections-straight-cut-chips-15mm-2-27kg": {
+      "price_pence": 425,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "aviko-pommes-frites-15mm-2-27kg": {
+      "price_pence": 499,
+      "vat_rate": "zero",
+      "pack_size": "2.27kg"
+    },
+    "aviko-spicy-jacket-wedges": {
+      "vat_rate": "zero"
+    },
+    "musgrave-excellence-skin-on-fries-2-5kg": {
+      "price_pence": 550,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "stealth-potato-fries": {
+      "price_pence": 599,
+      "vat_rate": "zero",
+      "pack_size": "2.5kg"
+    },
+    "lutosa-crinkle-fries": {
+      "vat_rate": "zero"
+    },
+    "lutosa-oven-classic-fries": {
+      "vat_rate": "zero"
+    },
+    "monster-juiced-mango-loco-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-energy-original-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-energy-lando-norris-zero-sugar-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-energy-ultra-vice-guava-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-energy-ultra-rosa-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-juiced-viking-berry-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "monster-energy-ultra-white-12": {
+      "price_pence": 1600,
+      "vat_rate": "standard",
+      "pack_size": "12 pack"
+    },
+    "lucozade-energy-original-cans-24": {
+      "price_pence": 1799,
+      "vat_rate": "standard",
+      "pack_size": "24 pack"
+    },
+    "lucozade-energy-original-bottles-24": {
+      "price_pence": 1679,
+      "vat_rate": "standard",
+      "pack_size": "24 pack"
+    },
+    "rockwell-sparkling-water-24": {
+      "price_pence": 750,
+      "vat_rate": "standard",
+      "pack_size": "24 pack"
+    }
+  }
+}

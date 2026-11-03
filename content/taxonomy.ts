@@ -49,7 +49,7 @@ export const aisles: Aisle[] = [
   {
     slug: 'frozen',
     name: 'Frozen',
-    blurb: 'Chicken, chips and potatoes, pizza and party food.',
+    blurb: 'Chicken, chips and potatoes, vegetables, pastries, pizza and party food.',
     legacyTop: 'frozen-food',
     shelves: [
       // The gluten-free chicken lines are frozen too; they also appear in the
@@ -60,11 +60,15 @@ export const aisles: Aisle[] = [
         name: 'Chips & potatoes',
         legacy: ['frozen-chips', 'potato-cubes', 'frozen-pre-cut-and-washed-potatoes', 'baked-potatoes'],
       },
+      // Added 3 Nov 2026 with the second photo batch. Like the Food Cupboard
+      // slugs, these category slugs are new, so they create no redirects.
+      { slug: 'vegetables', name: 'Vegetables', legacy: ['frozen-vegetables'] },
       {
         slug: 'pizza-and-snacks',
-        name: 'Pizza & snacks',
-        legacy: ['pizza-frozen-food', 'mozzarella-bites', 'sausage-rolls', 'sausages-frozen-food'],
+        name: 'Pizza, pastries & snacks',
+        legacy: ['pizza-frozen-food', 'mozzarella-bites', 'sausage-rolls', 'sausages-frozen-food', 'frozen-pastries', 'frozen-bread', 'gluten-free-frozen'],
       },
+      { slug: 'burgers', name: 'Burgers', legacy: ['frozen-burgers'] },
       { slug: 'kebab-meat', name: 'Kebab meat', legacy: ['kebab-meat'] },
       { slug: 'turkey', name: 'Turkey', legacy: ['turkey', 'turkey-burgers'] },
     ],
@@ -72,9 +76,10 @@ export const aisles: Aisle[] = [
   {
     slug: 'gluten-free',
     name: 'Gluten Free',
-    blurb: 'Gluten-free chicken, turkey, flour and desserts.',
+    blurb: 'Gluten-free chicken, turkey, sausages, fish fingers, pizza bases, wraps, flour and desserts.',
     legacyTop: 'gluten-free',
     shelves: [
+      { slug: 'frozen-and-bakery', name: 'Frozen & bakery', legacy: ['gluten-free-frozen'] },
       { slug: 'chicken-and-turkey', name: 'Chicken & turkey', legacy: ['gluten-free-chicken', 'gluten-free-turkey'] },
       { slug: 'baking', name: 'Baking', legacy: ['flour'] },
       // The cheesecake is only tagged "cakes" + "gluten-free"; see shelfOverrides.
@@ -97,6 +102,17 @@ export const aisles: Aisle[] = [
       { slug: 'stock-and-crispy-onions', name: 'Stock & crispy onions', legacy: ['cooking-essentials'] },
       { slug: 'noodles', name: 'Noodles', legacy: ['noodles-and-snacks'] },
       { slug: 'tea', name: 'Tea', legacy: ['tea-and-coffee'] },
+    ],
+  },
+  {
+    // Added 3 Nov 2026: energy drinks and water from the second photo batch.
+    slug: 'drinks',
+    name: 'Drinks',
+    blurb: 'Energy drinks and sparkling water, by the tray or case.',
+    legacyTop: 'drinks',
+    shelves: [
+      { slug: 'energy-drinks', name: 'Energy drinks', legacy: ['energy-drinks'] },
+      { slug: 'water', name: 'Water & soft drinks', legacy: ['soft-drinks'] },
     ],
   },
   {

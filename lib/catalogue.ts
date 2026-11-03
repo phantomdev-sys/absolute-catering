@@ -4,6 +4,7 @@ import packLabels from '@/data/pack-labels/labels.json';
 import packDescriptions from '@/data/pack-labels/descriptions.json';
 import packshotManifest from '@/content/packshots.json';
 import packPrices from '@/data/pack-labels/prices.json';
+import clientSheet from '@/data/client/product-sheet.json';
 import { aisles, shelfOverrides, legacyBrandCategory, type Aisle, type Shelf } from '@/content/taxonomy';
 import { publicClient } from '@/lib/supabase/public';
 import { DEMO_PRICES, DEMO_PRICE_PENCE } from '@/lib/demo';
@@ -79,8 +80,19 @@ const descriptions = packDescriptions as Record<string, string>;
  * Agreed 26 Oct 2026 to run with these (Ciaran to be told). A price in the
  * database always wins; otherwise these win over the £1.00 demo price.
  */
-const packPrice = (slug: string): number | null =>
+const stickerPrice = (slug: string): number | null =>
   (packPrices as { prices_pence: Record<string, number> }).prices_pence[slug] ?? null;
+
+/**
+ * Ciaran's product sheet (fetched 3 Nov 2026): the client's own price inc VAT,
+ * VAT rate, pack size and a few name corrections. Blank cells are absent,
+ * never guessed. Order of trust: database, then this sheet, then the price on
+ * the pack or sticker in his photos, then (demo only) £1.00.
+ */
+type SheetEntry = { price_pence?: number; vat_rate?: string; pack_size?: string; name?: string };
+const sheetEntry = (slug: string): SheetEntry | undefined =>
+  (clientSheet as { products: Record<string, SheetEntry> }).products[slug];
+const packPrice = (slug: string): number | null => sheetEntry(slug)?.price_pence ?? stickerPrice(slug);
 const unconfirmedPrice = (slug: string): number | null =>
   packPrice(slug) ?? (DEMO_PRICES ? DEMO_PRICE_PENCE : null);
 
@@ -99,10 +111,12 @@ const byPhotoThenName = (a: Product, b: Product) =>
  */
 function withPackData(p: Product): Product {
   const l = labels[p.slug];
+  const c = sheetEntry(p.slug);
   return {
     ...p,
+    name: c?.name ?? p.name,
     description: p.description ?? descriptions[p.slug] ?? null,
-    packSize: p.packSize ?? l?.pack_size_display ?? null,
+    packSize: p.packSize ?? c?.pack_size ?? l?.pack_size_display ?? null,
     storage: p.storage ?? l?.storage ?? null,
     packLabel:
       l && (l.ingredients || l.allergen_statement)
