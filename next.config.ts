@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next';
 import { legacyRedirects } from './lib/redirects';
+import packshots from './content/packshots-version.json';
 
 const nextConfig: NextConfig = {
   // Fail the build on type errors rather than shipping them. The verification
@@ -13,6 +14,14 @@ const nextConfig: NextConfig = {
     // Add the Supabase storage host here once a project uses it, e.g.
     // { protocol: 'https', hostname: '<ref>.supabase.co', pathname: '/storage/v1/object/public/**' }
     remotePatterns: [],
+    // Packshot URLs carry ?v=<content hash> (scripts/sync-packshots.mjs) so a
+    // replaced photo is never served from the optimiser's cache. Next 16 only
+    // optimises local images whose query string is listed here; everything
+    // else local stays allowed without a query.
+    localPatterns: [
+      { pathname: '/images/packshots/**', search: `?v=${packshots.version}` },
+      { pathname: '/**', search: '' },
+    ],
   },
 
   async redirects() {

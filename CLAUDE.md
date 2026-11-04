@@ -42,7 +42,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - `data/scrape/`: raw 20 Oct 2026 WooCommerce Store API dump. `data/seed/`: generated seed. `scripts/seed_from_wp.py` regenerates.
 
 ## Product images
-- Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp` / `-extra-N.webp`, then `npm run packshots`. Until then, neutral placeholders. Client photos are cut out of their black photobox onto white without recolouring the product (26 Oct 2026; method notes in `data/pack-labels/README.md`).
+- Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp` / `-extra-N.webp`, then `npm run packshots`. Until then, neutral placeholders. Decision 3 Nov 2026 (Alex): product images are the client's whole original photo, untouched (no cut-out, no crop), resized to 1200px on the long edge; the tile fits it on white. Cut-outs (26 Oct) clipped clear bags and kept only labels. Stock images never go on product tiles without a visible "illustration" label.
 - **Do not use the old WordPress product images on the site.** They are social-media screenshots with prices and captions printed on them (and at least one is the wrong product). They're kept in `media/wp-library/` for reference only.
 
 ## Working setup
