@@ -8,7 +8,7 @@ import { useBasket } from './basket-provider';
 import { QuantityStepper } from '@/components/ui/quantity-stepper';
 import { Button } from '@/components/ui/button';
 
-export type BasketProduct = { slug: string; name: string; pricePence: number; ownBrand: boolean };
+export type BasketProduct = { slug: string; name: string; pricePence: number; ownBrand: boolean; ageRestricted?: boolean };
 
 const gbp = (p: number) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(p / 100);
 

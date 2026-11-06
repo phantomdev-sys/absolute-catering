@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { site } from '@/content/site';
 import { aisles } from '@/content/taxonomy';
@@ -34,6 +35,24 @@ export function Footer() {
                 </a>
               </p>
             )}
+            {/* Membership badge, as in the shop's own email footer (6 Nov 2026). White version of the
+                group's own logo, from thewholesalegroup.co.uk. */}
+            <div className="pt-4">
+              <p className="mb-2 text-xs">Proud to be a member of</p>
+              <a
+                href="https://thewholesalegroup.co.uk/"
+                className="inline-block rounded-sm focus-visible:outline-focus-inverse"
+              >
+                <Image
+                  src="/images/the-wholesale-group-member-white.webp"
+                  alt="The Wholesale Group, home of the independent wholesaler"
+                  width={495}
+                  height={375}
+                  className="h-20 w-auto"
+                  sizes="106px"
+                />
+              </a>
+            </div>
           </div>
 
           <nav aria-label="Shop">

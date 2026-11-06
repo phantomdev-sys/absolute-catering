@@ -8,6 +8,7 @@ import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { CheckoutForm } from '@/components/checkout/checkout-form';
 import type { BasketProduct } from '@/components/basket/basket-view';
+import { isAgeRestricted } from '@/lib/age-restricted';
 
 // Per-customer and session-dependent: never prerender or cache.
 export const dynamic = 'force-dynamic';
@@ -25,7 +26,7 @@ export default async function CheckoutPage() {
   const catalogue: Record<string, BasketProduct> = {};
   for (const p of products) {
     if (p.status === 'live' && p.pricePence != null) {
-      catalogue[p.slug] = { slug: p.slug, name: p.name, pricePence: p.pricePence, ownBrand: p.ownBrand };
+      catalogue[p.slug] = { slug: p.slug, name: p.name, pricePence: p.pricePence, ownBrand: p.ownBrand, ageRestricted: isAgeRestricted(p) };
     }
   }
 

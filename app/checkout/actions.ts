@@ -3,6 +3,7 @@
 import { serverClient } from '@/lib/supabase/server';
 import { adminClient } from '@/lib/supabase/admin';
 import { getProducts } from '@/lib/catalogue';
+import { isAgeRestricted, MINIMUM_AGE } from '@/lib/age-restricted';
 import { checkPostcode } from '@/lib/delivery';
 import { deliveryChargePence, deliveryMinimumPence } from '@/content/delivery';
 import { siteOrigin } from '@/lib/origin';
@@ -14,6 +15,8 @@ export type CheckoutInput = {
   slotId: string;
   address?: { line1: string; line2?: string; town: string; postcode: string };
   phone?: string;
+  /** The customer ticked "I confirm I am 16 or over" (needed for energy drinks). */
+  ageConfirmed?: boolean;
 };
 
 export type CheckoutResult = { url: string } | { error: string };
@@ -47,6 +50,11 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
     priced.push({ product: p, qty });
   }
   if (priced.length === 0) return { error: 'Your basket is empty or its items are no longer available.' };
+  // Energy drinks: the customer must confirm their age. Checked here, not just in the browser.
+  const restricted = priced.filter((l) => isAgeRestricted(l.product));
+  if (restricted.length > 0 && input.ageConfirmed !== true) {
+    return { error: `Please confirm you are ${MINIMUM_AGE} or over to buy energy drinks, or remove them from your basket.` };
+  }
   const subtotal = priced.reduce((n, l) => n + l.product.pricePence! * l.qty, 0);
   const gbp = (p: number) => new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(p / 100);
   if (input.fulfilment === 'delivery' && subtotal < deliveryMinimumPence) {
@@ -130,7 +138,14 @@ export async function startCheckout(input: CheckoutInput): Promise<CheckoutResul
       qty: l.qty,
     })),
   );
-  await admin.from('order_events').insert({ order_id: order.id, status: 'awaiting_payment', actor: user.id });
+  await admin.from('order_events').insert({
+    order_id: order.id,
+    status: 'awaiting_payment',
+    actor: user.id,
+    note: restricted.length > 0
+      ? `Customer confirmed they are ${MINIMUM_AGE} or over (energy drinks: ${restricted.map((l) => l.product.name).join(', ')})`
+      : null,
+  });
 
   // 5. Stripe Checkout: authorise only, expire with the slot hold.
   const origin = await siteOrigin();

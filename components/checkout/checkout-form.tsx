@@ -6,6 +6,7 @@ import { Lock, Store, Truck } from 'lucide-react';
 import { cn } from '@/lib/cn';
 import { useBasket } from '@/components/basket/basket-provider';
 import type { BasketProduct } from '@/components/basket/basket-view';
+import { MINIMUM_AGE } from '@/lib/age-restricted';
 import { startCheckout } from '@/app/checkout/actions';
 import { deliveryChargePence, deliveryMinimumPence } from '@/content/delivery';
 
@@ -43,6 +44,9 @@ export function CheckoutForm({
   // How far short of the delivery minimum the basket is (0 once it's met).
   const shortfall = Math.max(0, deliveryMinimumPence - subtotal);
   const blocked = fulfilment === 'delivery' && shortfall > 0;
+  // Energy drinks need an age declaration (lib/age-restricted.ts).
+  const restricted = priced.filter((l) => l.p.ageRestricted);
+  const [ageConfirmed, setAgeConfirmed] = useState(false);
 
   // Slots for the chosen method, grouped by day for the grid.
   const days = useMemo(() => {
@@ -72,12 +76,17 @@ export function CheckoutForm({
       setError('Please choose a slot.');
       return;
     }
+    if (restricted.length > 0 && !ageConfirmed) {
+      setError(`Please confirm you are ${MINIMUM_AGE} or over to buy energy drinks, or remove them from your basket.`);
+      return;
+    }
     start(async () => {
       const result = await startCheckout({
         lines: priced.map((l) => ({ slug: l.slug, qty: l.qty })),
         fulfilment,
         slotId,
         phone: String(form.get('phone') ?? ''),
+        ageConfirmed: restricted.length > 0 ? ageConfirmed : undefined,
         address:
           fulfilment === 'delivery'
             ? {
@@ -180,6 +189,17 @@ export function CheckoutForm({
         </dl>
         <div className="mt-3 flex justify-between border-t border-line pt-3 text-lg font-bold"><span>Total</span><span className="tabular-nums">{gbp(total)}</span></div>
         <p className="mt-2 text-xs text-ink-muted">Your card is held for this amount and charged only for what we pick. <Link href="/payments" className="underline">How payment works</Link></p>
+        {restricted.length > 0 && (
+          <div className="mt-4 rounded-md border border-line-strong p-3">
+            <p className="text-sm">
+              Your basket has energy drinks ({restricted.map((l) => l.p.name).join(', ')}). We only sell these to customers aged {MINIMUM_AGE} or over.
+            </p>
+            <label className="mt-2 flex min-h-11 cursor-pointer items-center gap-3 font-semibold">
+              <input type="checkbox" checked={ageConfirmed} onChange={(e) => setAgeConfirmed(e.target.checked)} className="size-5 accent-accent" />
+              I confirm I am {MINIMUM_AGE} or over
+            </label>
+          </div>
+        )}
         {error && <p role="alert" className="mt-4 rounded-md border-l-4 border-notice-line bg-notice p-3 text-sm">{error}</p>}
         <button type="submit" disabled={pending || blocked} className="mt-6 inline-flex min-h-13 w-full items-center justify-center gap-2 rounded-md bg-accent px-6 text-lg font-semibold text-accent-ink hover:bg-accent-hover disabled:opacity-60">
           <Lock aria-hidden="true" className="size-4" />{pending ? 'Opening secure payment…' : 'Continue to payment'}

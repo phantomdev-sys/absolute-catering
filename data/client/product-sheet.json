@@ -1,5 +1,5 @@
 {
-  "source": "Ciaran's product sheet 'Absolute Catering – Product information for the new website' (Google Sheets), fetched 3 Nov 2026",
+  "source": "Ciaran's product sheet 'Absolute Catering – Product information for the new website' (Google Sheets), fetched 3 Nov 2026; updated 6 Nov 2026 from Ciaran's email",
   "rule": "Client-supplied price (inc VAT), VAT rate and pack size. A value in the database wins; these win over pack/sticker prices and the demo price. Blank cells are left out, never guessed.",
   "products": {
     "75-meter-aluminium-foil": {
@@ -79,7 +79,9 @@
     },
     "cooked-chicken-breast-fillet": {
       "vat_rate": "zero",
-      "pack_size": "approx. 2.5kg"
+      "pack_size": "approx. 2.5kg",
+      "price_pence": 2450,
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "cooked-chicken-kebabs-1kg": {
       "price_pence": 999,
@@ -336,9 +338,10 @@
       "pack_size": "75g"
     },
     "steak-crunch-n-seal-crispy-onions-1kg": {
-      "price_pence": 189,
+      "price_pence": 1499,
       "vat_rate": "zero",
-      "pack_size": "1kg"
+      "pack_size": "1kg",
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "sephra-pistachio-topping-sauce-800g": {
       "price_pence": 1299,
@@ -346,9 +349,10 @@
       "pack_size": "800g"
     },
     "thompsons-punjana-one-cup-tea-bags-1100": {
-      "price_pence": 2639,
-      "vat_rate": "standard",
-      "pack_size": "1100 one-cup tea bags"
+      "price_pence": 2199,
+      "vat_rate": "zero",
+      "pack_size": "1100 one-cup tea bags",
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "turkey-ham-stuffing-6-pack": {
       "price_pence": 1899,
@@ -654,7 +658,9 @@
       "pack_size": "2.27kg"
     },
     "aviko-spicy-jacket-wedges": {
-      "vat_rate": "zero"
+      "vat_rate": "zero",
+      "price_pence": 625,
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "musgrave-excellence-skin-on-fries-2-5kg": {
       "price_pence": 550,
@@ -667,10 +673,14 @@
       "pack_size": "2.5kg"
     },
     "lutosa-crinkle-fries": {
-      "vat_rate": "zero"
+      "vat_rate": "zero",
+      "price_pence": 599,
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "lutosa-oven-classic-fries": {
-      "vat_rate": "zero"
+      "vat_rate": "zero",
+      "price_pence": 599,
+      "client_note": "email from Ciaran 6 Nov 2026"
     },
     "monster-juiced-mango-loco-12": {
       "price_pence": 1600,
@@ -721,6 +731,12 @@
       "price_pence": 750,
       "vat_rate": "standard",
       "pack_size": "24 pack"
+    },
+    "authentic-doner-kebab-meat": {
+      "price_pence": 499,
+      "pack_size": "500g",
+      "name": "Authentic Doner Kebab Meat 500g",
+      "client_note": "email from Ciaran 6 Nov 2026"
     }
   }
 }
