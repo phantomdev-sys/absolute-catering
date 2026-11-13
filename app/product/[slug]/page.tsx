@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { Snowflake, Thermometer, Package, Truck } from 'lucide-react';
-import { getProduct, getProducts, primaryPlacement, relatedProducts, type Storage } from '@/lib/catalogue';
+import { getAllProducts, getProduct, isNotStocked, primaryPlacement, replacementPath, relatedProducts, type Storage } from '@/lib/catalogue';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { Breadcrumbs, type Crumb } from '@/components/shop/breadcrumbs';
@@ -19,7 +19,7 @@ type Params = { params: Promise<{ slug: string }> };
 
 // Same URL shape as WooCommerce, so existing links and search rankings carry over.
 export async function generateStaticParams() {
-  return (await getProducts()).map((p) => ({ slug: p.slug }));
+  return (await getAllProducts()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
@@ -31,6 +31,8 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       product.description ??
       `${product.name} from Absolute Catering Supplies, Omagh. Delivered within 30 miles or click & collect.`,
     alternates: { canonical: `/product/${product.slug}` },
+    // No longer sold: the page stays up for old links, but search engines can drop it.
+    ...(isNotStocked(product) ? { robots: { index: false } } : {}),
   };
 }
 
@@ -41,7 +43,10 @@ const STORAGE: Record<Storage, { label: string; icon: typeof Snowflake }> = {
 };
 
 export default async function ProductPage({ params }: Params) {
-  const product = await getProduct((await params).slug);
+  const { slug } = await params;
+  const moved = replacementPath(slug);
+  if (moved) permanentRedirect(moved);
+  const product = await getProduct(slug);
   if (!product) notFound();
 
   const home = primaryPlacement(product);
@@ -103,7 +108,11 @@ export default async function ProductPage({ params }: Params) {
                   <FavouriteButton slug={product.slug} name={product.name} size="md" />
                 </div>
               </div>
-              {canBuy ? null : (
+              {canBuy ? null : isNotStocked(product) ? (
+                <p className="mt-3 text-sm text-ink-muted">
+                  We no longer stock this product. Have a look at the rest of the shelf, or ask us in store.
+                </p>
+              ) : (
                 <p className="mt-3 text-sm text-ink-muted">
                   Online ordering for this product opens once its price and allergen details are confirmed. You can
                   buy it in store now.

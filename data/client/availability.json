@@ -1,0 +1,16 @@
+{
+  "source": "Ciaran's notes on the product list sheet (edited 12 Nov 2026)",
+  "rule": "Decision 13 Nov 2026 (Alex): nothing is deleted. A product the shop no longer sells is marked here. With a photo it stays listed with a 'Not in stock' label; without one it is hidden from shelves and search, but its page still loads and says so. 'replaced_by' sends the old product URL to a shelf instead (301).",
+  "not_stocked": {
+    "pork-chilli-sausages": "Ciaran, 12 Nov 2026: \"dont sell these any more\"",
+    "pork-leek-sausages": "Ciaran, 12 Nov 2026: \"dont sell these any more\"",
+    "pork-pepper-sausages": "Ciaran, 12 Nov 2026: \"dont sell these any more\"",
+    "gluten-free-cheese-cake": "Ciaran, 12 Nov 2026: \"dont sell these any more\""
+  },
+  "replaced_by": {
+    "cutlery": {
+      "path": "/shop/household/plates-and-cutlery",
+      "note": "12 Nov 2026: the generic 'Cutlery' line was split into green knives, spoons and forks (100 each)"
+    }
+  }
+}

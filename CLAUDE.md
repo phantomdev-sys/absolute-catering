@@ -29,6 +29,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - Product images are keyed by product slug so Drive photos (`<slug>-front.jpg`, `<slug>-back.jpg`) drop in without code changes.
 - Product URLs stay `/product/<slug>` (identical to WooCommerce). Category and page URLs 301 per `data/redirects/redirects.csv`.
 - Never publish to production before the balance invoice is paid.
+- Decision 13 Nov 2026 (Alex): never delete a product. Lines no longer sold go in `data/client/availability.json` (`not_stocked`): with a photo they stay listed as "Not in stock", without one they're hidden from shelves and search but the page still loads (noindex). Split/renamed lines use `replaced_by` (301 to a shelf).
 - Decision 6 Nov 2026 (Ciaran): energy drinks need an age declaration at checkout (tick box "I confirm I am 16 or over", enforced server-side, recorded in order history). Not ID verification. Categories and age in `lib/age-restricted.ts`.
 
 ## Key files

@@ -5,6 +5,7 @@ import packDescriptions from '@/data/pack-labels/descriptions.json';
 import packshotManifest from '@/content/packshots.json';
 import packPrices from '@/data/pack-labels/prices.json';
 import clientSheet from '@/data/client/product-sheet.json';
+import availability from '@/data/client/availability.json';
 import { aisles, shelfOverrides, legacyBrandCategory, type Aisle, type Shelf } from '@/content/taxonomy';
 import { publicClient } from '@/lib/supabase/public';
 import { DEMO_PRICES, DEMO_PRICE_PENCE } from '@/lib/demo';
@@ -109,11 +110,25 @@ const byPhotoThenName = (a: Product, b: Product) =>
  * a factual description, and the unverified label transcription. Confirmed
  * data (from the database) always wins.
  */
+/**
+ * Lines the shop no longer sells (data/client/availability.json). Nothing is
+ * deleted (decision 13 Nov 2026): with a photo the product stays listed as
+ * "Not in stock"; without one it's hidden from shelves and search, but its
+ * page still loads and says so, so old links never 404.
+ */
+const notStocked = (availability as { not_stocked: Record<string, string> }).not_stocked;
+const replacedBy = (availability as { replaced_by: Record<string, { path: string }> }).replaced_by;
+export const isNotStocked = (p: Pick<Product, 'slug'>) => p.slug in notStocked;
+/** Where an old product URL now points, when a line was split or renamed into others. */
+export const replacementPath = (slug: string): string | undefined => replacedBy[slug]?.path;
+const isListed = (p: Product) => !(p.slug in replacedBy) && (!isNotStocked(p) || hasPhoto(p.slug));
+
 function withPackData(p: Product): Product {
   const l = labels[p.slug];
   const c = sheetEntry(p.slug);
   return {
     ...p,
+    status: isNotStocked(p) ? 'withdrawn' : p.status,
     name: c?.name ?? p.name,
     description: p.description ?? descriptions[p.slug] ?? null,
     packSize: p.packSize ?? c?.pack_size ?? l?.pack_size_display ?? null,
@@ -175,7 +190,13 @@ const seedProducts: Product[] = [...seed.map(fromSeed), ...addedFromPhotos.map(f
   .map(withPackData)
   .sort(byPhotoThenName);
 
+/** Products on shelves, in search and in the basket: not-stocked lines without a photo are left out. */
 export async function getProducts(): Promise<Product[]> {
+  return (await getAllProducts()).filter(isListed);
+}
+
+/** Every product, including hidden not-stocked ones (for product pages, so old links keep working). */
+export async function getAllProducts(): Promise<Product[]> {
   const supabase = publicClient();
   if (!supabase) return seedProducts;
   // RLS only returns live products to the public, so until the first product is
@@ -231,7 +252,7 @@ function fromDb(r: DbRow): Product {
 }
 
 export async function getProduct(slug: string): Promise<Product | undefined> {
-  return (await getProducts()).find((p) => p.slug === slug);
+  return (await getAllProducts()).find((p) => p.slug === slug);
 }
 
 /** Where a product sits: every aisle/shelf it appears on. */

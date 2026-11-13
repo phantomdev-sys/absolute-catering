@@ -1265,5 +1265,62 @@
       "blue-roll"
     ],
     "source": "client-photos-2026-10-30"
+  },
+  {
+    "slug": "fresh-free-range-eggs-30",
+    "name": "Fresh Free Range Eggs (30)",
+    "own_brand": false,
+    "legacy_categories": [
+      "eggs"
+    ],
+    "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "apollo-dan-bol-curry-noodles",
+    "name": "Apollo dan Bol Curry Flavour Instant Noodles",
+    "own_brand": false,
+    "legacy_categories": [
+      "noodles-and-snacks"
+    ],
+    "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "apollo-dan-bol-roast-beef-noodles",
+    "name": "Apollo dan Bol Roast Beef Flavour Instant Noodles",
+    "own_brand": false,
+    "legacy_categories": [
+      "noodles-and-snacks"
+    ],
+    "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "green-knives-100",
+    "name": "Green Knives (100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cutlery"
+    ],
+    "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "green-spoons-100",
+    "name": "Green Spoons (100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cutlery"
+    ],
+    "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "green-forks-100",
+    "name": "Green Forks (100)",
+    "own_brand": false,
+    "legacy_categories": [
+      "household-packaging",
+      "cutlery"
+    ],
+    "source": "client-product-list-2026-11-12"
   }
 ]

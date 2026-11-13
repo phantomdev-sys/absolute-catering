@@ -1,5 +1,5 @@
 {
-  "source": "Ciaran's product sheet 'Absolute Catering – Product information for the new website' (Google Sheets), fetched 3 Nov 2026; updated 6 Nov 2026 from Ciaran's email",
+  "source": "Ciaran's product sheet 'Absolute Catering – Product information for the new website' (Google Sheets), fetched 3 Nov 2026; updated 6 Nov 2026 from Ciaran's email; updated from the product list sheet (edited by the shop 12 Nov 2026)",
   "rule": "Client-supplied price (inc VAT), VAT rate and pack size. A value in the database wins; these win over pack/sticker prices and the demo price. Blank cells are left out, never guessed.",
   "products": {
     "75-meter-aluminium-foil": {
@@ -271,7 +271,8 @@
     "roosters-crunchy-coated-fillets-1kg": {
       "price_pence": 799,
       "vat_rate": "zero",
-      "pack_size": "1kg"
+      "pack_size": "1kg",
+      "name": "Coosters Crunchy Coated Fillets 1kg"
     },
     "rosie-jim-battered-chicken-nuggets": {
       "price_pence": 899,
@@ -426,7 +427,10 @@
     },
     "hanfwers-pork-sausages": {
       "name": "Halfners Pork Sausages",
-      "client_note": "it halfners"
+      "client_note": "it halfners",
+      "price_pence": 1999,
+      "pack_size": "approx. 80 sausages",
+      "vat_rate": "zero"
     },
     "lamb-weston-potato-puffs": {
       "price_pence": 425,
@@ -737,6 +741,111 @@
       "pack_size": "500g",
       "name": "Authentic Doner Kebab Meat 500g",
       "client_note": "email from Ciaran 6 Nov 2026"
+    },
+    "bacon": {
+      "price_pence": 1199,
+      "pack_size": "2kg",
+      "vat_rate": "zero"
+    },
+    "rindless-streaky-bacon": {
+      "price_pence": 1175,
+      "pack_size": "2kg",
+      "vat_rate": "zero"
+    },
+    "smoked-back-bacon": {
+      "price_pence": 1199,
+      "pack_size": "2kg",
+      "vat_rate": "zero"
+    },
+    "streaky-bacon": {
+      "price_pence": 1199,
+      "pack_size": "2kg",
+      "vat_rate": "zero"
+    },
+    "clonakilty-black-pudding": {
+      "price_pence": 1075,
+      "pack_size": "1.5kg",
+      "vat_rate": "zero"
+    },
+    "clonakilty-white-pudding": {
+      "price_pence": 1075,
+      "pack_size": "1.5kg",
+      "vat_rate": "zero"
+    },
+    "cooked-pulled-chicken-breast": {
+      "price_pence": 2450,
+      "pack_size": "2.5kg",
+      "vat_rate": "zero"
+    },
+    "fresh-chicken-fillets": {
+      "price_pence": 2999,
+      "pack_size": "5kg",
+      "vat_rate": "zero"
+    },
+    "seasoned-chicken-kebabs": {
+      "price_pence": 999,
+      "pack_size": "1kg",
+      "vat_rate": "zero"
+    },
+    "diggers-boneless-wings": {
+      "price_pence": 950,
+      "pack_size": "1kg",
+      "vat_rate": "zero"
+    },
+    "fresh-free-range-eggs": {
+      "name": "Fresh Free Range Eggs (15)",
+      "price_pence": 350,
+      "pack_size": "15 eggs",
+      "vat_rate": "zero"
+    },
+    "fresh-free-range-eggs-30": {
+      "name": "Fresh Free Range Eggs (30)",
+      "price_pence": 550,
+      "pack_size": "30 eggs",
+      "vat_rate": "zero"
+    },
+    "apollo-dan-bol-curry-noodles": {
+      "price_pence": 120,
+      "pack_size": "1 pack",
+      "vat_rate": "zero"
+    },
+    "apollo-dan-bol-roast-beef-noodles": {
+      "price_pence": 120,
+      "pack_size": "1 pack",
+      "vat_rate": "zero"
+    },
+    "green-knives-100": {
+      "vat_rate": "standard",
+      "price_pence": 295,
+      "pack_size": "100 pieces"
+    },
+    "green-spoons-100": {
+      "vat_rate": "standard",
+      "price_pence": 295,
+      "pack_size": "100 pieces"
+    },
+    "green-forks-100": {
+      "vat_rate": "standard",
+      "price_pence": 295,
+      "pack_size": "100 pieces"
+    },
+    "plastic-spoons": {
+      "name": "Black Plastic Spoons (100)",
+      "vat_rate": "standard",
+      "price_pence": 295,
+      "pack_size": "100 pieces"
+    },
+    "roosters-chicken-fillets": {
+      "name": "Coosters Chicken Fillets"
+    },
+    "roosters-crispy-shredded-chicken-fillets": {
+      "name": "Coosters Crispy Shredded Chicken Fillets"
+    },
+    "roosters-crunchy-chicken-goujons": {
+      "name": "Coosters Crunchy Chicken Goujons"
+    },
+    "roosters-kickin-chicken-fillets": {
+      "name": "Coosters Kick’In Chicken Fillets"
     }
   }
 }
