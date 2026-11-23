@@ -1,20 +1,30 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, MapPin, Phone } from 'lucide-react';
+import { ArrowRight, Gift, MapPin, Phone } from 'lucide-react';
 import { site } from '@/content/site';
 import { home } from '@/content/home';
 import { heroImage, ownBrandBanner } from '@/content/images';
+import { seasonalHeroes, ukMonth } from '@/content/seasonal-heroes';
 import { districts, radiusMiles } from '@/content/delivery';
 import { aisles } from '@/content/taxonomy';
-import { aisleCounts, getOwnBrand } from '@/lib/catalogue';
+import { aisleCounts, getOwnBrand, getProducts } from '@/lib/catalogue';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { DeliveryAreaMap } from '@/components/delivery/delivery-area-map';
 import { PostcodeForm } from '@/components/delivery/postcode-form';
 import { ProductGrid } from '@/components/shop/product-grid';
 
+// The hero changes by month (content/seasonal-heroes.ts), so re-render hourly.
+export const revalidate = 3600;
+
 export default async function HomePage() {
-  const [counts, ownBrand] = await Promise.all([aisleCounts(), getOwnBrand()]);
+  const [counts, ownBrand, products] = await Promise.all([aisleCounts(), getOwnBrand(), getProducts()]);
+  const season = seasonalHeroes[ukMonth()];
+  const hero = { ...home.hero, ...season };
+  const image = season?.image ?? heroImage;
+  // Only products that are actually listed, so a hidden or renamed line never leaves a dead chip.
+  const listed = new Set(products.map((p) => p.slug));
+  const favourites = (season?.favourites?.items ?? []).filter((f) => listed.has(f.slug));
 
   return (
     <>
@@ -22,8 +32,8 @@ export default async function HomePage() {
       <section aria-labelledby="hero-heading" className="relative border-b border-line bg-ground">
         <div className="relative aspect-[16/9] w-full lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-1/2">
           <Image
-            src={heroImage.src}
-            alt={heroImage.alt}
+            src={image.src}
+            alt={image.alt}
             fill
             priority
             sizes="(min-width: 1024px) 50vw, 100vw"
@@ -32,15 +42,38 @@ export default async function HomePage() {
         </div>
         <Container width="wide" className="relative lg:grid lg:min-h-[36rem] lg:grid-cols-2 lg:items-center">
           <div className="py-10 md:py-14 lg:pr-12">
-            <p className="text-sm font-bold uppercase tracking-[0.14em] text-brand">{home.hero.eyebrow}</p>
+            <p className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.14em] text-brand">
+              {season && <Gift aria-hidden="true" className="size-4" />}
+              {hero.eyebrow}
+            </p>
             <Heading level={1} size="xl" id="hero-heading" className="mt-3 max-w-[18ch]">
-              {home.hero.heading}
+              {hero.heading}
             </Heading>
-            <p className="mt-5 max-w-[52ch] text-lg text-ink-muted">{home.hero.body}</p>
+            <p className="mt-5 max-w-[52ch] text-lg text-ink-muted">{hero.body}</p>
+
+            {favourites.length > 0 && (
+              <nav aria-labelledby="hero-favourites" className="mt-6">
+                <h2 id="hero-favourites" className="text-sm font-semibold">
+                  {season?.favourites?.heading}
+                </h2>
+                <ul className="mt-2 flex flex-wrap gap-2">
+                  {favourites.map((f) => (
+                    <li key={f.slug}>
+                      <Link
+                        href={`/product/${f.slug}`}
+                        className="inline-flex min-h-10 items-center rounded-full border border-line-strong bg-ground px-3 text-sm font-medium hover:border-brand hover:text-brand"
+                      >
+                        {f.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
 
             <div className="mt-8 max-w-md rounded-md border border-line bg-ground-subtle p-5">
-              <PostcodeForm id="hero-postcode" size="lg" label={home.hero.formLabel} />
-              <p className="mt-3 text-sm text-ink-muted">{home.hero.formNote}</p>
+              <PostcodeForm id="hero-postcode" size="lg" label={hero.formLabel} />
+              <p className="mt-3 text-sm text-ink-muted">{hero.formNote}</p>
             </div>
           </div>
         </Container>

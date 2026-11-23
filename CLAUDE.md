@@ -43,6 +43,9 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - `supabase/migrations/`: schema, validated in PGlite, applied to `zlzdjentqmjjnxmojtko` on 20 Oct 2026.
 - `data/scrape/`: raw 20 Oct 2026 WooCommerce Store API dump. `data/seed/`: generated seed. `scripts/seed_from_wp.py` regenerates.
 
+## Homepage hero by month
+- `content/seasonal-heroes.ts` (23 Nov 2026, Alex): each month can override the hero photo, copy and up to five "favourites" chips; missing months use the all-year hero. December = Christmas (Adobe Stock 26924506). The homepage revalidates hourly, so the hero switches within the hour on the 1st. Preview another month with `HERO_MONTH=<1-12>` at build time; never set it in Production. Other seasons/months to follow.
+
 ## Product images
 - Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp` / `-extra-N.webp`, then `npm run packshots`. Until then, neutral placeholders. Decision 3 Nov 2026 (Alex): product images are the client's whole original photo, untouched (no cut-out, no crop), resized to 1200px on the long edge; the tile fits it on white. Cut-outs (26 Oct) clipped clear bags and kept only labels. Stock images never go on product tiles without a visible "illustration" label.
 - **Do not use the old WordPress product images on the site.** They are social-media screenshots with prices and captions printed on them (and at least one is the wrong product). They're kept in `media/wp-library/` for reference only.

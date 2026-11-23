@@ -59,6 +59,7 @@ Last updated: 2026-11-06 · Open: 34 · Blocked: 3
 | 66 | Supabase products table not yet updated with the 13 Nov changes (prices, names, new lines, not-stocked status). Site serves seed + sheet layer, so nothing is wrong live, but the DB must match before go-live | Phantom | 2026-11-13 | Resolved 23 Nov | DB updated: 189 products incl. 6 new; 5 withdrawn; Coosters names (23 Nov batch added after) |
 | 67 | Still no price or pack size: Fresh Steak Burgers, Chocolate Fudge Cake, Pizza Snack | Client | 2026-11-13 | Waiting | Ask Ciaran |
 | 68 | Confirm with Ciaran: does the shop sell both 10" (£1.25) and 12" (£1.75) gluten-free pizza bases? Seasoned Crispy Cubes brand (Chef's Excellence?) | Client | 2026-11-23 | Open | From the 6 Nov photo batch |
+| 69 | Seasonal homepage heroes: December (Christmas) done 23 Nov. Plan photos and copy for the other months/seasons (e.g. New Year, Easter, summer BBQ, back to school, Halloween) | Phantom | 2026-11-23 | Open | content/seasonal-heroes.ts; each photo costs 1 Adobe Stock credit (~38 left) |
 
 ## Resolved
 
