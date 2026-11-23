@@ -44,7 +44,7 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 - `data/scrape/`: raw 20 Oct 2026 WooCommerce Store API dump. `data/seed/`: generated seed. `scripts/seed_from_wp.py` regenerates.
 
 ## Homepage hero by month
-- `content/seasonal-heroes.ts` (23 Nov 2026, Alex): each month can override the hero photo, copy and up to five "favourites" chips; missing months use the all-year hero. December = Christmas (Adobe Stock 26924506). The homepage revalidates hourly, so the hero switches within the hour on the 1st. Preview another month with `HERO_MONTH=<1-12>` at build time; never set it in Production. Other seasons/months to follow.
+- `content/seasonal-heroes.ts` (23 Nov 2026, Alex): each month can override the hero photo, copy and up to five "favourites" chips; missing months use the all-year hero. December = Christmas (Adobe Stock 312380078, red festive panel and price-sticker motif). The homepage revalidates hourly, so the hero switches within the hour on the 1st. Preview another month with `HERO_MONTH=<1-12>` at build time; never set it in Production. Other seasons/months to follow.
 
 ## Product images
 - Packshots go in `public/images/packshots/<slug>-front.webp` / `-back.webp` / `-extra-N.webp`, then `npm run packshots`. Until then, neutral placeholders. Decision 3 Nov 2026 (Alex): product images are the client's whole original photo, untouched (no cut-out, no crop), resized to 1200px on the long edge; the tile fits it on white. Cut-outs (26 Oct) clipped clear bags and kept only labels. Stock images never go on product tiles without a visible "illustration" label.
@@ -52,5 +52,5 @@ Existing Supabase projects in the org that this build must NEVER touch: bowery-i
 
 ## Working setup
 - Claude builds in a cloud clone, syncs files into this folder and commits here; **Alex pushes** (Claude sessions can read the repo but can't push until the Claude GitHub App is installed on phantomdev-sys).
-- Fonts: Clash Display + Satoshi from Fontshare, self-hosted in `public/fonts/`. Fontshare is blocked from Claude's side, so the files come from Alex's Mac.
-- Verify: `npm run typecheck && npm run lint && npm run build`, then `check:contrast`, `check:a11y`, `check:screens` (cloud: `PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome`).
+- Fonts (decision 23 Nov 2026, Alex: design direction C · Cash & carry): Barlow Condensed ExtraBold in capitals for display, Barlow for text; OFL, self-hosted in `public/fonts/` from @fontsource (npm works from Claude's side). Clash Display + Satoshi dropped as too "AI template". Ground-subtle is neutral grey #f1f1ef (the cream is gone). Seasonal colours: `--color-festive`, `--color-sticker-edge/face` (the shop's own price-sticker red and yellow).
+- Verify: `npm run typecheck && npm run lint && npm run build`, then `check:contrast`, `check:a11y`, `check:screens` (cloud: `PLAYWRIGHT_CHROMIUM_PATH=$(ls -d /opt/pw-browsers/chromium-*/chrome-linux*/chrome | head -1)`; the version folder changes).

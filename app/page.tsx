@@ -29,8 +29,18 @@ export default async function HomePage() {
   return (
     <>
       {/* Hero: appetite first, the delivery promise straight after. */}
-      <section aria-labelledby="hero-heading" className="relative border-b border-line bg-ground">
+      <section aria-labelledby="hero-heading" data-season={season?.key} className="hero relative border-b border-line bg-ground">
         <div className="relative aspect-[16/9] w-full lg:absolute lg:inset-y-0 lg:right-0 lg:aspect-auto lg:w-1/2">
+          {season?.sticker && (
+            // The shop's own price-sticker starburst (red edge, yellow face), not a stock graphic.
+            <svg viewBox="0 0 100 100" className="hero-sticker absolute left-4 top-4 z-10 size-32 -rotate-6 lg:-left-16 lg:top-10 lg:size-36" role="img" aria-label={season.sticker}>
+              <polygon points="50.0,0.0 56.1,7.4 64.1,2.0 67.9,10.9 77.0,7.9 78.2,17.5 87.8,17.3 86.2,26.8 95.5,29.2 91.3,37.9 99.5,42.9 93.0,50.0 99.5,57.1 91.3,62.1 95.5,70.8 86.2,73.2 87.8,82.7 78.2,82.5 77.0,92.1 67.9,89.1 64.1,98.0 56.1,92.6 50.0,100.0 43.9,92.6 35.9,98.0 32.1,89.1 23.0,92.1 21.8,82.5 12.2,82.7 13.8,73.2 4.5,70.8 8.7,62.1 0.5,57.1 7.0,50.0 0.5,42.9 8.7,37.9 4.5,29.2 13.8,26.8 12.2,17.3 21.8,17.5 23.0,7.9 32.1,10.9 35.9,2.0 43.9,7.4" className="fill-sticker-edge" />
+              <polygon points="50.0,0.0 56.1,7.4 64.1,2.0 67.9,10.9 77.0,7.9 78.2,17.5 87.8,17.3 86.2,26.8 95.5,29.2 91.3,37.9 99.5,42.9 93.0,50.0 99.5,57.1 91.3,62.1 95.5,70.8 86.2,73.2 87.8,82.7 78.2,82.5 77.0,92.1 67.9,89.1 64.1,98.0 56.1,92.6 50.0,100.0 43.9,92.6 35.9,98.0 32.1,89.1 23.0,92.1 21.8,82.5 12.2,82.7 13.8,73.2 4.5,70.8 8.7,62.1 0.5,57.1 7.0,50.0 0.5,42.9 8.7,37.9 4.5,29.2 13.8,26.8 12.2,17.3 21.8,17.5 23.0,7.9 32.1,10.9 35.9,2.0 43.9,7.4" transform="translate(50 50) scale(0.86) translate(-50 -50)" className="fill-sticker-face" />
+              <foreignObject x="18" y="26" width="64" height="48">
+                <p className="flex h-full items-center justify-center text-center font-display text-[12px] leading-tight text-ink">{season.sticker}</p>
+              </foreignObject>
+            </svg>
+          )}
           <Image
             src={image.src}
             alt={image.alt}
@@ -41,18 +51,24 @@ export default async function HomePage() {
           />
         </div>
         <Container width="wide" className="relative lg:grid lg:min-h-[36rem] lg:grid-cols-2 lg:items-center">
-          <div className="py-10 md:py-14 lg:pr-12">
-            <p className="flex items-center gap-2 text-sm font-bold uppercase tracking-[0.14em] text-brand">
+          <div className="hero-copy py-10 md:py-14 lg:pr-12">
+            <p
+              className={
+                season
+                  ? 'hero-eyebrow flex items-center gap-2 font-bold'
+                  : 'text-sm font-bold uppercase tracking-[0.14em] text-brand'
+              }
+            >
               {season && <Gift aria-hidden="true" className="size-4" />}
               {hero.eyebrow}
             </p>
             <Heading level={1} size="xl" id="hero-heading" className="mt-3 max-w-[18ch]">
               {hero.heading}
             </Heading>
-            <p className="mt-5 max-w-[52ch] text-lg text-ink-muted">{hero.body}</p>
+            <p className="hero-body mt-5 max-w-[52ch] text-lg text-ink-muted">{hero.body}</p>
 
             {favourites.length > 0 && (
-              <nav aria-labelledby="hero-favourites" className="mt-6">
+              <nav aria-labelledby="hero-favourites" className="hero-favourites mt-6">
                 <h2 id="hero-favourites" className="text-sm font-semibold">
                   {season?.favourites?.heading}
                 </h2>
@@ -71,7 +87,7 @@ export default async function HomePage() {
               </nav>
             )}
 
-            <div className="mt-8 max-w-md rounded-md border border-line bg-ground-subtle p-5">
+            <div className="hero-card mt-8 max-w-md rounded-md border border-line bg-ground-subtle p-5">
               <PostcodeForm id="hero-postcode" size="lg" label={hero.formLabel} />
               <p className="mt-3 text-sm text-ink-muted">{hero.formNote}</p>
             </div>

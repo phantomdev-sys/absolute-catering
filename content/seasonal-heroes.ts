@@ -18,6 +18,10 @@ import type { Banner } from '@/content/images';
 export type SeasonalHero = {
   /** For the register and this file only; not shown. */
   label: string;
+  /** Hooks the month's colour treatment in globals.css ([data-season=…]). */
+  key?: string;
+  /** Short text on a shop-style price sticker over the photo. */
+  sticker?: string;
   image?: Banner;
   eyebrow?: string;
   heading?: string;
@@ -29,12 +33,15 @@ export type SeasonalHero = {
 export const seasonalHeroes: Partial<Record<number, SeasonalHero>> = {
   12: {
     label: 'December / Christmas',
-    // Adobe Stock 26924506, licensed 23 Nov 2026 (docs/STOCK-LICENCES.md).
+    key: 'christmas',
+    sticker: 'Christmas range in store',
+    // Adobe Stock 312380078 'Close up of a Christmas dinner table' (Carey),
+    // licensed 23 Nov 2026; replaced 26924506 the same day (not festive enough).
     image: {
-      src: '/images/stock/hero-christmas-dinner.webp',
-      alt: 'Roast turkey with pigs in blankets, roast potatoes, Brussels sprouts and carrots, with a glass of red wine',
+      src: '/images/stock/hero-christmas-table.webp',
+      alt: 'A Christmas dinner table with a roast turkey, crackers, candles, a pine-cone centrepiece, stuffing, vegetables and cranberry sauce',
       width: 2000,
-      height: 1333,
+      height: 1568,
     },
     eyebrow: 'Christmas at Absolute Catering',
     heading: 'Christmas dinner, sorted',

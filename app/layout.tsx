@@ -10,8 +10,8 @@ import './globals.css';
 /**
  * Note what is NOT here: `next/font/google`. Google Fonts is blocked in the
  * build container, so importing it fails the build outright rather than
- * degrading at runtime. Self-host Fontshare woff2 files in public/fonts/ and
- * declare @font-face in globals.css.
+ * degrading at runtime. Fonts (Barlow, Barlow Condensed) are self-hosted
+ * woff2 files in public/fonts/, declared with @font-face in globals.css.
  *
  * If Adobe Fonts is used — Alex's own properties only, never a client site —
  * the integration is a plain stylesheet link in <head>:

@@ -1,5 +1,7 @@
 # Design directions
 
+> **Update 23 Nov 2026 (Alex):** design pass. Clash Display + Satoshi and the warm paper ground (#F6F3EE) are dropped as looking AI-generated. Chosen from three live previews: **C · Cash & carry**: Barlow Condensed ExtraBold capitals for display (warehouse signage), Barlow for text, neutral grey ground #F1F1EF. Christmas hero in a red panel (#A3161D) with the shop's own red/yellow price-sticker starburst. The rest of the layout (B · Within 30 Miles) stands. Rejected: A (Archivo wide + Public Sans, lilac ground, plum panel), B (Young Serif + Public Sans, mint ground, holly-green panel).
+
 20 Oct 2026 · **Chosen: B · Within 30 Miles, with A's Shelf Label treatment for product pages and the allergen panel** (Alex, 20 Oct).
 
 ## Brand colours, measured from the current logo

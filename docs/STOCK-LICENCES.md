@@ -11,6 +11,7 @@ Originals live in `media/stock/` (not committed); web versions are generated int
 | 2026-10-20 | [2170530120](https://stock.adobe.com/uk/images/id/2170530120) | Full English breakfast in a cast-iron pan | BrilliantPixels | Standard | 1 | Homepage hero |
 | 2026-10-20 | [50355236](https://stock.adobe.com/uk/images/id/50355236) | Full English cooked breakfast | Joe Gough | Standard | 1 | Fresh aisle banner |
 | 2026-10-20 | [2182740547](https://stock.adobe.com/uk/images/id/2182740547) | Ham and cheese croissant (**AI-generated**, Adobe GenAI) | overrust | Standard | 1 | Pastries slot. Licensed by Alex |
-| 2026-11-23 | [26924506](https://stock.adobe.com/uk/images/id/26924506) | Christmas Dinner | Martin Lee | Standard | 1 | Homepage hero, December (content/seasonal-heroes.ts). Licensed by Claude in Alex's Chrome with his OK |
+| 2026-11-23 | [26924506](https://stock.adobe.com/uk/images/id/26924506) | Christmas Dinner | Martin Lee | Standard | 1 | Not used: licensed for the December hero, replaced the same day by 312380078 (not festive enough). Licensed by Claude in Alex's Chrome with his OK |
+| 2026-11-23 | [312380078](https://stock.adobe.com/uk/images/id/312380078) | Close up of a Christmas dinner table | Carey | Standard | 1 | Homepage hero, December (content/seasonal-heroes.ts). Licensed by Claude in Alex's Chrome with his OK |
 
-Credits used: 6 (5 on 20 Oct, 1 on 23 Nov) (licence history shows 854 assets after these). Balance before licensing: 44 plan credits, so about 39 remain.
+Credits used: 7 (5 on 20 Oct, 2 on 23 Nov) (licence history shows 854 assets after these). Balance before licensing: 44 plan credits, so about 37 remain.
