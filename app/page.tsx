@@ -4,7 +4,7 @@ import { ArrowRight, Gift, MapPin, Phone } from 'lucide-react';
 import { site } from '@/content/site';
 import { home } from '@/content/home';
 import { heroImage, ownBrandBanner } from '@/content/images';
-import { seasonalHeroes, ukMonth } from '@/content/seasonal-heroes';
+import { currentSeason } from '@/content/seasonal-heroes';
 import { districts, radiusMiles } from '@/content/delivery';
 import { aisles } from '@/content/taxonomy';
 import { aisleCounts, getOwnBrand, getProducts } from '@/lib/catalogue';
@@ -14,12 +14,12 @@ import { DeliveryAreaMap } from '@/components/delivery/delivery-area-map';
 import { PostcodeForm } from '@/components/delivery/postcode-form';
 import { ProductGrid } from '@/components/shop/product-grid';
 
-// The hero changes by month (content/seasonal-heroes.ts), so re-render hourly.
+// The hero changes by season (content/seasonal-heroes.ts), so re-render hourly.
 export const revalidate = 3600;
 
 export default async function HomePage() {
   const [counts, ownBrand, products] = await Promise.all([aisleCounts(), getOwnBrand(), getProducts()]);
-  const season = seasonalHeroes[ukMonth()];
+  const season = currentSeason();
   const hero = { ...home.hero, ...season };
   const image = season?.image ?? heroImage;
   // Only products that are actually listed, so a hidden or renamed line never leaves a dead chip.

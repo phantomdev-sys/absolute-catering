@@ -1,10 +1,10 @@
 /**
- * Homepage hero by month. Each month can override the photo, the copy and a
- * short row of "favourites" links; anything left out falls back to the
- * all-year hero (content/home.ts + content/images.ts heroImage).
- *
- * Months are 1–12 in UK time. The homepage revalidates hourly, so a new
- * month's hero appears within the hour after midnight on the 1st.
+ * Homepage hero by season. Each entry runs between two dates (inclusive, UK
+ * time, every year) and can override the photo, the copy and a short row of
+ * "favourites" links; anything left out falls back to the all-year hero
+ * (content/home.ts + content/images.ts heroImage). The first matching entry
+ * wins. The homepage revalidates hourly, so a hero starts within the hour
+ * after midnight on its first day and ends the same way after its last.
  *
  * Photos are stock (mood slot only, never a product tile) and must be logged
  * in docs/STOCK-LICENCES.md. Copy follows the same rule as home.ts: only what
@@ -18,6 +18,9 @@ import type { Banner } from '@/content/images';
 export type SeasonalHero = {
   /** For the register and this file only; not shown. */
   label: string;
+  /** First and last day it shows, as 'MM-DD' (UK time, every year). */
+  from: string;
+  to: string;
   /** Hooks the month's colour treatment in globals.css ([data-season=…]). */
   key?: string;
   /** Short text on a shop-style price sticker over the photo. */
@@ -30,9 +33,12 @@ export type SeasonalHero = {
   favourites?: { heading: string; items: { slug: string; label: string }[] };
 };
 
-export const seasonalHeroes: Partial<Record<number, SeasonalHero>> = {
-  12: {
-    label: 'December / Christmas',
+export const seasonalHeroes: SeasonalHero[] = [
+  {
+    // 23 Nov 2026 (Alex): run Christmas from late November, not 1 December.
+    label: 'Christmas',
+    from: '11-23',
+    to: '12-26',
     key: 'christmas',
     sticker: 'Christmas range in store',
     // Adobe Stock 312380078 'Close up of a Christmas dinner table' (Carey),
@@ -57,14 +63,22 @@ export const seasonalHeroes: Partial<Record<number, SeasonalHero>> = {
       ],
     },
   },
-};
+];
 
 /**
- * Current month (1–12) in UK time. Set HERO_MONTH (1–12) to preview another
- * month's hero locally or on a Preview deployment; never set it in Production.
+ * Today as 'MM-DD' in UK time. Set HERO_DATE ('MM-DD') to preview another
+ * date's hero locally or on a Preview deployment; never set it in Production.
  */
-export function ukMonth(now = new Date()): number {
-  const forced = Number(process.env.HERO_MONTH);
-  if (Number.isInteger(forced) && forced >= 1 && forced <= 12) return forced;
-  return Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', month: 'numeric' }).format(now));
+export function ukDay(now = new Date()): string {
+  const forced = process.env.HERO_DATE;
+  if (forced && /^\d{2}-\d{2}$/.test(forced)) return forced;
+  const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', month: '2-digit', day: '2-digit' }).formatToParts(now);
+  const get = (t: string) => parts.find((p) => p.type === t)?.value ?? '';
+  return `${get('month')}-${get('day')}`;
+}
+
+/** The hero running today, if any. 'MM-DD' strings compare correctly as text. */
+export function currentSeason(now = new Date()): SeasonalHero | undefined {
+  const day = ukDay(now);
+  return seasonalHeroes.find((s) => (s.from <= s.to ? s.from <= day && day <= s.to : day >= s.from || day <= s.to));
 }
