@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound, permanentRedirect } from 'next/navigation';
 import { Snowflake, Thermometer, Package, Truck } from 'lucide-react';
-import { getAllProducts, getProduct, isNotStocked, primaryPlacement, replacementPath, relatedProducts, type Storage } from '@/lib/catalogue';
+import { getAllProducts, getProduct, hasConfirmedPrice, isNotStocked, isOnShelves, primaryPlacement, replacementPath, relatedProducts, type Storage } from '@/lib/catalogue';
 import { Container } from '@/components/ui/container';
 import { Heading } from '@/components/ui/heading';
 import { Breadcrumbs, type Crumb } from '@/components/shop/breadcrumbs';
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       `${product.name} from Absolute Catering Supplies, Omagh. Delivered within 30 miles or click & collect.`,
     alternates: { canonical: `/product/${product.slug}` },
     // No longer sold: the page stays up for old links, but search engines can drop it.
-    ...(isNotStocked(product) ? { robots: { index: false } } : {}),
+    ...(isNotStocked(product) || !isOnShelves(product) ? { robots: { index: false } } : {}),
   };
 }
 
@@ -61,7 +61,8 @@ export default async function ProductPage({ params }: Params) {
   }
   crumbs.push({ label: product.name });
   const storage = product.storage ? STORAGE[product.storage] : null;
-  const canBuy = product.status === 'live' && product.pricePence != null;
+  // Hidden products (no confirmed price or no photo yet) can't be added from a direct link either.
+  const canBuy = product.status === 'live' && product.pricePence != null && isOnShelves(product);
 
   return (
     <>
@@ -102,7 +103,8 @@ export default async function ProductPage({ params }: Params) {
 
             <div className="mt-6 border-y border-line py-6">
               <div className="flex flex-wrap items-center justify-between gap-4">
-                <Price product={product} size="lg" />
+                {/* Never show demo mode's £1.00 on a page that isn't on the shelves yet. */}
+                <Price product={hasConfirmedPrice(product) ? product : { ...product, pricePence: null }} size="lg" />
                 <div className="flex flex-wrap items-center gap-3">
                   {canBuy && <AddToBasket slug={product.slug} name={product.name} size="md" />}
                   <FavouriteButton slug={product.slug} name={product.name} size="md" />

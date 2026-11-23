@@ -121,7 +121,23 @@ const replacedBy = (availability as { replaced_by: Record<string, { path: string
 export const isNotStocked = (p: Pick<Product, 'slug'>) => p.slug in notStocked;
 /** Where an old product URL now points, when a line was split or renamed into others. */
 export const replacementPath = (slug: string): string | undefined => replacedBy[slug]?.path;
-const isListed = (p: Product) => !(p.slug in replacedBy) && (!isNotStocked(p) || hasPhoto(p.slug));
+/**
+ * A real price: from the database, Ciaran's sheet or the shop's sticker, never
+ * demo mode's £1.00 stand-in.
+ */
+export const hasConfirmedPrice = (p: Product) =>
+  packPrice(p.slug) != null || (p.pricePence != null && !(DEMO_PRICES && p.pricePence === DEMO_PRICE_PENCE));
+
+/**
+ * On the shelves (and in search, the basket and checkout). Decision 23 Nov 2026
+ * (Alex): a product needs BOTH a confirmed price and the shop's own photo to be
+ * listed; until then it's hidden and reappears by itself once both exist.
+ * Its page still loads for old links, without an Add button (noindex). Lines
+ * no longer sold follow data/client/availability.json as before.
+ */
+export const isOnShelves = (p: Product) =>
+  !(p.slug in replacedBy) && hasPhoto(p.slug) && (isNotStocked(p) || hasConfirmedPrice(p));
+const isListed = isOnShelves;
 
 function withPackData(p: Product): Product {
   const l = labels[p.slug];
