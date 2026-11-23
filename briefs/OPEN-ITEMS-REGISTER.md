@@ -61,6 +61,8 @@ Last updated: 2026-11-06 · Open: 34 · Blocked: 3
 | 68 | Confirm with Ciaran: does the shop sell both 10" (£1.25) and 12" (£1.75) gluten-free pizza bases? Seasoned Crispy Cubes brand (Chef's Excellence?) | Client | 2026-11-23 | Open | From the 6 Nov photo batch |
 | 69 | Seasonal homepage heroes: December (Christmas) done 23 Nov. Plan photos and copy for the other months/seasons (e.g. New Year, Easter, summer BBQ, back to school, Halloween) | Phantom | 2026-11-23 | Open | content/seasonal-heroes.ts; each photo costs 1 Adobe Stock credit (~37 left) |
 | 70 | check:a11y flags 'nested-interactive' (serious, target :root) on / and /delivery, the two pages with the delivery radius map; intermittent (1–2 hits per run). Not caused by the 23 Nov design pass (no map or interactive markup changed). Investigate the map component before launch | Phantom | 2026-11-23 | Open | Run with PLAYWRIGHT_CHROMIUM_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome (path changed) |
+| 71 | New-order email (lib/notify-order.ts, 23 Nov) needs, in Vercel Production: RESEND_API_KEY, ORDER_EMAIL_FROM (an address on a domain verified in Resend) and ORDER_NOTIFY_EMAILS = Noel, Ciaran, Alex. Take Alex off once the shop is comfortable (Alex: first week or so after launch) | Phantom | 2026-11-23 | Open | Until set, no email is sent; orders still show on /staff |
+| 72 | Orders are confirmed only when the customer reaches the success page after paying. If they close the tab first, the card is held but the order stays 'awaiting payment' and no email is sent. Add a Stripe webhook (checkout.session.completed) before launch | Phantom | 2026-11-23 | Open | Pre-existing; found while adding the order email |
 
 ## Resolved
 
