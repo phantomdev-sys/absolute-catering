@@ -1322,5 +1322,16 @@
       "cutlery"
     ],
     "source": "client-product-list-2026-11-12"
+  },
+  {
+    "slug": "gluten-free-stone-baked-pizza-base-12in",
+    "name": "Gluten Free Stone Baked Pizza Base 12\"",
+    "own_brand": true,
+    "legacy_categories": [
+      "frozen-food",
+      "gluten-free",
+      "gluten-free-frozen"
+    ],
+    "source": "client-photos-2026-11-06"
   }
 ]

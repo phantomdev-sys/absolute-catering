@@ -1883,10 +1883,12 @@
       ],
       "legibility": "good",
       "notes": [
-        "Only a yellow supplier label visible - no ingredients or allergen info in shot (crispy onions are usually coated in flour - must confirm from full label/spec sheet). B/B 10/07/27."
+        "Only a yellow supplier label visible - no ingredients or allergen info in shot (crispy onions are usually coated in flour - must confirm from full label/spec sheet). B/B 10/07/27.",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "15Mf1NbH5d3T625mS_xgIDkQ5ATAFpBwb"
+        "15Mf1NbH5d3T625mS_xgIDkQ5ATAFpBwb",
+        "1O6dxINv1yDz3wEL7Wb53Q5kNUA1bLRAT"
       ],
       "pack_size_display": "1kg"
     },
@@ -2181,16 +2183,19 @@
       "brand": null,
       "pack_size": null,
       "storage": "frozen",
-      "ingredients": null,
+      "ingredients": "Sweetcorn",
       "allergen_statement": null,
       "sticker_price": null,
       "facts": [],
-      "legibility": null,
+      "legibility": "partial",
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "1AbO6Tdjc4szLw8517CbL8npYvfYzGSaD"
+        "1AbO6Tdjc4szLw8517CbL8npYvfYzGSaD",
+        "1ed09zi8f-R2YmqslbMEn43sC233axz5l",
+        "1NnPajHYmwlQm__A584pDpkaL72s3N1jG"
       ],
       "pack_size_display": "2.5kg"
     },
@@ -2199,35 +2204,41 @@
       "brand": null,
       "pack_size": null,
       "storage": "frozen",
-      "ingredients": null,
+      "ingredients": "Garden Peas",
       "allergen_statement": null,
       "sticker_price": null,
       "facts": [],
-      "legibility": null,
+      "legibility": "partial",
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "1iL7xEXjMhZH6-c25h0c3Cl4xswX4X-p-",
-        "1q31ghcQ8CqFXqbaVnuWZ3EV0soRoxJW5"
+        "1q31ghcQ8CqFXqbaVnuWZ3EV0soRoxJW5",
+        "1dMRAjv5OK2mqFoKQBlZgtKzIKPKXHni0",
+        "1pftI9p2GkcM6Feju6OYAs1-jfablnGy0"
       ],
       "pack_size_display": "2.5kg"
     },
     "ardo-savoy-cabbage-2-5kg": {
-      "name_on_pack": "Ardo Savoy Cabbage 2.5kg",
-      "brand": null,
+      "name_on_pack": "Darta Savoy Cabbage 2.5kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
-      "allergen_statement": null,
+      "allergen_statement": "May contain traces of celery.",
       "sticker_price": null,
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "1roMDsKWXlbtNvbs9vZHj-rrwrK0xbOJ5"
+        "1roMDsKWXlbtNvbs9vZHj-rrwrK0xbOJ5",
+        "1uWep3Vm6-q0qKtqc4x5TAVRIEdnep4Hw",
+        "17tfP7-CdO1dfg0bSmMCOGCDGq9BfrHWX"
       ],
       "pack_size_display": "2.5kg"
     },
@@ -2236,23 +2247,26 @@
       "brand": null,
       "pack_size": null,
       "storage": "frozen",
-      "ingredients": null,
+      "ingredients": "Whole Green Beans.",
       "allergen_statement": null,
       "sticker_price": null,
       "facts": [],
-      "legibility": null,
+      "legibility": "partial",
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "1BtLxNnQgE_9_msVlEpnmVnJnIBcHh8Pd",
-        "15XK3_WXyQHBPEavGFllhW73AFSN8vDvF"
+        "15XK3_WXyQHBPEavGFllhW73AFSN8vDvF",
+        "1TNM_9xmbFcCJPFBupsoG1_gHIYQOVQE7",
+        "1c0vbfXsBs-0oR3gG5qKyPJsYkGc_V6L1"
       ],
       "pack_size_display": "1kg"
     },
     "ardo-broad-beans-1kg": {
-      "name_on_pack": "Ardo Broad Beans 1kg",
-      "brand": null,
+      "name_on_pack": "Darta Broad Beans 1kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2261,10 +2275,13 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "1ff2KburCZGp4hvTvEif45XktaCMhtbGL"
+        "1ff2KburCZGp4hvTvEif45XktaCMhtbGL",
+        "1NGZc_XsLCpZiwF9wQBfrajAef7QfutlF",
+        "1WIQ2YL9Yl7iMgNe0VD_IK9_Y3tyNFO9J"
       ],
       "pack_size_display": "1kg"
     },
@@ -2307,8 +2324,8 @@
       "pack_size_display": "2.5kg"
     },
     "ardo-half-corn-on-the-cob-1kg": {
-      "name_on_pack": "Ardo Half Corn on the Cob 1kg",
-      "brand": null,
+      "name_on_pack": "Darta Half Corn on the Cob 1kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2336,17 +2353,19 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "1t7NbEdZyhII1sg0mly8PUu4joBPW6-bc",
-        "1XmCGEK5VOJUJeQV0CjQwsp6heFhjdOOM"
+        "1XmCGEK5VOJUJeQV0CjQwsp6heFhjdOOM",
+        "16EKhhc0nGlQz7Gp3IdyOEfoQVGfw5d92"
       ],
       "pack_size_display": "2.5kg"
     },
     "ardo-brussels-sprouts-2-5kg": {
-      "name_on_pack": "Ardo Brussels Sprouts 2.5kg",
-      "brand": null,
+      "name_on_pack": "Darta Brussels Sprouts 2.5kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2355,17 +2374,20 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "16N6BPGAvwKv5V8U-a6QvVjrnKw9mY8Ck",
-        "1Jf_RTwFgsKakCrtrDl-JpKGrAUc6HRoJ"
+        "1Jf_RTwFgsKakCrtrDl-JpKGrAUc6HRoJ",
+        "1LlhaAmgT-3_tNMi63AapbqR7ElXwDgne",
+        "1gALsvwlC6u8-wZF5oa9o4UN3AGRBIYGA"
       ],
       "pack_size_display": "2.5kg"
     },
     "ardo-sliced-mushrooms-2-5kg": {
-      "name_on_pack": "Ardo Sliced Mushrooms 2.5kg",
-      "brand": null,
+      "name_on_pack": "Darta Sliced Mushrooms 2.5kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2374,17 +2396,20 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "1ko33yJXhoDvvMeBXaF6k5g7-MNxisDtS",
-        "1i8rS2sHGuyXWZHEoxcljQOeQwc5F2slP"
+        "1i8rS2sHGuyXWZHEoxcljQOeQwc5F2slP",
+        "1MzPhgKyssOd76cOjRW1_Y_WDU6odV6EW",
+        "15Ys10xWSFSlyIPdGAyoc775ZNgl1NF6Z"
       ],
       "pack_size_display": "2.5kg"
     },
     "ardo-vegetable-stir-fry-2-5kg": {
-      "name_on_pack": "Ardo Vegetable Stir-Fry 2.5kg",
-      "brand": null,
+      "name_on_pack": "Darta Vegetable Stir-Fry 2.5kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2402,8 +2427,8 @@
       "pack_size_display": "2.5kg"
     },
     "ardo-sliced-red-green-peppers-1kg": {
-      "name_on_pack": "Ardo Sliced Red & Green Peppers 1kg",
-      "brand": null,
+      "name_on_pack": "Darta Sliced Red & Green Peppers 1kg",
+      "brand": "Darta",
       "pack_size": null,
       "storage": "frozen",
       "ingredients": null,
@@ -2468,10 +2493,13 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "1IM8WeeZK_wmBScSDb13Vz0LAoHAzNf1v"
+        "1IM8WeeZK_wmBScSDb13Vz0LAoHAzNf1v",
+        "1N2212QbJRtUo6NehmT07LcNan_6FmYXp",
+        "1n5ZWBCA51-75K0lBgUmrGkp-1HgxUAVb"
       ],
       "pack_size_display": "2.27kg"
     },
@@ -2577,10 +2605,13 @@
       "facts": [],
       "legibility": null,
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
-        "1e18aMY4Sc16Sg78TMEmtLDmjR-7xIoYs"
+        "1e18aMY4Sc16Sg78TMEmtLDmjR-7xIoYs",
+        "10P7tMtZ367MdYhkgPF8tUSjBarxiOVV_",
+        "102BymEsGeXwUkjzpNvRK1gbkp_HR2bz5"
       ],
       "pack_size_display": "2.5kg"
     },
@@ -2589,17 +2620,20 @@
       "brand": null,
       "pack_size": null,
       "storage": "frozen",
-      "ingredients": null,
+      "ingredients": "Potatoes (92%), Sunflower Oil (5%), Seasoning (3%) [Modified Potato Starch, Rice Flour, Garlic Powder, Onion Powder, Salt, Spices (Bell Pepper, Black Pepper), Dextrin, Raising Agents (Disodium Diphosphates, Sodium Bicarbonates), Natural Flavouring (Preparation Of Paprika), Thickener (Xanthan Gum)].",
       "allergen_statement": null,
       "sticker_price": null,
       "facts": [],
-      "legibility": null,
+      "legibility": "partial",
       "notes": [
-        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers"
+        "Batch of 30 Oct – 1 Nov 2026, photographed in the shop freezers",
+        "Retaken photos of 6 Nov 2026"
       ],
       "source_drive_ids": [
         "112I7pyFcqrHldQ2XifVPNmA4XcQ3LbZD",
-        "1iAtveiCR2usHs2Rhmseft_RzH-R1QhtY"
+        "1iAtveiCR2usHs2Rhmseft_RzH-R1QhtY",
+        "1cQk1g35jxgAOBIG9QPlB5r9Mjimd9m6W",
+        "1G2fShdEAjYANqYdI6LCtJMzCFXE38tGD"
       ],
       "pack_size_display": "2.5kg"
     },
@@ -3342,7 +3376,25 @@
         "12_xZzl6867x3GGrLjcj9-CNOjua9wOq0"
       ],
       "pack_size_display": null
+    },
+    "gluten-free-stone-baked-pizza-base-12in": {
+      "name_on_pack": "Gluten Free Stone Baked Pizza Base 12\"",
+      "brand": null,
+      "pack_size": null,
+      "storage": "frozen",
+      "ingredients": "Gluten Free Blend ( tapioca starch, rice flour, maize starch, psyllium husk powder, sugar, buckwheat flour, thickners (xanthan gum, hydroxypropyl methyl cellulose), salt). water , rapeseed oil, yeast, pea protein.",
+      "allergen_statement": null,
+      "sticker_price": "£1.75",
+      "facts": [],
+      "legibility": "partial",
+      "notes": [
+        "Retaken photos of 6 Nov 2026"
+      ],
+      "source_drive_ids": [
+        "1fzuP9vYrTkhW5O5KRReKHRI5lDKWnzgy"
+      ],
+      "pack_size_display": null
     }
   },
-  "labels_updated": "2026-11-03"
+  "labels_updated": "2026-11-23"
 }

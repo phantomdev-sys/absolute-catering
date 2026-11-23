@@ -460,7 +460,8 @@
     "ardo-savoy-cabbage-2-5kg": {
       "price_pence": 499,
       "vat_rate": "zero",
-      "pack_size": "2.5kg"
+      "pack_size": "2.5kg",
+      "name": "Darta Savoy Cabbage 2.5kg"
     },
     "country-range-fine-whole-green-beans-1kg": {
       "price_pence": 299,
@@ -470,7 +471,8 @@
     "ardo-broad-beans-1kg": {
       "price_pence": 299,
       "vat_rate": "zero",
-      "pack_size": "1kg"
+      "pack_size": "1kg",
+      "name": "Darta Broad Beans 1kg"
     },
     "ardo-sliced-mixed-peppers-2-5kg": {
       "price_pence": 650,
@@ -485,7 +487,8 @@
     "ardo-half-corn-on-the-cob-1kg": {
       "price_pence": 475,
       "vat_rate": "zero",
-      "pack_size": "1kg"
+      "pack_size": "1kg",
+      "name": "Darta Half Corn on the Cob 1kg"
     },
     "musgrave-excellence-cauliflower-florets-2-5kg": {
       "price_pence": 499,
@@ -495,22 +498,26 @@
     "ardo-brussels-sprouts-2-5kg": {
       "price_pence": 499,
       "vat_rate": "zero",
-      "pack_size": "2.5kg"
+      "pack_size": "2.5kg",
+      "name": "Darta Brussels Sprouts 2.5kg"
     },
     "ardo-sliced-mushrooms-2-5kg": {
       "price_pence": 450,
       "vat_rate": "zero",
-      "pack_size": "2.5kg"
+      "pack_size": "2.5kg",
+      "name": "Darta Sliced Mushrooms 2.5kg"
     },
     "ardo-vegetable-stir-fry-2-5kg": {
       "price_pence": 599,
       "vat_rate": "zero",
-      "pack_size": "2.5kg"
+      "pack_size": "2.5kg",
+      "name": "Darta Vegetable Stir-Fry 2.5kg"
     },
     "ardo-sliced-red-green-peppers-1kg": {
       "price_pence": 275,
       "vat_rate": "zero",
-      "pack_size": "1kg"
+      "pack_size": "1kg",
+      "name": "Darta Sliced Red & Green Peppers 1kg"
     },
     "gluten-free-burgers-5": {
       "price_pence": 350,
@@ -846,6 +853,11 @@
     },
     "roosters-kickin-chicken-fillets": {
       "name": "Coosters Kick’In Chicken Fillets"
+    },
+    "gluten-free-stone-baked-pizza-base-12in": {
+      "price_pence": 175,
+      "vat_rate": "zero",
+      "pack_size": "1 pack"
     }
   }
 }
